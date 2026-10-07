@@ -4,7 +4,7 @@ Model gry dla zespołu U14–U15, zbudowany na analizach Konrada Geregi z tego r
 - *Roberto De Zerbi – The master of timing*: prowokowanie pressingu, trzeci zawodnik, „pudełko” 2-4-2-2, „góra – dół – przez”, 2-4-4 przeciw blokowi średniemu;
 - *Xabi Alonso – Positionism and relationism*: 3-2-4-1 przeciw blokowi średniemu, bliskość zawodników, dwie „dziesiątki” w kieszeniach, kontrpressing, kompaktowy blok.
 
-Metodyka (struktura jednostki, cel „Co? Gdzie? Jak?”, obciążenia, PHV) pochodzi z *Programu Szkolenia PZPN U14–U15*.
+Rozgrzewki są w strukturze **BetterWay** (mobilizacja → aktywacja → wzorce ruchu i mechanika → potencjacja). Akcenty motoryczne biorę z arkusza `Umiejetnosci_pilkarskie_periodyzacja_U6-U19.xlsx` (zakładka „Motoryka (okna)”, kolumna U14–U15).
 
 Model jest w aplikacji Model Gry w zakładce **Taktyka**: 16 schematów z animacjami i opisem w polu „Komentarze”. Wgrywasz go plikiem `import/2_model_gry_Xabi_DeZerbi_taktyka.json` albo `import/1_WSZYSTKO_…` (**Dane → Import → Dodaj**).
 
@@ -20,7 +20,7 @@ Model jest w aplikacji Model Gry w zakładce **Taktyka**: 16 schematów z animac
 
 | Moment | Struktura | Klucz |
 |---|---|---|
-| Ustawienie bazowe | 1-4-2-3-1 | zgodne z PZPN (1-4-3-3 jako środowisko nauki) |
+| Ustawienie bazowe | 1-4-2-3-1 | baza De Zerbiego; przechodzi w 2-4-2-2 / 3-2-4-1 / 3-2-5 |
 | Otwarcie vs wysoki pressing | 2-4-2-2 („pudełko” ŚO + 6/8, BR jako 11. zawodnik) | pauza, gra w kierunku presji, S-kombinacja |
 | Budowanie vs blok średni | **3-2-4-1** (LO schodzi do trójki, PO = wahadło, 10 i 7 w kieszeniach) | przynęta, kieszenie, „góra – dół – przez” |
 | Atak vs blok niski | 3-2-5 | szerokość 11 i PO, 5 w polu karnym |
@@ -59,25 +59,37 @@ Model jest w aplikacji Model Gry w zakładce **Taktyka**: 16 schematów z animac
 
 ## Uwagi dla U14–U15
 
-- Wszystkie role poznają wszyscy: rotujemy pozycje w ćwiczeniach (PZPN: pozycja to kontekst, a nie sztywny schemat).
+- Wszystkie role poznają wszyscy: rotujemy pozycje w ćwiczeniach (zgodnie z ideą wymienności zawodników u De Zerbiego i relacjonizmu u Xabiego).
 - Pressing wysoki 1:1 stosujemy w krótkich seriach. Kontrolujemy liczbę sprintów i hamowań, szczególnie u zawodników w szybkim wzrastaniu (PHV).
 - Gra głową przy SFG: kontrolowana liczba powtórzeń.
 - Najpierw ucz zasady (ukierunkowanie, stopklatka), potem dawaj więcej autonomii.
 
 ## Tydzień 7–9.10.2026: budowanie gry przeciw obronie średniej
 
-Temat: **prowokowanie pressingu i wykorzystywanie kieszeni**. Konspekty są w pliku `import/3_konspekty_tydzien_7-9.10.json` (15 ćwiczeń z rysunkami i 3 konspekty).
+Temat: **prowokowanie pressingu i wykorzystywanie kieszeni**. Konspekty są w pliku `import/3_konspekty_tydzien_7-9.10.json` (17 ćwiczeń z rysunkami i 3 konspekty, przedrostek „BW”).
 
-| Dzień | Profil | Przebieg |
+Każdy trening ma tę samą strukturę: rozgrzewka BetterWay → rondo / gra pozycyjna → gra z kierunkiem lub fragment gry → gra → wyciszenie. Ćwiczenia piłkarskie są wzięte z analiz De Zerbiego i Xabiego i dostosowane do U14–U15.
+
+| Dzień | Akcent | Przebieg |
 |---|---|---|
-| Śr 7.10 | dzień siły, 90 min | prewencja → rondo 4+1×2 „góra – dół – przez” → BR+7×4 w 3 strefach: przynęta i podanie do kieszeni → gra BR+7×7+BR, w której rywal broni blokiem średnim, punkt za kieszeń → przyjęcie na pół obrotu i strzał |
-| Czw 8.10 | dzień wytrzymałości, 90 min | prewencja → automatyzm 3-2-4-1 (S-kombinacja, „góra – dół – przez”, zmiana strony) → fragment gry 3-2-4-1 vs 4-4-1 na 2/3 boiska → gra 9×9 na 3/4 boiska, obie drużyny bronią blokiem średnim → regeneracja i rozmowa |
-| Pt 9.10 | dzień szybkości (MD-1, opcjonalnie), 60 min | mobilność i starty → rondo 5×2 na jeden kontakt → z kieszeni do bramki 3×2+BR w 6 s → gra 6×6, 2 pkt za bramkę po kieszeni → rzut rożny w ataku i rutyna przedmeczowa |
+| Śr 7.10 (MD-3), 90 min | małe i średnie gry, wysoka intensywność | **BetterWay A** (stabilizacja, hamowanie i zmiana kierunku) → rondo przeniesienia 4+1×2 „góra – dół – przez” (De Zerbi) → rondo pozycyjne 5×3: trzech ŚO + dwa pivoty (Xabi) → gra 4×4+2 ze strefami wykończenia (De Zerbi) → gra BR+7×7+BR, rywal w bloku średnim, punkt za kieszeń → wyciszenie |
+| Czw 8.10 (MD-2), 90 min | duże przestrzenie, cała struktura | **BetterWay B** (mechanika biegu, przyspieszenie) → rondo pozycyjne 7×4 (Xabi) → aktywacja S-kombinacji (De Zerbi) → BR+8×7: 3-2-3 przeciw zwartemu blokowi (Xabi) → faza gry 3-2-4-1 vs 4-4-1 na 2/3 boiska → wyciszenie |
+| Pt 9.10 (MD-1, opcjonalnie), 60 min | reaktywność, mała objętość | **BetterWay C** (reaktywność) → rondo 5×2 na jeden kontakt (De Zerbi) → gra BR+6×6+BR „góra – dół – przez” do strefy wykończenia (De Zerbi) → z kieszeni do bramki 3×2 → rzut rożny w ataku i odprawa |
+
+### Rozgrzewki BetterWay
+
+Każda rozgrzewka ma 4 bloki. Każde ćwiczenie jest opisane w konspekcie tak samo: pozycja wyjściowa, wykonanie, dawka i na co patrzeć. Ten opis drukuje się też w PDF.
+
+| Rozgrzewka | Mobilizacja | Aktywacja | Wzorce ruchu / mechanika | Potencjacja |
+|---|---|---|---|---|
+| A (Śr, 18 min) | najlepsze rozciąganie świata, 90/90, mobilizacja stawu skokowego | mostek jednonóż, deska z dotknięciem barku, Copenhagen, Nordic | marsz A → skip A, wykrok z rotacją, hamowanie w 3 krokach, cięcie 45°, lądowanie jednonóż | start reakcyjny 5 m, 1×1 lustro |
+| B (Czw, 18 min) | kolano do klatki, przyciągnięcie pięty, kołyska biodra, otwieranie i zamykanie bramy | martwy robak, deska boczna z unoszeniem nogi, krok w bok z minibandem | skip A, skip C, wymiany nóg przy ścianie, karioka, bieg z rozpędzaniem | falling start 10 m, przyspieszenie z piłką |
+| C (Pt, 14 min) | najlepsze rozciąganie świata, wymachy nóg | pogo, szybkie stopy przy piłce | skip A → przyspieszenie | sygnał – sprint 5 m – hamowanie, berek 2×1 |
 
 ### Import do aplikacji
 
 1. **Dane → Import → Wybierz pliki…** i wskaż `1_WSZYSTKO_model_gry_i_tydzien_7-9.10.json`.
 2. Przy Taktyce, Ćwiczeniach i Konspektach zostaw **Dodaj** (nic nie zostanie usunięte) i kliknij **Importuj**.
-3. W **Taktyce** schematy są w fazach Atak (Otwarcie, Budowanie, Tworzenie szans, Finalizacja), A/O, Obrona, O/A i SFG. W **Konspekcie** konspekty mają przedrostek „BG”.
+3. W **Taktyce** schematy są w fazach Atak (Otwarcie, Budowanie, Tworzenie szans, Finalizacja), A/O, Obrona, O/A i SFG. W **Konspekcie** konspekty mają przedrostek „BW”.
 
 Pliki osobno: `2_…` zawiera tylko model gry (Taktyka), `3_…` tylko konspekty z ćwiczeniami.

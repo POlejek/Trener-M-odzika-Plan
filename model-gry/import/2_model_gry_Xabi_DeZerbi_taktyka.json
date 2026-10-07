@@ -1,7 +1,7 @@
 {
   "format": "model-gry-backup",
   "version": 1,
-  "exportedAt": "2026-10-07T10:00:00.000Z",
+  "exportedAt": "2026-10-07T12:00:00.000Z",
   "sections": {
     "tactics": {
       "phases": {
@@ -7475,7 +7475,7 @@
             {
               "id": 20261007013,
               "name": "OB3 · Blok niski 4-5-1: ochrona pola karnego i strefy 14",
-              "comments": "<b>Idea:</b> Gdy rywal zepchnie nas nisko, zagęszczamy pole karne i strefę przed nim (strefa 14). Odbiór = natychmiastowe przejście do ataku.<br><br><b>Zasady:</b><br>• Linia obrony na wysokości pola bramkowego / 11. metra – w zależności od piłki.<br>• Pięciu w drugiej linii – nikt nie wychodzi z linii bez asekuracji.<br>• Zamknięte kanały między ŚO a BO, blok dośrodkowań (boczny obrońca + skrzydłowy na 2v1).<br>• Po odbiorze: 9 jako punkt odbioru, skrzydłowi startują.<br><br><b>Sygnały / kluczowe słowa:</b> „zamknij 14”, „blok”, „wyjście!”.<br><br><i>Inspiracja: Xabi – 5-2-2-1 w bloku niskim; PZPN – obrona niska i pola karnego</i>",
+              "comments": "<b>Idea:</b> Gdy rywal zepchnie nas nisko, zagęszczamy pole karne i strefę przed nim (strefa 14). Odbiór = natychmiastowe przejście do ataku.<br><br><b>Zasady:</b><br>• Linia obrony na wysokości pola bramkowego / 11. metra – w zależności od piłki.<br>• Pięciu w drugiej linii – nikt nie wychodzi z linii bez asekuracji.<br>• Zamknięte kanały między ŚO a BO, blok dośrodkowań (boczny obrońca + skrzydłowy na 2v1).<br>• Po odbiorze: 9 jako punkt odbioru, skrzydłowi startują.<br><br><b>Sygnały / kluczowe słowa:</b> „zamknij 14”, „blok”, „wyjście!”.<br><br><i>Inspiracja: Xabi – 5-2-2-1 w bloku niskim (compactness in mid and low blocks)</i>",
               "frames": [
                 {
                   "team": [
