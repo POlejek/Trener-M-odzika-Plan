@@ -1,0 +1,4227 @@
+{
+  "format": "model-gry-session-library",
+  "version": 1,
+  "exportedAt": "2026-10-07T10:00:00.000Z",
+  "sessions": [
+    {
+      "id": "bg-sr",
+      "title": "BG · Śr · Dzień siły – prowokuj pressing, graj do kieszeni",
+      "date": "2026-10-07",
+      "group": "U14–U15",
+      "goal": "Nauczanie prowokowania pressingu (podanie do tyłu, pauza z piłką, wejście z piłką ŚO) w strefie niskiej i podania do zawodnika w kieszeni za linią pomocy rywala (co i gdzie), aby rozciągnąć blok średni i zagrać za jego plecy przez trzeciego zawodnika (jak). Małe przestrzenie, złożoność niska/średnia, akcent: siła. Taktyka: schematy B1, B2, B3.",
+      "notes": "",
+      "phases": [
+        "Atak-Otwarcie",
+        "Atak-Budowanie",
+        "A/O"
+      ],
+      "blocks": [
+        {
+          "id": "bg-sr-b0",
+          "drillId": null,
+          "title": "Odprawa + wellness",
+          "minutes": "3",
+          "note": "Tablica / Taktyka: schemat B1 (struktura 3-2-4-1, gdzie są kieszenie) i B2 (przynęta → góra – dół – przez). Hasło dnia: „Przynęta – kieszeń!”. Pytanie o sen / samopoczucie / ból."
+        },
+        {
+          "id": "bg-sr-b1",
+          "drillId": "bg-sr-prewencja",
+          "minutes": "15",
+          "note": ""
+        },
+        {
+          "id": "bg-sr-b2",
+          "drillId": "bg-sr-rondo-gora-dol-przez",
+          "minutes": "15",
+          "note": "2 pola, rotacja czerwonych co serię."
+        },
+        {
+          "id": "bg-sr-b3",
+          "drillId": "bg-sr-br7x4-kieszenie",
+          "minutes": "25",
+          "note": "Interakcja ukierunkowująca: stopklatka + pytania."
+        },
+        {
+          "id": "bg-sr-b4",
+          "drillId": "bg-sr-gra-7x7-blok",
+          "minutes": "25",
+          "note": "4 × 5 min."
+        },
+        {
+          "id": "bg-sr-b5",
+          "drillId": "bg-sr-pol-obrotu",
+          "minutes": "7",
+          "note": "RPE po 15–30 min."
+        }
+      ],
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z"
+    },
+    {
+      "id": "bg-czw",
+      "title": "BG · Czw · Dzień wytrzymałości – 3-2-4-1 przeciw blokowi średniemu",
+      "date": "2026-10-08",
+      "group": "U14–U15",
+      "goal": "Doskonalenie budowania gry w strukturze 3-2-4-1 przeciw blokowi średniemu 4-4-1(-1) w strefie średniej (co i gdzie), aby przez przynętę, S-kombinację i „góra – dół – przez” wprowadzić piłkę do kieszeni albo zmienić stronę, gdy środek jest zamknięty (jak). Duże przestrzenie, złożoność średnia/wysoka, akcent: stabilność. Taktyka: B1–B4, OB1, AO1.",
+      "notes": "",
+      "phases": [
+        "Atak-Otwarcie",
+        "Atak-Budowanie",
+        "Atak-Tworzenie szans",
+        "Obrona",
+        "A/O"
+      ],
+      "blocks": [
+        {
+          "id": "bg-czw-b0",
+          "drillId": null,
+          "title": "Odprawa",
+          "minutes": "2",
+          "note": "Animacja B2 i B4 z zakładki Taktyka (30 s). Nowy element: „Gdy środek zamknięty – zmień stronę”."
+        },
+        {
+          "id": "bg-czw-b1",
+          "drillId": "bg-czw-prewencja",
+          "minutes": "15",
+          "note": ""
+        },
+        {
+          "id": "bg-czw-b2",
+          "drillId": "bg-czw-automatyzm-3241",
+          "minutes": "15",
+          "note": "Pasywni → półaktywni od 3. serii."
+        },
+        {
+          "id": "bg-czw-b3",
+          "drillId": "bg-czw-fragment-11x9",
+          "minutes": "25",
+          "note": "Interakcja wspierająca: rzadko zatrzymujemy, hasła."
+        },
+        {
+          "id": "bg-czw-b4",
+          "drillId": "bg-czw-gra-9x9-blok",
+          "minutes": "25",
+          "note": "Gra 3 – autonomia."
+        },
+        {
+          "id": "bg-czw-b5",
+          "drillId": "bg-czw-regeneracja",
+          "minutes": "8",
+          "note": "RPE po 15–30 min."
+        }
+      ],
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z"
+    },
+    {
+      "id": "bg-pt",
+      "title": "BG · Pt · Dzień szybkości (MD-1, opcjonalny) – szybko z kieszeni",
+      "date": "2026-10-09",
+      "group": "U14–U15",
+      "goal": "Doskonalenie szybkości decyzji po przyjęciu w kieszeni (co) w przestrzeni piłki i bliższej (gdzie), aby w 2–3 kontaktach zakończyć akcję strzałem lub podaniem prostopadłym (jak). Mała objętość, pełne przerwy. Jeśli w piątek nie trenujecie – wykorzystajcie elementy w czwartek (część końcowa) lub w rozgrzewce przedmeczowej.",
+      "notes": "",
+      "phases": [
+        "Atak-Budowanie",
+        "Atak-Tworzenie szans",
+        "SFG"
+      ],
+      "blocks": [
+        {
+          "id": "bg-pt-b1",
+          "drillId": "bg-pt-mobilnosc",
+          "minutes": "12",
+          "note": ""
+        },
+        {
+          "id": "bg-pt-b2",
+          "drillId": "bg-pt-rondo-5x2",
+          "minutes": "10",
+          "note": ""
+        },
+        {
+          "id": "bg-pt-b3",
+          "drillId": "bg-pt-kieszen-3x2",
+          "minutes": "15",
+          "note": ""
+        },
+        {
+          "id": "bg-pt-b4",
+          "drillId": "bg-pt-gra-6x6",
+          "minutes": "15",
+          "note": "4 × 3 min, pełne przerwy."
+        },
+        {
+          "id": "bg-pt-b5",
+          "drillId": "bg-pt-sfg-rozny",
+          "minutes": "8",
+          "note": ""
+        }
+      ],
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z"
+    }
+  ],
+  "drills": [
+    {
+      "id": "bg-sr-prewencja",
+      "name": "BG Śr · Aktywacja i prewencja – siła",
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z",
+      "version": 2,
+      "frames": [
+        {
+          "items": [
+            {
+              "id": 2,
+              "type": "step",
+              "x": 113,
+              "y": 93,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#111827",
+              "label": "1"
+            },
+            {
+              "id": 3,
+              "type": "player",
+              "team": "A",
+              "x": 203,
+              "y": 220,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "1"
+            },
+            {
+              "id": 4,
+              "type": "player",
+              "team": "A",
+              "x": 303,
+              "y": 220,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "2"
+            },
+            {
+              "id": 5,
+              "type": "cone",
+              "x": 103,
+              "y": 287,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 6,
+              "type": "cone",
+              "x": 403,
+              "y": 287,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 8,
+              "type": "step",
+              "x": 647,
+              "y": 93,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#111827",
+              "label": "2"
+            },
+            {
+              "id": 9,
+              "type": "player",
+              "team": "A",
+              "x": 737,
+              "y": 220,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "3"
+            },
+            {
+              "id": 10,
+              "type": "player",
+              "team": "A",
+              "x": 837,
+              "y": 220,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "4"
+            },
+            {
+              "id": 11,
+              "type": "cone",
+              "x": 637,
+              "y": 287,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 12,
+              "type": "cone",
+              "x": 937,
+              "y": 287,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 14,
+              "type": "step",
+              "x": 113,
+              "y": 427,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#111827",
+              "label": "3"
+            },
+            {
+              "id": 15,
+              "type": "player",
+              "team": "A",
+              "x": 203,
+              "y": 553,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "5"
+            },
+            {
+              "id": 16,
+              "type": "player",
+              "team": "A",
+              "x": 303,
+              "y": 553,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "6"
+            },
+            {
+              "id": 17,
+              "type": "cone",
+              "x": 103,
+              "y": 620,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 18,
+              "type": "cone",
+              "x": 403,
+              "y": 620,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 20,
+              "type": "step",
+              "x": 647,
+              "y": 427,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#111827",
+              "label": "4"
+            },
+            {
+              "id": 21,
+              "type": "player",
+              "team": "A",
+              "x": 737,
+              "y": 553,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "7"
+            },
+            {
+              "id": 22,
+              "type": "player",
+              "team": "A",
+              "x": 837,
+              "y": 553,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "8"
+            },
+            {
+              "id": 23,
+              "type": "cone",
+              "x": 637,
+              "y": 620,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 24,
+              "type": "cone",
+              "x": 937,
+              "y": 620,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 29,
+              "type": "coach",
+              "x": 520,
+              "y": 353,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#334155",
+              "label": "T"
+            }
+          ],
+          "lines": [
+            {
+              "id": 25,
+              "type": "arrow-dashed",
+              "startX": 437,
+              "startY": 187,
+              "endX": 603,
+              "endY": 187,
+              "color": "#2563eb"
+            },
+            {
+              "id": 26,
+              "type": "arrow-dashed",
+              "startX": 787,
+              "startY": 330,
+              "endX": 787,
+              "endY": 377,
+              "color": "#2563eb"
+            },
+            {
+              "id": 27,
+              "type": "arrow-dashed",
+              "startX": 603,
+              "startY": 520,
+              "endX": 437,
+              "endY": 520,
+              "color": "#2563eb"
+            },
+            {
+              "id": 28,
+              "type": "arrow-dashed",
+              "startX": 253,
+              "startY": 377,
+              "endX": 253,
+              "endY": 330,
+              "color": "#2563eb"
+            }
+          ],
+          "zones": [
+            {
+              "id": 1,
+              "type": "rectangle",
+              "x": 70,
+              "y": 53,
+              "width": 367,
+              "height": 267,
+              "color": "#22c55e",
+              "opacity": 0.14
+            },
+            {
+              "id": 7,
+              "type": "rectangle",
+              "x": 603,
+              "y": 53,
+              "width": 367,
+              "height": 267,
+              "color": "#3b82f6",
+              "opacity": 0.14
+            },
+            {
+              "id": 13,
+              "type": "rectangle",
+              "x": 70,
+              "y": 387,
+              "width": 367,
+              "height": 267,
+              "color": "#f59e0b",
+              "opacity": 0.14
+            },
+            {
+              "id": 19,
+              "type": "rectangle",
+              "x": 603,
+              "y": 387,
+              "width": 367,
+              "height": 267,
+              "color": "#a855f7",
+              "opacity": 0.14
+            }
+          ]
+        }
+      ],
+      "pitch": {
+        "type": "custom",
+        "orientation": "horizontal",
+        "width": 20,
+        "length": 30
+      },
+      "meta": {
+        "category": "Część wstępna (1) · prewencja · akcent: siła",
+        "duration": "15",
+        "players": "16–20 (4 grupy)",
+        "area": "30×20 m",
+        "objective": "Przygotowanie ruchowe i ograniczanie ryzyka urazów (PZPN 13.4.2). Akcent motoryczny dnia: siła.",
+        "organization": "4 stacje na pół boiska, grupy po 4–5 zawodników, zmiana co 3 min (praca 40 s / przerwa 20 s), na końcu 2 min biegów z rosnącą prędkością.",
+        "description": "1. Lądowanie obunóż i jednonóż z zatrzymaniem 2 s (3×5 na nogę).\n2. Przysiad bułgarski z ciężarem ciała (2×6–8 na nogę).\n3. Nordic hamstring w parach – faza ekscentryczna (2×4–5).\n4. Deska boczna / Copenhagen na kolanie (2×20 s na stronę).",
+        "coachingPoints": "Jakość ruchu przed liczbą powtórzeń. Kolano nad stopą przy lądowaniu i hamowaniu. Zawodnik w okresie szybkiego wzrastania lub zgłaszający ból: mniejszy zakres, mniej powtórzeń, bez dokładania oporu (PZPN 13.2.5). Krótki wywiad wellness (sen, nastrój, bolesność) przy wejściu.",
+        "variations": "Regresja: deska boczna klasyczna. Zawodnik z bólem lub w szybkim wzrastaniu: mniej powtórzeń, bez oporu.",
+        "phases": []
+      },
+      "teamAColor": "#1d4ed8",
+      "teamBColor": "#dc2626"
+    },
+    {
+      "id": "bg-sr-rondo-gora-dol-przez",
+      "name": "BG Śr · Rondo 4+1×2: przeniesienie przez kieszeń „góra – dół – przez”",
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z",
+      "version": 2,
+      "frames": [
+        {
+          "items": [
+            {
+              "id": 3,
+              "type": "disc",
+              "x": 20,
+              "y": 20,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f59e0b"
+            },
+            {
+              "id": 4,
+              "type": "disc",
+              "x": 1020,
+              "y": 20,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f59e0b"
+            },
+            {
+              "id": 5,
+              "type": "disc",
+              "x": 20,
+              "y": 520,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f59e0b"
+            },
+            {
+              "id": 6,
+              "type": "disc",
+              "x": 1020,
+              "y": 520,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f59e0b"
+            },
+            {
+              "id": 7,
+              "type": "disc",
+              "x": 520,
+              "y": 20,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f59e0b"
+            },
+            {
+              "id": 8,
+              "type": "disc",
+              "x": 520,
+              "y": 520,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f59e0b"
+            },
+            {
+              "id": 9,
+              "type": "mini-goal",
+              "x": 39,
+              "y": 39,
+              "scale": 0.8,
+              "rotation": -0.7853981633974483,
+              "color": "#ffffff"
+            },
+            {
+              "id": 10,
+              "type": "mini-goal",
+              "x": 1001,
+              "y": 39,
+              "scale": 0.8,
+              "rotation": 0.7853981633974483,
+              "color": "#ffffff"
+            },
+            {
+              "id": 11,
+              "type": "mini-goal",
+              "x": 39,
+              "y": 501,
+              "scale": 0.8,
+              "rotation": -0.7853981633974483,
+              "color": "#ffffff"
+            },
+            {
+              "id": 12,
+              "type": "mini-goal",
+              "x": 1001,
+              "y": 501,
+              "scale": 0.8,
+              "rotation": 0.7853981633974483,
+              "color": "#ffffff"
+            },
+            {
+              "id": 13,
+              "type": "player",
+              "team": "A",
+              "x": 97,
+              "y": 270,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "1"
+            },
+            {
+              "id": 14,
+              "type": "player",
+              "team": "A",
+              "x": 270,
+              "y": 78,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "2"
+            },
+            {
+              "id": 15,
+              "type": "player",
+              "team": "A",
+              "x": 443,
+              "y": 270,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "3"
+            },
+            {
+              "id": 16,
+              "type": "player",
+              "team": "A",
+              "x": 270,
+              "y": 462,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "4"
+            },
+            {
+              "id": 17,
+              "type": "player",
+              "team": "B",
+              "x": 212,
+              "y": 212,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "1"
+            },
+            {
+              "id": 18,
+              "type": "player",
+              "team": "B",
+              "x": 328,
+              "y": 347,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "2"
+            },
+            {
+              "id": 19,
+              "type": "player",
+              "team": "A",
+              "x": 712,
+              "y": 270,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "10"
+            },
+            {
+              "id": 20,
+              "type": "ball",
+              "x": 135,
+              "y": 301,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#ffffff"
+            },
+            {
+              "id": 25,
+              "type": "text",
+              "x": 270,
+              "y": 143,
+              "scale": 0.8,
+              "rotation": 0,
+              "color": "#111827",
+              "text": "A: 4×2"
+            },
+            {
+              "id": 26,
+              "type": "text",
+              "x": 770,
+              "y": 97,
+              "scale": 0.8,
+              "rotation": 0,
+              "color": "#111827",
+              "text": "B: kieszeń"
+            },
+            {
+              "id": 27,
+              "type": "text",
+              "x": 558,
+              "y": 366,
+              "scale": 0.8,
+              "rotation": 0,
+              "color": "#166534",
+              "text": "1 góra · 2 dół · 3 przez"
+            }
+          ],
+          "lines": [
+            {
+              "id": 21,
+              "type": "arrow-solid",
+              "startX": 116,
+              "startY": 270,
+              "endX": 685,
+              "endY": 270,
+              "color": "#111827"
+            },
+            {
+              "id": 22,
+              "type": "arrow-solid",
+              "startX": 693,
+              "startY": 297,
+              "endX": 424,
+              "endY": 443,
+              "color": "#111827"
+            },
+            {
+              "id": 23,
+              "type": "arrow-solid",
+              "startX": 443,
+              "startY": 462,
+              "endX": 828,
+              "endY": 424,
+              "color": "#111827"
+            },
+            {
+              "id": 24,
+              "type": "arrow-dashed",
+              "startX": 270,
+              "startY": 462,
+              "endX": 443,
+              "endY": 462,
+              "color": "#2563eb"
+            }
+          ],
+          "zones": [
+            {
+              "id": 1,
+              "type": "rectangle",
+              "x": 20,
+              "y": 20,
+              "width": 500,
+              "height": 500,
+              "color": "#3b82f6",
+              "opacity": 0.08
+            },
+            {
+              "id": 2,
+              "type": "rectangle",
+              "x": 520,
+              "y": 20,
+              "width": 500,
+              "height": 500,
+              "color": "#facc15",
+              "opacity": 0.15
+            }
+          ]
+        }
+      ],
+      "pitch": {
+        "type": "custom",
+        "orientation": "horizontal",
+        "width": 13,
+        "length": 26
+      },
+      "meta": {
+        "category": "Część wstępna (2) · gra z utrzymaniem piłki · trzeci zawodnik",
+        "duration": "15",
+        "players": "14 (2 pola)",
+        "area": "26×13 m",
+        "objective": "CO: kombinacja przez trzeciego zawodnika „góra – dół – przez”. GDZIE: przestrzeń piłki / bliższa. JAK: przeniesienie gry do kolejnej strefy przez zawodnika w kieszeni (De Zerbi: 4+1 v 2 transfer rondo).",
+        "organization": "Dwa kwadraty 13×13 m obok siebie. W kwadracie A: 4 niebieskich + 2 czerwonych. W kwadracie B: 1 niebieski (10 – „kieszeń”). Max 2 kontakty. 4 serie × 3 min, przerwa 1 min, zmiana czerwonych co serię.",
+        "description": "Piłkę można przenieść do kwadratu B tylko kombinacją: GÓRA – podanie do 10, DÓŁ – 10 zgrywa jednym kontaktem do partnera, który wbiega na linię, PRZEZ – ten partner gra do kwadratu B (do 10 albo w wolne miejsce). Po przeniesieniu 3 niebieskich przechodzi do B (4×2 ponownie), jeden zostaje jako nowy 10. Punkt za każde przeniesienie. Czerwoni po odbiorze strzelają do 4 mini-bramek w narożnikach.",
+        "coachingPoints": "Ciało otwarte – przyjęcie na pół obrotu. Zgranie (dół) jednym kontaktem, do nogi dalszej od rywala. Wbiegający już widzi pole B, zanim dostanie piłkę. Podaj i ruszaj się – nowy trójkąt.",
+        "variations": "Ułatwienie: 3 kontakty, 5×2. Utrudnienie: 1 kontakt przy „dół”, czerwony może wejść do B na 3 s.",
+        "phases": [
+          "Atak-Otwarcie",
+          "Atak-Budowanie"
+        ]
+      },
+      "teamAColor": "#1d4ed8",
+      "teamBColor": "#dc2626"
+    },
+    {
+      "id": "bg-sr-br7x4-kieszenie",
+      "name": "BG Śr · BR+7×4: prowokuj pressing i graj do kieszeni (3 strefy)",
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z",
+      "version": 2,
+      "frames": [
+        {
+          "items": [
+            {
+              "id": 6,
+              "type": "goal",
+              "x": 30,
+              "y": 449,
+              "scale": 1,
+              "rotation": -1.5707963267948966,
+              "color": "#ffffff"
+            },
+            {
+              "id": 7,
+              "type": "player",
+              "team": "A",
+              "gk": true,
+              "x": 68,
+              "y": 449,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#16a34a",
+              "label": "BR"
+            },
+            {
+              "id": 8,
+              "type": "mini-goal",
+              "x": 1010,
+              "y": 234,
+              "scale": 1,
+              "rotation": 1.5707963267948966,
+              "color": "#ffffff"
+            },
+            {
+              "id": 9,
+              "type": "mini-goal",
+              "x": 1010,
+              "y": 663,
+              "scale": 1,
+              "rotation": 1.5707963267948966,
+              "color": "#ffffff"
+            },
+            {
+              "id": 10,
+              "type": "player",
+              "team": "A",
+              "x": 210,
+              "y": 163,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "LO"
+            },
+            {
+              "id": 11,
+              "type": "player",
+              "team": "A",
+              "x": 163,
+              "y": 449,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "ŚO"
+            },
+            {
+              "id": 12,
+              "type": "player",
+              "team": "A",
+              "x": 210,
+              "y": 734,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "ŚO"
+            },
+            {
+              "id": 13,
+              "type": "player",
+              "team": "A",
+              "x": 472,
+              "y": 330,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "6"
+            },
+            {
+              "id": 14,
+              "type": "player",
+              "team": "A",
+              "x": 568,
+              "y": 544,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "8"
+            },
+            {
+              "id": 15,
+              "type": "player",
+              "team": "A",
+              "x": 806,
+              "y": 234,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "10"
+            },
+            {
+              "id": 16,
+              "type": "player",
+              "team": "A",
+              "x": 806,
+              "y": 663,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "7"
+            },
+            {
+              "id": 17,
+              "type": "player",
+              "team": "B",
+              "x": 330,
+              "y": 282,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "1"
+            },
+            {
+              "id": 18,
+              "type": "player",
+              "team": "B",
+              "x": 330,
+              "y": 591,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "2"
+            },
+            {
+              "id": 19,
+              "type": "player",
+              "team": "B",
+              "x": 591,
+              "y": 306,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "3"
+            },
+            {
+              "id": 20,
+              "type": "player",
+              "team": "B",
+              "x": 615,
+              "y": 663,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "4"
+            },
+            {
+              "id": 21,
+              "type": "ball",
+              "x": 234,
+              "y": 753,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#ffffff"
+            },
+            {
+              "id": 25,
+              "type": "text",
+              "x": 210,
+              "y": 830,
+              "scale": 0.8,
+              "rotation": 0,
+              "color": "#166534",
+              "text": "1. do tyłu = przynęta"
+            },
+            {
+              "id": 26,
+              "type": "text",
+              "x": 544,
+              "y": 91,
+              "scale": 0.8,
+              "rotation": 0,
+              "color": "#166534",
+              "text": "2. do kieszeni"
+            },
+            {
+              "id": 27,
+              "type": "text",
+              "x": 210,
+              "y": 56,
+              "scale": 0.8,
+              "rotation": 0,
+              "color": "#111827",
+              "text": "A: budowanie"
+            },
+            {
+              "id": 28,
+              "type": "text",
+              "x": 544,
+              "y": 841,
+              "scale": 0.8,
+              "rotation": 0,
+              "color": "#111827",
+              "text": "B: środek"
+            },
+            {
+              "id": 29,
+              "type": "text",
+              "x": 853,
+              "y": 841,
+              "scale": 0.8,
+              "rotation": 0,
+              "color": "#111827",
+              "text": "C: kieszenie"
+            }
+          ],
+          "lines": [
+            {
+              "id": 4,
+              "type": "line-dashed",
+              "startX": 401,
+              "startY": 20,
+              "endX": 401,
+              "endY": 877,
+              "color": "#64748b"
+            },
+            {
+              "id": 5,
+              "type": "line-dashed",
+              "startX": 687,
+              "startY": 20,
+              "endX": 687,
+              "endY": 877,
+              "color": "#64748b"
+            },
+            {
+              "id": 22,
+              "type": "arrow-solid",
+              "startX": 210,
+              "startY": 722,
+              "endX": 151,
+              "endY": 484,
+              "color": "#111827"
+            },
+            {
+              "id": 23,
+              "type": "arrow-dashed",
+              "startX": 330,
+              "startY": 591,
+              "endX": 234,
+              "endY": 520,
+              "color": "#2563eb"
+            },
+            {
+              "id": 24,
+              "type": "arrow-solid",
+              "startX": 175,
+              "startY": 425,
+              "endX": 782,
+              "endY": 246,
+              "color": "#111827"
+            }
+          ],
+          "zones": [
+            {
+              "id": 1,
+              "type": "rectangle",
+              "x": 20,
+              "y": 20,
+              "width": 381,
+              "height": 857,
+              "color": "#3b82f6",
+              "opacity": 0.07
+            },
+            {
+              "id": 2,
+              "type": "rectangle",
+              "x": 401,
+              "y": 20,
+              "width": 286,
+              "height": 857,
+              "color": "#a855f7",
+              "opacity": 0.07
+            },
+            {
+              "id": 3,
+              "type": "rectangle",
+              "x": 687,
+              "y": 20,
+              "width": 333,
+              "height": 857,
+              "color": "#facc15",
+              "opacity": 0.14
+            }
+          ]
+        }
+      ],
+      "pitch": {
+        "type": "custom",
+        "orientation": "horizontal",
+        "width": 36,
+        "length": 42
+      },
+      "meta": {
+        "category": "Część główna (1) · fragment gry · przewaga liczebna",
+        "duration": "25",
+        "players": "12 (BR+7 vs 4)",
+        "area": "42×36 m",
+        "objective": "CO: prowokowanie pressingu (podanie do tyłu, pauza z piłką, wejście z piłką) i podanie do zawodnika w kieszeni. GDZIE: strefa niska → kieszenie za linią pomocy rywala. JAK: rozciągnąć blok rywala i zagrać za jego linię pomocy (rola 2. i 3. atakującego).",
+        "organization": "Pole 42×36 m w 3 strefach: A – budowanie (0–16 m): BR + 3 obrońców (LO, ŚO, ŚO) vs 2 napastników czerwonych; B – środek (16–28 m): 2 pivoty (6, 8) vs 2 pomocników czerwonych; C – kieszenie/finał (28–42 m): 10 i 7 + 2 mini-bramki na linii końcowej. 4 serie × 5 min, przerwa 2 min.",
+        "description": "Akcja zawsze od BR. Czerwoni napastnicy mogą pressować w strefie A dopiero po podaniu do tyłu (do BR lub między ŚO) albo gdy ŚO wejdzie z piłką do przodu – to nasz „sygnał prowokacji”. Punkt: podanie do 10/7 w strefie C, który przyjmuje przodem; potem 10 + 7 + jeden pivot (dobiega) atakują mini-bramki w 6 s (3×2 z pomocnikami czerwonych). +1 pkt, jeśli piłka weszła do kieszeni po wcześniejszym podaniu do tyłu, które wywołało pressing. Czerwoni po odbiorze: kontra na dużą bramkę w 6 s.",
+        "coachingPoints": "Podanie do tyłu to przynęta – spokojnie, w tempo. Pauza z piłką: czekaj, aż rywal ruszy. 6 i 8 schodkowo, blisko siebie. 10/7: dwa spojrzenia przez ramię przed przyjęciem, przyjęcie na pół obrotu. Stopklatka: „Gdzie zrobiło się miejsce, gdy napastnik wyszedł?”.",
+        "variations": "Ułatwienie: czerwoni pomocnicy nie wchodzą do strefy C. Utrudnienie: trzeci czerwony w strefie B (8×5) lub pressing bez sygnału.",
+        "phases": [
+          "Atak-Otwarcie",
+          "Atak-Budowanie",
+          "A/O"
+        ]
+      },
+      "teamAColor": "#1d4ed8",
+      "teamBColor": "#dc2626"
+    },
+    {
+      "id": "bg-sr-gra-7x7-blok",
+      "name": "BG Śr · Gra BR+7×7+BR: blok średni rywala, punkt za kieszeń",
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z",
+      "version": 2,
+      "frames": [
+        {
+          "items": [
+            {
+              "id": 4,
+              "type": "goal",
+              "x": 27,
+              "y": 395,
+              "scale": 1,
+              "rotation": -1.5707963267948966,
+              "color": "#ffffff"
+            },
+            {
+              "id": 5,
+              "type": "goal",
+              "x": 1013,
+              "y": 395,
+              "scale": 1,
+              "rotation": 1.5707963267948966,
+              "color": "#ffffff"
+            },
+            {
+              "id": 6,
+              "type": "player",
+              "team": "A",
+              "gk": true,
+              "x": 53,
+              "y": 395,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#16a34a",
+              "label": "BR"
+            },
+            {
+              "id": 7,
+              "type": "player",
+              "team": "B",
+              "gk": true,
+              "x": 987,
+              "y": 395,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#7c3aed",
+              "label": "BR"
+            },
+            {
+              "id": 8,
+              "type": "player",
+              "team": "A",
+              "x": 170,
+              "y": 170,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "1"
+            },
+            {
+              "id": 9,
+              "type": "player",
+              "team": "A",
+              "x": 137,
+              "y": 395,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "2"
+            },
+            {
+              "id": 10,
+              "type": "player",
+              "team": "A",
+              "x": 170,
+              "y": 620,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "3"
+            },
+            {
+              "id": 11,
+              "type": "player",
+              "team": "A",
+              "x": 303,
+              "y": 303,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "4"
+            },
+            {
+              "id": 12,
+              "type": "player",
+              "team": "A",
+              "x": 303,
+              "y": 503,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "5"
+            },
+            {
+              "id": 13,
+              "type": "player",
+              "team": "A",
+              "x": 812,
+              "y": 228,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "6"
+            },
+            {
+              "id": 14,
+              "type": "player",
+              "team": "A",
+              "x": 812,
+              "y": 545,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "7"
+            },
+            {
+              "id": 15,
+              "type": "player",
+              "team": "B",
+              "x": 945,
+              "y": 170,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "1"
+            },
+            {
+              "id": 16,
+              "type": "player",
+              "team": "B",
+              "x": 953,
+              "y": 395,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "2"
+            },
+            {
+              "id": 17,
+              "type": "player",
+              "team": "B",
+              "x": 945,
+              "y": 620,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "3"
+            },
+            {
+              "id": 18,
+              "type": "player",
+              "team": "B",
+              "x": 720,
+              "y": 270,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "4"
+            },
+            {
+              "id": 19,
+              "type": "player",
+              "team": "B",
+              "x": 720,
+              "y": 520,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "5"
+            },
+            {
+              "id": 20,
+              "type": "player",
+              "team": "B",
+              "x": 603,
+              "y": 303,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "6"
+            },
+            {
+              "id": 21,
+              "type": "player",
+              "team": "B",
+              "x": 603,
+              "y": 487,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "7"
+            },
+            {
+              "id": 24,
+              "type": "text",
+              "x": 828,
+              "y": 120,
+              "scale": 0.8,
+              "rotation": 0,
+              "color": "#92400e",
+              "text": "kieszeń"
+            },
+            {
+              "id": 25,
+              "type": "ball",
+              "x": 153,
+              "y": 412,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#ffffff"
+            },
+            {
+              "id": 28,
+              "type": "text",
+              "x": 520,
+              "y": 53,
+              "scale": 0.8,
+              "rotation": 0,
+              "color": "#991b1b",
+              "text": "blok rywala za linią 40 m – pressing tylko po podaniu do tyłu"
+            }
+          ],
+          "lines": [
+            {
+              "id": 2,
+              "type": "line-dashed",
+              "startX": 353,
+              "startY": 20,
+              "endX": 353,
+              "endY": 770,
+              "color": "#64748b"
+            },
+            {
+              "id": 3,
+              "type": "line-dashed",
+              "startX": 687,
+              "startY": 20,
+              "endX": 687,
+              "endY": 770,
+              "color": "#64748b"
+            },
+            {
+              "id": 26,
+              "type": "arrow-solid",
+              "startX": 145,
+              "startY": 387,
+              "endX": 295,
+              "endY": 312,
+              "color": "#111827"
+            },
+            {
+              "id": 27,
+              "type": "arrow-solid",
+              "startX": 312,
+              "startY": 312,
+              "endX": 803,
+              "endY": 237,
+              "color": "#111827"
+            }
+          ],
+          "zones": [
+            {
+              "id": 1,
+              "type": "rectangle",
+              "x": 20,
+              "y": 20,
+              "width": 1000,
+              "height": 750,
+              "color": "#22c55e",
+              "opacity": 0.04
+            },
+            {
+              "id": 22,
+              "type": "rectangle",
+              "x": 762,
+              "y": 145,
+              "width": 133,
+              "height": 167,
+              "color": "#facc15",
+              "opacity": 0.2
+            },
+            {
+              "id": 23,
+              "type": "rectangle",
+              "x": 762,
+              "y": 470,
+              "width": 133,
+              "height": 167,
+              "color": "#facc15",
+              "opacity": 0.2
+            }
+          ]
+        }
+      ],
+      "pitch": {
+        "type": "custom",
+        "orientation": "horizontal",
+        "width": 45,
+        "length": 60
+      },
+      "meta": {
+        "category": "Część główna (2) · gra · średnia przestrzeń (~170 m²/zaw.)",
+        "duration": "25",
+        "players": "16",
+        "area": "60×45 m",
+        "objective": "Integracja w grze: budowanie od BR przeciw blokowi średniemu, prowokowanie pressingu i wykorzystanie kieszeni; przejścia po stracie (kontrpressing 5 s).",
+        "organization": "Pole 60×45 m, linie 20 m i 40 m (trzy strefy). Ustawienie 1-3-2-2 (3 obrońców, 2 pivoty, 10 i 7/9). 4 gry × 5 min, przerwa 2 min. Zespół broniący po stracie cofa się za linię 40 m (blok średni) i może wejść do strefy budowania rywala tylko po podaniu do tyłu (sygnał).",
+        "description": "Bramka = 1 pkt. +1 pkt, jeśli przed bramką zawodnik przyjął piłkę w środkowej strefie między liniami rywala i odwrócił się z nią (kieszeń). +1 pkt za odbiór w 5 s po stracie (kontrpressing). W grze 4 trener znosi ograniczenie – rywal broni, jak chce.",
+        "coachingPoints": "Pytania w przerwach: „Kiedy rywal wyszedł do pressingu?”, „Kto był wolny za jego plecami?”. Zabezpieczenie 3+2 przy stracie. Coaching w trakcie gry hasłami: „przynęta!”, „kieszeń!”, „pół obrotu!”.",
+        "variations": "Utrudnienie: max 3 kontakty w strefie budowania. Ułatwienie: joker w kieszeni dla atakujących.",
+        "phases": [
+          "Atak-Otwarcie",
+          "Atak-Budowanie",
+          "Atak-Tworzenie szans",
+          "Obrona",
+          "A/O",
+          "O/A"
+        ]
+      },
+      "teamAColor": "#1d4ed8",
+      "teamBColor": "#dc2626"
+    },
+    {
+      "id": "bg-sr-pol-obrotu",
+      "name": "BG Śr · Część końcowa: przyjęcie na pół obrotu w kieszeni + strzał (IPR 10/7/9)",
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z",
+      "version": 2,
+      "frames": [
+        {
+          "items": [
+            {
+              "id": 1,
+              "type": "goal",
+              "x": 1007,
+              "y": 437,
+              "scale": 1,
+              "rotation": 1.5707963267948966,
+              "color": "#ffffff"
+            },
+            {
+              "id": 2,
+              "type": "player",
+              "team": "B",
+              "gk": true,
+              "x": 970,
+              "y": 437,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#7c3aed",
+              "label": "BR"
+            },
+            {
+              "id": 3,
+              "type": "player",
+              "team": "A",
+              "x": 153,
+              "y": 437,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "6"
+            },
+            {
+              "id": 4,
+              "type": "ball",
+              "x": 193,
+              "y": 460,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#ffffff"
+            },
+            {
+              "id": 5,
+              "type": "mannequin",
+              "x": 503,
+              "y": 437,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#facc15"
+            },
+            {
+              "id": 6,
+              "type": "player",
+              "team": "A",
+              "x": 453,
+              "y": 437,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "10"
+            },
+            {
+              "id": 10,
+              "type": "coach",
+              "x": 353,
+              "y": 153,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#334155",
+              "label": "T"
+            },
+            {
+              "id": 11,
+              "type": "text",
+              "x": 353,
+              "y": 103,
+              "scale": 0.8,
+              "rotation": 0,
+              "color": "#111827",
+              "text": "pokazuje liczbę"
+            }
+          ],
+          "lines": [
+            {
+              "id": 7,
+              "type": "arrow-solid",
+              "startX": 187,
+              "startY": 437,
+              "endX": 420,
+              "endY": 437,
+              "color": "#111827"
+            },
+            {
+              "id": 8,
+              "type": "arrow-wavy",
+              "startX": 470,
+              "startY": 470,
+              "endX": 587,
+              "endY": 553,
+              "color": "#111827"
+            },
+            {
+              "id": 9,
+              "type": "arrow-solid",
+              "startX": 603,
+              "startY": 553,
+              "endX": 953,
+              "endY": 487,
+              "color": "#111827"
+            }
+          ],
+          "zones": []
+        }
+      ],
+      "pitch": {
+        "type": "custom",
+        "orientation": "horizontal",
+        "width": 25,
+        "length": 30
+      },
+      "meta": {
+        "category": "Część końcowa (indywidualizacja)",
+        "duration": "8",
+        "players": "16–20",
+        "area": "30×25 m",
+        "objective": "Detal techniczny dla zawodników grających w kieszeni (10, 7, 9): skanowanie, przyjęcie na pół obrotu i strzał/podanie w 2 kontaktach. Pozostali: rozciąganie, RPE.",
+        "organization": "Pasywny obrońca (manekin/tyczka) za plecami zawodnika. Podanie od pivota → przyjęcie na pół obrotu obok manekina → strzał na bramkę z 18–20 m. 6 powtórzeń na zawodnika, obie strony.",
+        "description": "Przed podaniem zawodnik musi dwa razy spojrzeć przez ramię (trener pokazuje palcami liczbę – zawodnik mówi ją na głos).",
+        "coachingPoints": "Otwarte biodra, przyjęcie nogą dalszą od obrońcy. Pierwszy kontakt do przodu. Po zajęciach: RPE 0–10.",
+        "variations": "Aktywny obrońca od 4. powtórzenia.",
+        "phases": [
+          "Atak-Budowanie",
+          "Atak-Finalizacja"
+        ]
+      },
+      "teamAColor": "#1d4ed8",
+      "teamBColor": "#dc2626"
+    },
+    {
+      "id": "bg-czw-prewencja",
+      "name": "BG Czw · Aktywacja i prewencja – stabilność",
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z",
+      "version": 2,
+      "frames": [
+        {
+          "items": [
+            {
+              "id": 2,
+              "type": "step",
+              "x": 113,
+              "y": 93,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#111827",
+              "label": "1"
+            },
+            {
+              "id": 3,
+              "type": "player",
+              "team": "A",
+              "x": 203,
+              "y": 220,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "1"
+            },
+            {
+              "id": 4,
+              "type": "player",
+              "team": "A",
+              "x": 303,
+              "y": 220,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "2"
+            },
+            {
+              "id": 5,
+              "type": "cone",
+              "x": 103,
+              "y": 287,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 6,
+              "type": "cone",
+              "x": 403,
+              "y": 287,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 8,
+              "type": "step",
+              "x": 647,
+              "y": 93,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#111827",
+              "label": "2"
+            },
+            {
+              "id": 9,
+              "type": "player",
+              "team": "A",
+              "x": 737,
+              "y": 220,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "3"
+            },
+            {
+              "id": 10,
+              "type": "player",
+              "team": "A",
+              "x": 837,
+              "y": 220,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "4"
+            },
+            {
+              "id": 11,
+              "type": "cone",
+              "x": 637,
+              "y": 287,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 12,
+              "type": "cone",
+              "x": 937,
+              "y": 287,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 14,
+              "type": "step",
+              "x": 113,
+              "y": 427,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#111827",
+              "label": "3"
+            },
+            {
+              "id": 15,
+              "type": "player",
+              "team": "A",
+              "x": 203,
+              "y": 553,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "5"
+            },
+            {
+              "id": 16,
+              "type": "player",
+              "team": "A",
+              "x": 303,
+              "y": 553,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "6"
+            },
+            {
+              "id": 17,
+              "type": "cone",
+              "x": 103,
+              "y": 620,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 18,
+              "type": "cone",
+              "x": 403,
+              "y": 620,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 20,
+              "type": "step",
+              "x": 647,
+              "y": 427,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#111827",
+              "label": "4"
+            },
+            {
+              "id": 21,
+              "type": "player",
+              "team": "A",
+              "x": 737,
+              "y": 553,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "7"
+            },
+            {
+              "id": 22,
+              "type": "player",
+              "team": "A",
+              "x": 837,
+              "y": 553,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "8"
+            },
+            {
+              "id": 23,
+              "type": "cone",
+              "x": 637,
+              "y": 620,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 24,
+              "type": "cone",
+              "x": 937,
+              "y": 620,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 29,
+              "type": "coach",
+              "x": 520,
+              "y": 353,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#334155",
+              "label": "T"
+            }
+          ],
+          "lines": [
+            {
+              "id": 25,
+              "type": "arrow-dashed",
+              "startX": 437,
+              "startY": 187,
+              "endX": 603,
+              "endY": 187,
+              "color": "#2563eb"
+            },
+            {
+              "id": 26,
+              "type": "arrow-dashed",
+              "startX": 787,
+              "startY": 330,
+              "endX": 787,
+              "endY": 377,
+              "color": "#2563eb"
+            },
+            {
+              "id": 27,
+              "type": "arrow-dashed",
+              "startX": 603,
+              "startY": 520,
+              "endX": 437,
+              "endY": 520,
+              "color": "#2563eb"
+            },
+            {
+              "id": 28,
+              "type": "arrow-dashed",
+              "startX": 253,
+              "startY": 377,
+              "endX": 253,
+              "endY": 330,
+              "color": "#2563eb"
+            }
+          ],
+          "zones": [
+            {
+              "id": 1,
+              "type": "rectangle",
+              "x": 70,
+              "y": 53,
+              "width": 367,
+              "height": 267,
+              "color": "#22c55e",
+              "opacity": 0.14
+            },
+            {
+              "id": 7,
+              "type": "rectangle",
+              "x": 603,
+              "y": 53,
+              "width": 367,
+              "height": 267,
+              "color": "#3b82f6",
+              "opacity": 0.14
+            },
+            {
+              "id": 13,
+              "type": "rectangle",
+              "x": 70,
+              "y": 387,
+              "width": 367,
+              "height": 267,
+              "color": "#f59e0b",
+              "opacity": 0.14
+            },
+            {
+              "id": 19,
+              "type": "rectangle",
+              "x": 603,
+              "y": 387,
+              "width": 367,
+              "height": 267,
+              "color": "#a855f7",
+              "opacity": 0.14
+            }
+          ]
+        }
+      ],
+      "pitch": {
+        "type": "custom",
+        "orientation": "horizontal",
+        "width": 20,
+        "length": 30
+      },
+      "meta": {
+        "category": "Część wstępna (1) · prewencja · akcent: stabilność",
+        "duration": "15",
+        "players": "16–20 (4 grupy)",
+        "area": "30×20 m",
+        "objective": "Przygotowanie ruchowe i ograniczanie ryzyka urazów (PZPN 13.4.2). Akcent motoryczny dnia: stabilność.",
+        "organization": "4 stacje na pół boiska, grupy po 4–5 zawodników, zmiana co 3 min (praca 40 s / przerwa 20 s), na końcu 2 min biegów z rosnącą prędkością.",
+        "description": "1. Deska przodem z naprzemiennym unoszeniem ręki/nogi (3×30 s).\n2. Wykroki z rotacją tułowia (2×8 na stronę).\n3. Stanie jednonóż z łapaniem piłki od partnera (2×30 s/noga).\n4. Skipy, krok dostawny, przyspieszenia 10 m z hamowaniem w 3 krokach.",
+        "coachingPoints": "Jakość ruchu przed liczbą powtórzeń. Kolano nad stopą przy lądowaniu i hamowaniu. Zawodnik w okresie szybkiego wzrastania lub zgłaszający ból: mniejszy zakres, mniej powtórzeń, bez dokładania oporu (PZPN 13.2.5). Krótki wywiad wellness (sen, nastrój, bolesność) przy wejściu.",
+        "variations": "Regresja: deska na kolanach.",
+        "phases": []
+      },
+      "teamAColor": "#1d4ed8",
+      "teamBColor": "#dc2626"
+    },
+    {
+      "id": "bg-czw-automatyzm-3241",
+      "name": "BG Czw · Automatyzm w strukturze 3-2-4-1: S-kombinacja i „góra – dół – przez”",
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z",
+      "version": 2,
+      "frames": [
+        {
+          "items": [
+            {
+              "id": 2,
+              "type": "goal",
+              "x": 823,
+              "y": 520,
+              "scale": 1,
+              "rotation": 1.5707963267948966,
+              "color": "#ffffff"
+            },
+            {
+              "id": 3,
+              "type": "player",
+              "team": "B",
+              "gk": true,
+              "x": 807,
+              "y": 520,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#7c3aed",
+              "label": "BR"
+            },
+            {
+              "id": 4,
+              "type": "player",
+              "team": "A",
+              "x": 167,
+              "y": 226,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "LO"
+            },
+            {
+              "id": 5,
+              "type": "player",
+              "team": "A",
+              "x": 123,
+              "y": 520,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "ŚO"
+            },
+            {
+              "id": 6,
+              "type": "player",
+              "team": "A",
+              "x": 167,
+              "y": 814,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "ŚO"
+            },
+            {
+              "id": 7,
+              "type": "player",
+              "team": "A",
+              "x": 270,
+              "y": 432,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "6"
+            },
+            {
+              "id": 8,
+              "type": "player",
+              "team": "A",
+              "x": 314,
+              "y": 608,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "8"
+            },
+            {
+              "id": 9,
+              "type": "player",
+              "team": "A",
+              "x": 505,
+              "y": 314,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "10"
+            },
+            {
+              "id": 10,
+              "type": "player",
+              "team": "A",
+              "x": 505,
+              "y": 726,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "7"
+            },
+            {
+              "id": 11,
+              "type": "player",
+              "team": "A",
+              "x": 520,
+              "y": 64,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "11"
+            },
+            {
+              "id": 12,
+              "type": "player",
+              "team": "A",
+              "x": 520,
+              "y": 976,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "PO"
+            },
+            {
+              "id": 13,
+              "type": "player",
+              "team": "A",
+              "x": 608,
+              "y": 520,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "9"
+            },
+            {
+              "id": 14,
+              "type": "mannequin",
+              "x": 417,
+              "y": 196,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#facc15"
+            },
+            {
+              "id": 15,
+              "type": "mannequin",
+              "x": 417,
+              "y": 417,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#facc15"
+            },
+            {
+              "id": 16,
+              "type": "mannequin",
+              "x": 417,
+              "y": 623,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#facc15"
+            },
+            {
+              "id": 17,
+              "type": "mannequin",
+              "x": 417,
+              "y": 844,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#facc15"
+            },
+            {
+              "id": 18,
+              "type": "ball",
+              "x": 138,
+              "y": 535,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#ffffff"
+            },
+            {
+              "id": 23,
+              "type": "text",
+              "x": 285,
+              "y": 961,
+              "scale": 0.8,
+              "rotation": 0,
+              "color": "#991b1b",
+              "text": "linia pomocy rywala (pasywni)"
+            }
+          ],
+          "lines": [
+            {
+              "id": 19,
+              "type": "arrow-solid",
+              "startX": 130,
+              "startY": 513,
+              "endX": 263,
+              "endY": 439,
+              "color": "#111827"
+            },
+            {
+              "id": 20,
+              "type": "arrow-solid",
+              "startX": 277,
+              "startY": 446,
+              "endX": 307,
+              "endY": 594,
+              "color": "#111827"
+            },
+            {
+              "id": 21,
+              "type": "arrow-solid",
+              "startX": 321,
+              "startY": 594,
+              "endX": 498,
+              "endY": 329,
+              "color": "#111827"
+            },
+            {
+              "id": 22,
+              "type": "arrow-dashed",
+              "startX": 520,
+              "startY": 64,
+              "endX": 667,
+              "endY": 138,
+              "color": "#2563eb"
+            }
+          ],
+          "zones": [
+            {
+              "id": 1,
+              "type": "rectangle",
+              "x": 20,
+              "y": 20,
+              "width": 809,
+              "height": 1000,
+              "color": "#22c55e",
+              "opacity": 0.04
+            }
+          ]
+        }
+      ],
+      "pitch": {
+        "type": "custom",
+        "orientation": "horizontal",
+        "width": 68,
+        "length": 55
+      },
+      "meta": {
+        "category": "Część wstępna (2) · forma ścisła otwarta → z pasywnym przeciwnikiem",
+        "duration": "15",
+        "players": "11 + 4 pasywnych",
+        "area": "55×68 m",
+        "objective": "Utrwalenie struktury 3-2-4-1 i dwóch automatyzmów przeciw blokowi średniemu: (1) S-kombinacja ŚO → 6 → 8 → 10 w kieszeni, (2) ŚO → 9 (góra) → 8 (dół) → 7 za linię (przez).",
+        "organization": "Połowa boiska. Zespół w strukturze 3-2-4-1 (3 z tyłu, 6 i 8, 10 i 7 w kieszeniach, 11 i PO szeroko, 9). 4 pasywnych zawodników (tyczki lub zawodnicy) jako linia pomocy rywala. Każda akcja kończy się strzałem. Zmiana wariantu co 4 akcje, rotacja pozycji co 5 min.",
+        "description": "Wariant 1 (lewa): ŚO → 6 (pod presją) → skos do 8 → 10 w lewej kieszeni → 11 za plecy BO / strzał. Wariant 2 (środek): ŚO → 9 schodzi → zgranie do 8 → prostopadłe do 7 wbiegającego za linię. Wariant 3: trener woła „zamknięty środek!” → zmiana strony do PO (wahadło).",
+        "coachingPoints": "Timing biegu ważniejszy niż szybkość. Podanie w tempo do nogi dalszej. Zgranie jednym kontaktem. Po każdej akcji szybki powrót do struktury (3+2 zostaje!).",
+        "variations": "Od 3. serii pasywni stają się półaktywni (mogą przeciąć podanie, nie odbierają).",
+        "phases": [
+          "Atak-Otwarcie",
+          "Atak-Budowanie"
+        ]
+      },
+      "teamAColor": "#1d4ed8",
+      "teamBColor": "#dc2626"
+    },
+    {
+      "id": "bg-czw-fragment-11x9",
+      "name": "BG Czw · Fragment gry 3-2-4-1 vs 4-4-1 (blok średni) na 2/3 boiska",
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z",
+      "version": 2,
+      "frames": [
+        {
+          "items": [
+            {
+              "id": 2,
+              "type": "goal",
+              "x": 26,
+              "y": 506,
+              "scale": 1,
+              "rotation": -1.5707963267948966,
+              "color": "#ffffff"
+            },
+            {
+              "id": 3,
+              "type": "goal",
+              "x": 1014,
+              "y": 506,
+              "scale": 1,
+              "rotation": 1.5707963267948966,
+              "color": "#ffffff"
+            },
+            {
+              "id": 4,
+              "type": "player",
+              "team": "A",
+              "gk": true,
+              "x": 49,
+              "y": 506,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#16a34a",
+              "label": "BR"
+            },
+            {
+              "id": 5,
+              "type": "player",
+              "team": "B",
+              "gk": true,
+              "x": 991,
+              "y": 506,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#7c3aed",
+              "label": "BR"
+            },
+            {
+              "id": 6,
+              "type": "player",
+              "team": "A",
+              "x": 234,
+              "y": 220,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "LO"
+            },
+            {
+              "id": 7,
+              "type": "player",
+              "team": "A",
+              "x": 177,
+              "y": 506,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "ŚO"
+            },
+            {
+              "id": 8,
+              "type": "player",
+              "team": "A",
+              "x": 234,
+              "y": 791,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "ŚO"
+            },
+            {
+              "id": 9,
+              "type": "player",
+              "team": "A",
+              "x": 363,
+              "y": 420,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "6"
+            },
+            {
+              "id": 10,
+              "type": "player",
+              "team": "A",
+              "x": 406,
+              "y": 591,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "8"
+            },
+            {
+              "id": 11,
+              "type": "player",
+              "team": "A",
+              "x": 591,
+              "y": 306,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "10"
+            },
+            {
+              "id": 12,
+              "type": "player",
+              "team": "A",
+              "x": 591,
+              "y": 706,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "7"
+            },
+            {
+              "id": 13,
+              "type": "player",
+              "team": "A",
+              "x": 620,
+              "y": 63,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "11"
+            },
+            {
+              "id": 14,
+              "type": "player",
+              "team": "A",
+              "x": 620,
+              "y": 949,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "PO"
+            },
+            {
+              "id": 15,
+              "type": "player",
+              "team": "A",
+              "x": 734,
+              "y": 506,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "9"
+            },
+            {
+              "id": 16,
+              "type": "player",
+              "team": "B",
+              "x": 763,
+              "y": 163,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "1"
+            },
+            {
+              "id": 17,
+              "type": "player",
+              "team": "B",
+              "x": 777,
+              "y": 391,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "2"
+            },
+            {
+              "id": 18,
+              "type": "player",
+              "team": "B",
+              "x": 777,
+              "y": 620,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "3"
+            },
+            {
+              "id": 19,
+              "type": "player",
+              "team": "B",
+              "x": 763,
+              "y": 849,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "4"
+            },
+            {
+              "id": 20,
+              "type": "player",
+              "team": "B",
+              "x": 520,
+              "y": 177,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "5"
+            },
+            {
+              "id": 21,
+              "type": "player",
+              "team": "B",
+              "x": 534,
+              "y": 406,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "6"
+            },
+            {
+              "id": 22,
+              "type": "player",
+              "team": "B",
+              "x": 534,
+              "y": 606,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "7"
+            },
+            {
+              "id": 23,
+              "type": "player",
+              "team": "B",
+              "x": 520,
+              "y": 834,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "8"
+            },
+            {
+              "id": 24,
+              "type": "player",
+              "team": "B",
+              "x": 420,
+              "y": 506,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "9"
+            },
+            {
+              "id": 27,
+              "type": "ball",
+              "x": 191,
+              "y": 520,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#ffffff"
+            },
+            {
+              "id": 31,
+              "type": "text",
+              "x": 649,
+              "y": 213,
+              "scale": 0.8,
+              "rotation": 0,
+              "color": "#92400e",
+              "text": "kieszeń"
+            },
+            {
+              "id": 32,
+              "type": "text",
+              "x": 649,
+              "y": 613,
+              "scale": 0.8,
+              "rotation": 0,
+              "color": "#92400e",
+              "text": "kieszeń"
+            }
+          ],
+          "lines": [
+            {
+              "id": 28,
+              "type": "arrow-solid",
+              "startX": 184,
+              "startY": 506,
+              "endX": 356,
+              "endY": 434,
+              "color": "#111827"
+            },
+            {
+              "id": 29,
+              "type": "arrow-solid",
+              "startX": 370,
+              "startY": 427,
+              "endX": 584,
+              "endY": 320,
+              "color": "#111827"
+            },
+            {
+              "id": 30,
+              "type": "arrow-dashed",
+              "startX": 620,
+              "startY": 63,
+              "endX": 849,
+              "endY": 106,
+              "color": "#2563eb"
+            }
+          ],
+          "zones": [
+            {
+              "id": 1,
+              "type": "rectangle",
+              "x": 20,
+              "y": 20,
+              "width": 1000,
+              "height": 971,
+              "color": "#22c55e",
+              "opacity": 0.04
+            },
+            {
+              "id": 25,
+              "type": "rectangle",
+              "x": 563,
+              "y": 234,
+              "width": 171,
+              "height": 143,
+              "color": "#facc15",
+              "opacity": 0.2
+            },
+            {
+              "id": 26,
+              "type": "rectangle",
+              "x": 563,
+              "y": 634,
+              "width": 171,
+              "height": 143,
+              "color": "#facc15",
+              "opacity": 0.2
+            }
+          ]
+        }
+      ],
+      "pitch": {
+        "type": "custom",
+        "orientation": "horizontal",
+        "width": 68,
+        "length": 70
+      },
+      "meta": {
+        "category": "Część główna (1) · fragment gry · duża przestrzeń (>200 m²/zaw.)",
+        "duration": "25",
+        "players": "21 (BR+10 vs 9+BR)",
+        "area": "70×68 m",
+        "objective": "CO: budowanie gry przeciw blokowi średniemu 4-4-1(-1). GDZIE: strefa średnia, kieszenie w półprzestrzeniach. JAK: prowokować pressing (podanie do tyłu, wejście z piłką ŚO) i grać do 10/7 w kieszeni albo zmieniać stronę, gdy środek zamknięty.",
+        "organization": "2/3 boiska (70 m × szerokość boiska). Niebiescy: BR + 3-2-4-1. Czerwoni: BR + 4-4-1 ustawieni w bloku średnim (napastnik ok. 40 m od naszej bramki). Akcja od naszego BR. 4 serie × 5 min, przerwa 2 min.",
+        "description": "Niebiescy: bramka = 1 pkt; +1 pkt, gdy akcja przeszła przez kieszeń (przyjęcie przodem między liniami). Czerwoni: po odbiorze 8 s na zdobycie bramki (kontra na naszą bramkę). Seria 3: czerwoni pressują wyżej po każdym podaniu do tyłu (trener wymusza). Seria 4: bez ograniczeń.",
+        "coachingPoints": "Odniesienie do schematów w Taktyce: B1 (struktura), B2 (przynęta → góra – dół – przez), B3 (wejście z piłką ŚO), B4 (zmiana strony). Interakcja wspierająca: rzadkie stopklatki, hasła. Zabezpieczenie 3+2 i kontrpressing 5 s po stracie.",
+        "variations": "Ułatwienie: czerwoni 4-3-1. Utrudnienie: czerwoni 4-4-2 (dodatkowy napastnik pressujący).",
+        "phases": [
+          "Atak-Otwarcie",
+          "Atak-Budowanie",
+          "Atak-Tworzenie szans",
+          "A/O",
+          "Obrona"
+        ]
+      },
+      "teamAColor": "#1d4ed8",
+      "teamBColor": "#dc2626"
+    },
+    {
+      "id": "bg-czw-gra-9x9-blok",
+      "name": "BG Czw · Gra BR+9×9+BR na 3/4 boiska: obie drużyny bronią blokiem średnim",
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z",
+      "version": 2,
+      "frames": [
+        {
+          "items": [
+            {
+              "id": 3,
+              "type": "goal",
+              "x": 25,
+              "y": 420,
+              "scale": 1,
+              "rotation": -1.5707963267948966,
+              "color": "#ffffff"
+            },
+            {
+              "id": 4,
+              "type": "goal",
+              "x": 1015,
+              "y": 420,
+              "scale": 1,
+              "rotation": 1.5707963267948966,
+              "color": "#ffffff"
+            },
+            {
+              "id": 5,
+              "type": "player",
+              "team": "A",
+              "gk": true,
+              "x": 47,
+              "y": 420,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#16a34a",
+              "label": "BR"
+            },
+            {
+              "id": 6,
+              "type": "player",
+              "team": "B",
+              "gk": true,
+              "x": 993,
+              "y": 420,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#7c3aed",
+              "label": "BR"
+            },
+            {
+              "id": 7,
+              "type": "player",
+              "team": "A",
+              "x": 193,
+              "y": 207,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "1"
+            },
+            {
+              "id": 8,
+              "type": "player",
+              "team": "A",
+              "x": 153,
+              "y": 420,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "2"
+            },
+            {
+              "id": 9,
+              "type": "player",
+              "team": "A",
+              "x": 193,
+              "y": 633,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "3"
+            },
+            {
+              "id": 10,
+              "type": "player",
+              "team": "A",
+              "x": 300,
+              "y": 353,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "4"
+            },
+            {
+              "id": 11,
+              "type": "player",
+              "team": "A",
+              "x": 327,
+              "y": 513,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "5"
+            },
+            {
+              "id": 12,
+              "type": "player",
+              "team": "A",
+              "x": 700,
+              "y": 260,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "6"
+            },
+            {
+              "id": 13,
+              "type": "player",
+              "team": "A",
+              "x": 700,
+              "y": 580,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "7"
+            },
+            {
+              "id": 14,
+              "type": "player",
+              "team": "A",
+              "x": 527,
+              "y": 87,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "8"
+            },
+            {
+              "id": 15,
+              "type": "player",
+              "team": "A",
+              "x": 727,
+              "y": 433,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "9"
+            },
+            {
+              "id": 16,
+              "type": "player",
+              "team": "B",
+              "x": 767,
+              "y": 153,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "1"
+            },
+            {
+              "id": 17,
+              "type": "player",
+              "team": "B",
+              "x": 780,
+              "y": 327,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "2"
+            },
+            {
+              "id": 18,
+              "type": "player",
+              "team": "B",
+              "x": 780,
+              "y": 513,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "3"
+            },
+            {
+              "id": 19,
+              "type": "player",
+              "team": "B",
+              "x": 767,
+              "y": 687,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "4"
+            },
+            {
+              "id": 20,
+              "type": "player",
+              "team": "B",
+              "x": 647,
+              "y": 180,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "5"
+            },
+            {
+              "id": 21,
+              "type": "player",
+              "team": "B",
+              "x": 647,
+              "y": 367,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "6"
+            },
+            {
+              "id": 22,
+              "type": "player",
+              "team": "B",
+              "x": 647,
+              "y": 527,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "7"
+            },
+            {
+              "id": 23,
+              "type": "player",
+              "team": "B",
+              "x": 633,
+              "y": 687,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "8"
+            },
+            {
+              "id": 24,
+              "type": "player",
+              "team": "B",
+              "x": 553,
+              "y": 420,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "9"
+            },
+            {
+              "id": 25,
+              "type": "ball",
+              "x": 167,
+              "y": 433,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#ffffff"
+            },
+            {
+              "id": 26,
+              "type": "text",
+              "x": 520,
+              "y": 793,
+              "scale": 0.8,
+              "rotation": 0,
+              "color": "#991b1b",
+              "text": "blok średni za linią środkową"
+            }
+          ],
+          "lines": [
+            {
+              "id": 2,
+              "type": "line-dashed",
+              "startX": 520,
+              "startY": 20,
+              "endX": 520,
+              "endY": 820,
+              "color": "#64748b"
+            }
+          ],
+          "zones": [
+            {
+              "id": 1,
+              "type": "rectangle",
+              "x": 20,
+              "y": 20,
+              "width": 1000,
+              "height": 800,
+              "color": "#22c55e",
+              "opacity": 0.04
+            }
+          ]
+        }
+      ],
+      "pitch": {
+        "type": "custom",
+        "orientation": "horizontal",
+        "width": 60,
+        "length": 75
+      },
+      "meta": {
+        "category": "Część główna (2) · gra · duża przestrzeń",
+        "duration": "25",
+        "players": "20",
+        "area": "75×60 m",
+        "objective": "Weryfikacja w grze: budowanie przeciw blokowi średniemu i obrona blokiem średnim (4-4-1 / 4-3-2) – cały model gry w jednej grze.",
+        "organization": "3/4 boiska (75×60 m), linia środkowa zaznaczona. 3 gry × 7 min, przerwa 2 min. Zespół broniący ustawia się za linią środkową (blok średni) – wyjście wyżej tylko po sygnale: podanie do tyłu, podanie do bocznego obrońcy, złe przyjęcie.",
+        "description": "Bramka = 1 pkt; +1 pkt za bramkę po przyjęciu w kieszeni; +1 pkt za odbiór po sygnale pressingowym i strzał w 8 s. Gra 3: autonomia – trener nie podpowiada, drużyny same ustalają hasło na ten fragment.",
+        "coachingPoints": "Atak: struktura 3-2-4-1, cierpliwość + przynęta. Obrona: kompaktowość 30–35 m, kierowanie do boku, sygnały pressingu (schemat OB1). Utrzymanie jakości decyzji mimo zmęczenia.",
+        "variations": "Mniej zawodników: 8×8 na 70×55 m.",
+        "phases": [
+          "Atak-Otwarcie",
+          "Atak-Budowanie",
+          "Atak-Tworzenie szans",
+          "Atak-Finalizacja",
+          "Obrona",
+          "A/O",
+          "O/A"
+        ]
+      },
+      "teamAColor": "#1d4ed8",
+      "teamBColor": "#dc2626"
+    },
+    {
+      "id": "bg-czw-regeneracja",
+      "name": "BG Czw · Część końcowa: regeneracja i rozmowa",
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z",
+      "version": 2,
+      "frames": [
+        {
+          "items": [
+            {
+              "id": 1,
+              "type": "player",
+              "team": "A",
+              "x": 720,
+              "y": 353,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": ""
+            },
+            {
+              "id": 2,
+              "type": "player",
+              "team": "A",
+              "x": 682,
+              "y": 471,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": ""
+            },
+            {
+              "id": 3,
+              "type": "player",
+              "team": "A",
+              "x": 582,
+              "y": 544,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": ""
+            },
+            {
+              "id": 4,
+              "type": "player",
+              "team": "A",
+              "x": 458,
+              "y": 544,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": ""
+            },
+            {
+              "id": 5,
+              "type": "player",
+              "team": "A",
+              "x": 358,
+              "y": 471,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": ""
+            },
+            {
+              "id": 6,
+              "type": "player",
+              "team": "A",
+              "x": 320,
+              "y": 354,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": ""
+            },
+            {
+              "id": 7,
+              "type": "player",
+              "team": "A",
+              "x": 358,
+              "y": 236,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": ""
+            },
+            {
+              "id": 8,
+              "type": "player",
+              "team": "A",
+              "x": 458,
+              "y": 163,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": ""
+            },
+            {
+              "id": 9,
+              "type": "player",
+              "team": "A",
+              "x": 581,
+              "y": 163,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": ""
+            },
+            {
+              "id": 10,
+              "type": "player",
+              "team": "A",
+              "x": 681,
+              "y": 235,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": ""
+            },
+            {
+              "id": 11,
+              "type": "coach",
+              "x": 520,
+              "y": 353,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#334155",
+              "label": "T"
+            }
+          ],
+          "lines": [],
+          "zones": []
+        }
+      ],
+      "pitch": {
+        "type": "custom",
+        "orientation": "horizontal",
+        "width": 20,
+        "length": 30
+      },
+      "meta": {
+        "category": "Część końcowa (mental / regeneracja)",
+        "duration": "8",
+        "players": "16–22",
+        "area": "30×20 m",
+        "objective": "Wyciszenie i krótka analiza: 2 pytania do zespołu o prowokowaniu pressingu i kieszeniach (październik – spójność i relacje: każdy wskazuje partnera, który dziś stworzył mu miejsce).",
+        "organization": "Koło, rozciąganie 3 min + 2 min rozmowy. RPE 15–30 min po zajęciach.",
+        "description": "Pytania: „Po czym poznałeś, że rywal wychodzi do pressingu?”, „Kto był wolny w kieszeni?”.",
+        "coachingPoints": "Nikt nie musi odpowiadać. Trener zamyka jednym zdaniem.",
+        "variations": "—",
+        "phases": []
+      },
+      "teamAColor": "#1d4ed8",
+      "teamBColor": "#dc2626"
+    },
+    {
+      "id": "bg-pt-mobilnosc",
+      "name": "BG Pt · Mobilność i szybkość reakcji",
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z",
+      "version": 2,
+      "frames": [
+        {
+          "items": [
+            {
+              "id": 2,
+              "type": "step",
+              "x": 113,
+              "y": 93,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#111827",
+              "label": "1"
+            },
+            {
+              "id": 3,
+              "type": "player",
+              "team": "A",
+              "x": 203,
+              "y": 220,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "1"
+            },
+            {
+              "id": 4,
+              "type": "player",
+              "team": "A",
+              "x": 303,
+              "y": 220,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "2"
+            },
+            {
+              "id": 5,
+              "type": "cone",
+              "x": 103,
+              "y": 287,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 6,
+              "type": "cone",
+              "x": 403,
+              "y": 287,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 8,
+              "type": "step",
+              "x": 647,
+              "y": 93,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#111827",
+              "label": "2"
+            },
+            {
+              "id": 9,
+              "type": "player",
+              "team": "A",
+              "x": 737,
+              "y": 220,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "3"
+            },
+            {
+              "id": 10,
+              "type": "player",
+              "team": "A",
+              "x": 837,
+              "y": 220,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "4"
+            },
+            {
+              "id": 11,
+              "type": "cone",
+              "x": 637,
+              "y": 287,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 12,
+              "type": "cone",
+              "x": 937,
+              "y": 287,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 14,
+              "type": "step",
+              "x": 113,
+              "y": 427,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#111827",
+              "label": "3"
+            },
+            {
+              "id": 15,
+              "type": "player",
+              "team": "A",
+              "x": 203,
+              "y": 553,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "5"
+            },
+            {
+              "id": 16,
+              "type": "player",
+              "team": "A",
+              "x": 303,
+              "y": 553,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "6"
+            },
+            {
+              "id": 17,
+              "type": "cone",
+              "x": 103,
+              "y": 620,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 18,
+              "type": "cone",
+              "x": 403,
+              "y": 620,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 20,
+              "type": "step",
+              "x": 647,
+              "y": 427,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#111827",
+              "label": "4"
+            },
+            {
+              "id": 21,
+              "type": "player",
+              "team": "A",
+              "x": 737,
+              "y": 553,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "7"
+            },
+            {
+              "id": 22,
+              "type": "player",
+              "team": "A",
+              "x": 837,
+              "y": 553,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "8"
+            },
+            {
+              "id": 23,
+              "type": "cone",
+              "x": 637,
+              "y": 620,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 24,
+              "type": "cone",
+              "x": 937,
+              "y": 620,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f97316"
+            },
+            {
+              "id": 29,
+              "type": "coach",
+              "x": 520,
+              "y": 353,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#334155",
+              "label": "T"
+            }
+          ],
+          "lines": [
+            {
+              "id": 25,
+              "type": "arrow-dashed",
+              "startX": 437,
+              "startY": 187,
+              "endX": 603,
+              "endY": 187,
+              "color": "#2563eb"
+            },
+            {
+              "id": 26,
+              "type": "arrow-dashed",
+              "startX": 787,
+              "startY": 330,
+              "endX": 787,
+              "endY": 377,
+              "color": "#2563eb"
+            },
+            {
+              "id": 27,
+              "type": "arrow-dashed",
+              "startX": 603,
+              "startY": 520,
+              "endX": 437,
+              "endY": 520,
+              "color": "#2563eb"
+            },
+            {
+              "id": 28,
+              "type": "arrow-dashed",
+              "startX": 253,
+              "startY": 377,
+              "endX": 253,
+              "endY": 330,
+              "color": "#2563eb"
+            }
+          ],
+          "zones": [
+            {
+              "id": 1,
+              "type": "rectangle",
+              "x": 70,
+              "y": 53,
+              "width": 367,
+              "height": 267,
+              "color": "#22c55e",
+              "opacity": 0.14
+            },
+            {
+              "id": 7,
+              "type": "rectangle",
+              "x": 603,
+              "y": 53,
+              "width": 367,
+              "height": 267,
+              "color": "#3b82f6",
+              "opacity": 0.14
+            },
+            {
+              "id": 13,
+              "type": "rectangle",
+              "x": 70,
+              "y": 387,
+              "width": 367,
+              "height": 267,
+              "color": "#f59e0b",
+              "opacity": 0.14
+            },
+            {
+              "id": 19,
+              "type": "rectangle",
+              "x": 603,
+              "y": 387,
+              "width": 367,
+              "height": 267,
+              "color": "#a855f7",
+              "opacity": 0.14
+            }
+          ]
+        }
+      ],
+      "pitch": {
+        "type": "custom",
+        "orientation": "horizontal",
+        "width": 20,
+        "length": 30
+      },
+      "meta": {
+        "category": "Część wstępna (1) · prewencja · akcent: mobilność",
+        "duration": "15",
+        "players": "16–20 (4 grupy)",
+        "area": "30×20 m",
+        "objective": "Przygotowanie ruchowe i ograniczanie ryzyka urazów (PZPN 13.4.2). Akcent motoryczny dnia: mobilność.",
+        "organization": "4 stacje na pół boiska, grupy po 4–5 zawodników, zmiana co 3 min (praca 40 s / przerwa 20 s), na końcu 2 min biegów z rosnącą prędkością.",
+        "description": "1. Mobilność bioder i kostek: „90/90”, wykrok z rotacją (2 min).\n2. Skip A / skip C – technika biegu (2×15 m).\n3. Starty 5–10 m na sygnał wzrokowy – 2×4, pełna przerwa.\n4. Sprint 15 m z lotnego startu – 3 powtórzenia.",
+        "coachingPoints": "Jakość ruchu przed liczbą powtórzeń. Kolano nad stopą przy lądowaniu i hamowaniu. Zawodnik w okresie szybkiego wzrastania lub zgłaszający ból: mniejszy zakres, mniej powtórzeń, bez dokładania oporu (PZPN 13.2.5). Krótki wywiad wellness (sen, nastrój, bolesność) przy wejściu.",
+        "variations": "Mała objętość, pełne przerwy, bez kumulacji hamowań (dzień przed meczem).",
+        "phases": []
+      },
+      "teamAColor": "#1d4ed8",
+      "teamBColor": "#dc2626"
+    },
+    {
+      "id": "bg-pt-rondo-5x2",
+      "name": "BG Pt · Rondo 5×2 na jeden kontakt (szybkość decyzji)",
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z",
+      "version": 2,
+      "frames": [
+        {
+          "items": [
+            {
+              "id": 1,
+              "type": "disc",
+              "x": 20,
+              "y": 20,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f59e0b"
+            },
+            {
+              "id": 2,
+              "type": "disc",
+              "x": 1020,
+              "y": 20,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f59e0b"
+            },
+            {
+              "id": 3,
+              "type": "disc",
+              "x": 20,
+              "y": 1020,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f59e0b"
+            },
+            {
+              "id": 4,
+              "type": "disc",
+              "x": 1020,
+              "y": 1020,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#f59e0b"
+            },
+            {
+              "id": 5,
+              "type": "player",
+              "team": "A",
+              "x": 520,
+              "y": 87,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "1"
+            },
+            {
+              "id": 6,
+              "type": "player",
+              "team": "A",
+              "x": 953,
+              "y": 353,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "2"
+            },
+            {
+              "id": 7,
+              "type": "player",
+              "team": "A",
+              "x": 953,
+              "y": 770,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "3"
+            },
+            {
+              "id": 8,
+              "type": "player",
+              "team": "A",
+              "x": 87,
+              "y": 770,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "4"
+            },
+            {
+              "id": 9,
+              "type": "player",
+              "team": "A",
+              "x": 87,
+              "y": 353,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "5"
+            },
+            {
+              "id": 10,
+              "type": "player",
+              "team": "B",
+              "x": 437,
+              "y": 437,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "1"
+            },
+            {
+              "id": 11,
+              "type": "player",
+              "team": "B",
+              "x": 645,
+              "y": 603,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "2"
+            },
+            {
+              "id": 12,
+              "type": "ball",
+              "x": 153,
+              "y": 420,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#ffffff"
+            }
+          ],
+          "lines": [
+            {
+              "id": 13,
+              "type": "arrow-solid",
+              "startX": 128,
+              "startY": 395,
+              "endX": 920,
+              "endY": 728,
+              "color": "#111827"
+            }
+          ],
+          "zones": []
+        }
+      ],
+      "pitch": {
+        "type": "custom",
+        "orientation": "horizontal",
+        "width": 12,
+        "length": 12
+      },
+      "meta": {
+        "category": "Część wstępna (2) · gra z utrzymaniem piłki",
+        "duration": "10",
+        "players": "14 (2 grupy)",
+        "area": "12×12 m",
+        "objective": "Szybkość decyzji i jakość pierwszego kontaktu przed meczem – ustawienie ciała do przyjęcia na pół obrotu (De Zerbi: 5v2 rondo).",
+        "organization": "Kwadrat 12×12 m, 5 na obwodzie vs 2 w środku. 1 kontakt. Punkt za 15 podań z rzędu lub podanie między dwoma obrońcami. 4 × 2 min.",
+        "description": "Po odbiorze ten, kto stracił, idzie do środka.",
+        "coachingPoints": "Podanie mocne, ale nie za mocne. Wiedz, gdzie zagrasz, zanim dostaniesz piłkę.",
+        "variations": "2 kontakty dla słabszej grupy.",
+        "phases": [
+          "Atak-Budowanie"
+        ]
+      },
+      "teamAColor": "#1d4ed8",
+      "teamBColor": "#dc2626"
+    },
+    {
+      "id": "bg-pt-kieszen-3x2",
+      "name": "BG Pt · Z kieszeni do bramki: 3×2 + BR w 6 sekund",
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z",
+      "version": 2,
+      "frames": [
+        {
+          "items": [
+            {
+              "id": 1,
+              "type": "goal",
+              "x": 1010,
+              "y": 458,
+              "scale": 1,
+              "rotation": 1.5707963267948966,
+              "color": "#ffffff"
+            },
+            {
+              "id": 2,
+              "type": "player",
+              "team": "B",
+              "gk": true,
+              "x": 983,
+              "y": 458,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#7c3aed",
+              "label": "BR"
+            },
+            {
+              "id": 3,
+              "type": "pole",
+              "x": 370,
+              "y": 270,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#ef4444"
+            },
+            {
+              "id": 4,
+              "type": "pole",
+              "x": 370,
+              "y": 645,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#ef4444"
+            },
+            {
+              "id": 5,
+              "type": "player",
+              "team": "A",
+              "x": 145,
+              "y": 458,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "6"
+            },
+            {
+              "id": 6,
+              "type": "player",
+              "team": "A",
+              "x": 95,
+              "y": 170,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "ŚO"
+            },
+            {
+              "id": 7,
+              "type": "ball",
+              "x": 175,
+              "y": 478,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#ffffff"
+            },
+            {
+              "id": 8,
+              "type": "player",
+              "team": "A",
+              "x": 445,
+              "y": 370,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "10"
+            },
+            {
+              "id": 9,
+              "type": "player",
+              "team": "A",
+              "x": 695,
+              "y": 445,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "9"
+            },
+            {
+              "id": 10,
+              "type": "player",
+              "team": "A",
+              "x": 570,
+              "y": 795,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "7"
+            },
+            {
+              "id": 11,
+              "type": "player",
+              "team": "B",
+              "x": 770,
+              "y": 345,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "1"
+            },
+            {
+              "id": 12,
+              "type": "player",
+              "team": "B",
+              "x": 770,
+              "y": 595,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "2"
+            },
+            {
+              "id": 16,
+              "type": "text",
+              "x": 370,
+              "y": 95,
+              "scale": 0.8,
+              "rotation": 0,
+              "color": "#991b1b",
+              "text": "linia pomocy rywala"
+            }
+          ],
+          "lines": [
+            {
+              "id": 13,
+              "type": "arrow-solid",
+              "startX": 158,
+              "startY": 445,
+              "endX": 433,
+              "endY": 383,
+              "color": "#111827"
+            },
+            {
+              "id": 14,
+              "type": "arrow-dashed",
+              "startX": 570,
+              "startY": 795,
+              "endX": 845,
+              "endY": 620,
+              "color": "#2563eb"
+            },
+            {
+              "id": 15,
+              "type": "arrow-dashed",
+              "startX": 695,
+              "startY": 445,
+              "endX": 845,
+              "endY": 395,
+              "color": "#2563eb"
+            }
+          ],
+          "zones": []
+        }
+      ],
+      "pitch": {
+        "type": "custom",
+        "orientation": "horizontal",
+        "width": 35,
+        "length": 40
+      },
+      "meta": {
+        "category": "Część główna (1) · fragment gry · średnia przestrzeń",
+        "duration": "15",
+        "players": "12–16",
+        "area": "40×35 m",
+        "objective": "Po przyjęciu w kieszeni – natychmiastowy atak na bramkę: 10 (przodem) + 9 + 7/11 przeciw 2 obrońcom. Szybkość wykonania, wybór: strzał / prostopadłe / zgranie.",
+        "organization": "Pole 40×35 m. Pivot (6) podaje do 10 w kieszeni (za tyczkami = linia pomocy rywala). 10 przyjmuje na pół obrotu i z 9 i skrzydłowym atakuje 2 obrońców + BR. 6 s na strzał. 3 serie × 4 min, przerwy 1:2.",
+        "description": "Trener zmienia sygnał: „przynęta” (najpierw podanie do tyłu do ŚO, potem do 10) lub „od razu”. Obrońcy po odbiorze – podanie do trenera (kontra).",
+        "coachingPoints": "Pierwszy kontakt do przodu. 9 atakuje przestrzeń między obrońcami, skrzydłowy po przekątnej. Decyzja w 2–3 kontaktach.",
+        "variations": "3×3 (dodatkowy obrońca z opóźnieniem).",
+        "phases": [
+          "Atak-Budowanie",
+          "Atak-Tworzenie szans",
+          "Atak-Finalizacja"
+        ]
+      },
+      "teamAColor": "#1d4ed8",
+      "teamBColor": "#dc2626"
+    },
+    {
+      "id": "bg-pt-gra-6x6",
+      "name": "BG Pt · Gra BR+6×6+BR: 2 pkt za bramkę po kieszeni",
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z",
+      "version": 2,
+      "frames": [
+        {
+          "items": [
+            {
+              "id": 3,
+              "type": "goal",
+              "x": 28,
+              "y": 400,
+              "scale": 1,
+              "rotation": -1.5707963267948966,
+              "color": "#ffffff"
+            },
+            {
+              "id": 4,
+              "type": "goal",
+              "x": 1012,
+              "y": 400,
+              "scale": 1,
+              "rotation": 1.5707963267948966,
+              "color": "#ffffff"
+            },
+            {
+              "id": 5,
+              "type": "player",
+              "team": "A",
+              "gk": true,
+              "x": 60,
+              "y": 400,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#16a34a",
+              "label": "BR"
+            },
+            {
+              "id": 6,
+              "type": "player",
+              "team": "B",
+              "gk": true,
+              "x": 980,
+              "y": 400,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#7c3aed",
+              "label": "BR"
+            },
+            {
+              "id": 7,
+              "type": "player",
+              "team": "A",
+              "x": 200,
+              "y": 220,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "1"
+            },
+            {
+              "id": 8,
+              "type": "player",
+              "team": "A",
+              "x": 200,
+              "y": 580,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "2"
+            },
+            {
+              "id": 9,
+              "type": "player",
+              "team": "A",
+              "x": 320,
+              "y": 400,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "3"
+            },
+            {
+              "id": 10,
+              "type": "player",
+              "team": "A",
+              "x": 440,
+              "y": 260,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "4"
+            },
+            {
+              "id": 11,
+              "type": "player",
+              "team": "A",
+              "x": 440,
+              "y": 540,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "5"
+            },
+            {
+              "id": 12,
+              "type": "player",
+              "team": "A",
+              "x": 480,
+              "y": 400,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "6"
+            },
+            {
+              "id": 13,
+              "type": "player",
+              "team": "B",
+              "x": 840,
+              "y": 220,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "1"
+            },
+            {
+              "id": 14,
+              "type": "player",
+              "team": "B",
+              "x": 840,
+              "y": 580,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "2"
+            },
+            {
+              "id": 15,
+              "type": "player",
+              "team": "B",
+              "x": 720,
+              "y": 400,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "3"
+            },
+            {
+              "id": 16,
+              "type": "player",
+              "team": "B",
+              "x": 600,
+              "y": 260,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "4"
+            },
+            {
+              "id": 17,
+              "type": "player",
+              "team": "B",
+              "x": 600,
+              "y": 540,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "5"
+            },
+            {
+              "id": 18,
+              "type": "player",
+              "team": "B",
+              "x": 560,
+              "y": 400,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": "6"
+            },
+            {
+              "id": 19,
+              "type": "ball",
+              "x": 220,
+              "y": 240,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#ffffff"
+            }
+          ],
+          "lines": [
+            {
+              "id": 2,
+              "type": "line-dashed",
+              "startX": 520,
+              "startY": 20,
+              "endX": 520,
+              "endY": 780,
+              "color": "#64748b"
+            }
+          ],
+          "zones": [
+            {
+              "id": 1,
+              "type": "rectangle",
+              "x": 20,
+              "y": 20,
+              "width": 1000,
+              "height": 760,
+              "color": "#22c55e",
+              "opacity": 0.05
+            }
+          ]
+        }
+      ],
+      "pitch": {
+        "type": "custom",
+        "orientation": "horizontal",
+        "width": 38,
+        "length": 50
+      },
+      "meta": {
+        "category": "Część główna (2) · gra · krótkie odcinki",
+        "duration": "15",
+        "players": "14",
+        "area": "50×38 m",
+        "objective": "Utrwalenie tematu tygodnia w krótkich, intensywnych grach przed meczem.",
+        "organization": "Pole 50×38 m. 4 gry × 3 min, przerwa 2 min (pełna).",
+        "description": "Bramka = 1 pkt, bramka po przyjęciu w kieszeni (między liniami rywala) lub po S-kombinacji pivotów = 2 pkt. Po odbiorze: 5 s na strzał bez ograniczeń.",
+        "coachingPoints": "Wysoka jakość, mała objętość. Coaching w locie, bez zatrzymań.",
+        "variations": "—",
+        "phases": [
+          "Atak-Otwarcie",
+          "Atak-Budowanie"
+        ]
+      },
+      "teamAColor": "#1d4ed8",
+      "teamBColor": "#dc2626"
+    },
+    {
+      "id": "bg-pt-sfg-rozny",
+      "name": "BG Pt · SFG: rzut rożny w ataku (atak przed strefę) + rutyna przedmeczowa",
+      "createdAt": "2026-10-07T10:00:00.000Z",
+      "updatedAt": "2026-10-07T10:00:00.000Z",
+      "version": 2,
+      "frames": [
+        {
+          "items": [
+            {
+              "id": 1,
+              "type": "goal",
+              "x": 30,
+              "y": 395,
+              "scale": 1,
+              "rotation": -1.5707963267948966,
+              "color": "#ffffff"
+            },
+            {
+              "id": 2,
+              "type": "player",
+              "team": "B",
+              "gk": true,
+              "x": 65,
+              "y": 395,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#7c3aed",
+              "label": "BR"
+            },
+            {
+              "id": 5,
+              "type": "ball",
+              "x": 40,
+              "y": 750,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#ffffff"
+            },
+            {
+              "id": 6,
+              "type": "player",
+              "team": "A",
+              "x": 58,
+              "y": 728,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "R"
+            },
+            {
+              "id": 7,
+              "type": "player",
+              "team": "B",
+              "x": 145,
+              "y": 295,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": ""
+            },
+            {
+              "id": 8,
+              "type": "player",
+              "team": "B",
+              "x": 145,
+              "y": 395,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": ""
+            },
+            {
+              "id": 9,
+              "type": "player",
+              "team": "B",
+              "x": 145,
+              "y": 495,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#dc2626",
+              "label": ""
+            },
+            {
+              "id": 10,
+              "type": "player",
+              "team": "A",
+              "x": 395,
+              "y": 270,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "11"
+            },
+            {
+              "id": 11,
+              "type": "player",
+              "team": "A",
+              "x": 370,
+              "y": 395,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "9"
+            },
+            {
+              "id": 12,
+              "type": "player",
+              "team": "A",
+              "x": 395,
+              "y": 520,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "7"
+            },
+            {
+              "id": 13,
+              "type": "player",
+              "team": "A",
+              "x": 495,
+              "y": 370,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "10"
+            },
+            {
+              "id": 14,
+              "type": "player",
+              "team": "A",
+              "x": 620,
+              "y": 570,
+              "scale": 1,
+              "rotation": 0,
+              "color": "#1d4ed8",
+              "label": "8"
+            }
+          ],
+          "lines": [
+            {
+              "id": 3,
+              "type": "line-dashed",
+              "startX": 433,
+              "startY": 95,
+              "endX": 433,
+              "endY": 695,
+              "color": "#64748b"
+            },
+            {
+              "id": 4,
+              "type": "line-dashed",
+              "startX": 158,
+              "startY": 270,
+              "endX": 158,
+              "endY": 520,
+              "color": "#64748b"
+            },
+            {
+              "id": 15,
+              "type": "arrow-dashed",
+              "startX": 370,
+              "startY": 395,
+              "endX": 220,
+              "endY": 345,
+              "color": "#2563eb"
+            },
+            {
+              "id": 16,
+              "type": "arrow-dashed",
+              "startX": 395,
+              "startY": 270,
+              "endX": 220,
+              "endY": 245,
+              "color": "#2563eb"
+            },
+            {
+              "id": 17,
+              "type": "arrow-dashed",
+              "startX": 395,
+              "startY": 520,
+              "endX": 220,
+              "endY": 470,
+              "color": "#2563eb"
+            },
+            {
+              "id": 18,
+              "type": "arrow-dashed",
+              "startX": 495,
+              "startY": 370,
+              "endX": 320,
+              "endY": 395,
+              "color": "#2563eb"
+            },
+            {
+              "id": 19,
+              "type": "curve-arrow-solid",
+              "startX": 58,
+              "startY": 728,
+              "endX": 220,
+              "endY": 370,
+              "color": "#111827"
+            }
+          ],
+          "zones": []
+        }
+      ],
+      "pitch": {
+        "type": "custom",
+        "orientation": "horizontal",
+        "width": 30,
+        "length": 40
+      },
+      "meta": {
+        "category": "Część końcowa · SFG / mental",
+        "duration": "8",
+        "players": "16–20",
+        "area": "40×30 m",
+        "objective": "Rzut rożny w ataku wg schematu S1 w Taktyce + elementy rutyny przedmeczowej (PZPN 19.3).",
+        "organization": "5 min: 6 rożnych (3 z prawej, 3 z lewej) w tempie meczowym, kontrolowana liczba główek. 3 min: jedno zdanie na mecz („Przynęta – i do kieszeni!”), cel procesowy każdego zawodnika, rytuał grupowy.",
+        "description": "Start z krawędzi pola karnego na sygnał wykonawcy, atak w 3 strefy przed pole bramkowe + 11. metr.",
+        "coachingPoints": "Gra głową: jakość, nie liczba powtórzeń. Zabezpieczenie: 3 + 6 zostają.",
+        "variations": "—",
+        "phases": [
+          "SFG"
+        ]
+      },
+      "teamAColor": "#1d4ed8",
+      "teamBColor": "#dc2626"
+    }
+  ]
+}
