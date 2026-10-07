@@ -66,15 +66,21 @@ Model jest w aplikacji Model Gry w zakładce **Taktyka**: 16 schematów z animac
 
 ## Tydzień 7–9.10.2026: budowanie gry przeciw obronie średniej
 
-Temat: **prowokowanie pressingu i wykorzystywanie kieszeni**. Konspekty są w pliku `import/3_konspekty_tydzien_7-9.10.json` (17 ćwiczeń z rysunkami i 3 konspekty, przedrostek „BW”).
+Temat: **prowokowanie pressingu i wykorzystywanie kieszeni**. Konspekty są w pliku `import/3_konspekty_tydzien_7-9.10.json` (12 ćwiczeń z rysunkami i 3 konspekty, przedrostek „BW”).
 
-Każdy trening ma tę samą strukturę: rozgrzewka BetterWay → rondo / gra pozycyjna → gra z kierunkiem lub fragment gry → gra → wyciszenie. Ćwiczenia piłkarskie są wzięte z analiz De Zerbiego i Xabiego i dostosowane do U14–U15.
+Każdy trening ma 4 bloki:
+1. rozgrzewka BetterWay,
+2. jedno ćwiczenie techniczne o małej złożoności – na dwóch polach lub stanowiskach, czyli dla dwóch grup naraz,
+3. ćwiczenie główne,
+4. gra.
 
-| Dzień | Akcent | Przebieg |
-|---|---|---|
-| Śr 7.10 (MD-3), 90 min | małe i średnie gry, wysoka intensywność | **BetterWay A** (stabilizacja, hamowanie i zmiana kierunku) → rondo przeniesienia 4+1×2 „góra – dół – przez” (De Zerbi) → rondo pozycyjne 5×3: trzech ŚO + dwa pivoty (Xabi) → gra 4×4+2 ze strefami wykończenia (De Zerbi) → gra BR+7×7+BR, rywal w bloku średnim, punkt za kieszeń → wyciszenie |
-| Czw 8.10 (MD-2), 90 min | duże przestrzenie, cała struktura | **BetterWay B** (mechanika biegu, przyspieszenie) → rondo pozycyjne 7×4 (Xabi) → aktywacja S-kombinacji (De Zerbi) → BR+8×7: 3-2-3 przeciw zwartemu blokowi (Xabi) → faza gry 3-2-4-1 vs 4-4-1 na 2/3 boiska → wyciszenie |
-| Pt 9.10 (MD-1, opcjonalnie), 60 min | reaktywność, mała objętość | **BetterWay C** (reaktywność) → rondo 5×2 na jeden kontakt (De Zerbi) → gra BR+6×6+BR „góra – dół – przez” do strefy wykończenia (De Zerbi) → z kieszeni do bramki 3×2 → rzut rożny w ataku i odprawa |
+Bez części końcowej. Każde ćwiczenie piłkarskie ma **punktację** (pierwszy akapit pola „Organizacja”, drukuje się w PDF). Ćwiczenia piłkarskie pochodzą z analiz De Zerbiego i Xabiego, dostosowane do U14–U15.
+
+| Dzień | 1. BetterWay | 2. Techniczne | 3. Ćwiczenie główne | 4. Gra |
+|---|---|---|---|---|
+| Śr 7.10 (MD-3), 90 min | A – stabilizacja, hamowanie, zmiana kierunku (18′) | rondo przeniesienia 4+1×2 „góra – dół – przez”, 2 pola (15′) | gra 4×4+2 ze strefami wykończenia (25′) | BR+7×7+BR, rywal w bloku średnim, punkt za kieszeń (30′) |
+| Czw 8.10 (MD-2), 90 min | B – mechanika biegu, przyspieszenie (18′) | S-kombinacja, 2 stanowiska z rywalizacją (15′) | BR+8×7: 3-2-3 przeciw zwartemu blokowi (25′) | faza gry 3-2-4-1 vs 4-4-1 na 2/3 boiska (30′) |
+| Pt 9.10 (MD-1, opcjonalnie), 60 min | C – reaktywność (14′) | rondo 5×2 na jeden kontakt, 2 kwadraty (12′) | z kieszeni do bramki 3×2+BR (15′) | BR+6×6+BR do strefy wykończenia (19′) |
 
 ### Rozgrzewki BetterWay
 
