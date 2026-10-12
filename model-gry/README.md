@@ -8,6 +8,8 @@ Rozgrzewki są w strukturze **BetterWay** (mobilizacja → aktywacja → wzorce 
 
 Model jest w aplikacji Model Gry w zakładce **Taktyka**: 16 schematów z animacjami i opisem w polu „Komentarze”. Wgrywasz go plikiem `import/2_model_gry_Xabi_DeZerbi_taktyka.json` albo `import/1_WSZYSTKO_…` (**Dane → Import → Dodaj**).
 
+
+**Pełny model gry klubu (fazy, subfazy, zachowania pozycji, karty pozycji, komendy, wskaźniki):** [`MODEL_GRY_U14_1-4-2-3-1.md`](MODEL_GRY_U14_1-4-2-3-1.md). Model łączy M1 (De Zerbi) i M2 (Xabi Alonso) z dokumentu [`modele_1-4-2-3-1.md`](modele_1-4-2-3-1.md) oraz elementy M3–M7.
 ## Tożsamość
 
 1. **Kontrolujemy grę piłką i czasem.** Sami decydujemy, kiedy zwolnić (pauza, podanie do tyłu), a kiedy przyspieszyć (pion, trzeci zawodnik).
