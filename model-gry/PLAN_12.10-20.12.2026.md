@@ -1,6 +1,6 @@
 # Plan pracy U14 · 12.10–20.12.2026
 
-To plan rundy jesiennej. Konspekty (pliki do aplikacji) przygotowujemy **tydzień po tygodniu**. Gotowy jest tydzień **T2 (Wt–Czw 13–15.10)**: `import/T02_13-15.10_tworzenie_szans_vs_niski_blok.json`. Kolejne tygodnie poniżej to tylko plan.
+To plan rundy jesiennej. Konspekty (pliki do aplikacji) przygotowujemy **tydzień po tygodniu**. Gotowy jest tydzień **T2 (Wt–Czw 13–15.10)**: `import/T02_13-15.10_tworzenie_szans_vs_niski_blok.json`. Schematy modelu gry: `import/MODEL_GRY_TAKTYKA_U14.json`. Kolejne tygodnie poniżej to tylko plan.
 
 ## Założenia
 
@@ -60,7 +60,7 @@ To plan rundy jesiennej. Konspekty (pliki do aplikacji) przygotowujemy **tydzie�
 
 | Tydz. | Faza (Pon–Śr) ↔ lustro | Czw: przejście | Indywidualna – atak | Indywidualna – obrona | Grupowa | Zespołowa |
 |---|---|---|---|---|---|---|
-| **T2** 13–15.10 ✅ · mecz nd 18.10 | Atak – tworzenie szans ↔ obrona – niski blok | A/O kontrpressing ↔ O/A wyjście spod presji | Podanie zdobywające (prostopadłe / wycofanie) | Krycie wbiegającego (#01) | Gra na trzeciego „góra–dół–przez” (#04) | 2-3-5 ↔ niski blok 4-4-1 |
+| **T2** 13–15.10 ✅ · mecz nd 18.10 | Atak – tworzenie szans ↔ obrona – niski blok | A/O kontrpressing ↔ O/A wyjście spod presji | Podanie zdobywające (prostopadłe / wycofanie) | Krycie wbiegającego (#01) | Gra na trzeciego „góra–dół–przez” (#04) | 3-2-5 / 2-3-5 ↔ blok niski 4-5-1 |
 | T3 19–22.10 · mecz sob 24.10 | Atak – otwarcie ↔ obrona – pressing wysoki | A/O: strata w budowaniu, 3+2 | Przyjęcie kierunkowe, otwarta sylwetka (#06) | Doskok z odcięciem linii podania | Wsparcie utrzymujące + podanie wsteczne (#02, #05) | Pudełko 2-4-2-2 ↔ pressing 4-4-2 |
 | T4 26–29.10 · bez meczu | Atak – budowanie ↔ obrona – blok średni | O/A: szybki atak po przechwycie | Przyjęcie na półobrocie między liniami | Przechwyt: czytanie linii podania | Rotacje w pionie, ruch tworzący przestrzeń (#09) | 3-2-4-1 ↔ blok średni 4-4-2 |
 | T5 2–5.11 · mecz sob 7.11 | Obrona – blok średni + pressing 1:1 ↔ atak – budowanie | O/A: pierwsze podanie do przodu | Ochrona piłki ramieniem i biodrem (#11) | 1v1: boczne ustawienie, kierowanie (#13) | Doskok + asekuracja | Blok średni 4-4-2, sygnały pressingu |

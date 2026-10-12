@@ -57,15 +57,16 @@ Model jest zbudowany jak w Periodyzacji Taktycznej: **zasady → podzasady → z
 
 | Moment | Struktura | Schemat w aplikacji |
 |---|---|---|
-| Otwarcie vs wysoki pressing | 2-4-2-2 („pudełko”), BR jako trzeci ŚO | O1, O3 |
-| Otwarcie vs krycie 1:1 | gra bezpośrednia na 9, w środku 4v4 | O2 |
-| Budowanie vs blok średni | 3-2-4-1 (LO do trójki, PO wahadło, 10 i 7 w kieszeniach) | B1–B4 |
-| Tworzenie szans vs blok niski | 3-2-5 / 2-3-5 → 2-3-2 lub 3-1-6 | T1, T2, T3 |
-| Finalizacja | 5 stref w polu karnym | F1 |
-| A/O | kontrpressing 5 s, zabezpieczenie 3+2 | AO1 |
-| Obrona | pressing wysoki 1:1 · blok średni 4-4-2 · blok niski 4-5-1 | OB2 · OB1 · OB3 |
-| O/A | pierwsze podanie do przodu, 3 biegi w głąb | OA1 |
-| SFG | rożny w ataku i w obronie | S1, S2 |
+| Otwarcie vs wysoki pressing | 2-4-2-2 („pudełko”), BR jako trzeci ŚO; zasada +1 | 1.1a, 1.1b, 1.1c |
+| Otwarcie vs krycie 1:1 | gra bezpośrednia na 9, w środku 4v4 | 1.1d |
+| Budowanie vs blok średni | 3-2-4-1 (LO do trójki, PO wahadło, 10 i 7 w kieszeniach) | 1.2a–1.2f |
+| Tworzenie szans vs blok niski | 3-2-5 / 2-3-5 → 2-3-2 lub 3-1-6 | 1.3a–1.3f |
+| Finalizacja | 5 stref w polu karnym, korytarz niepewności | 1.4a, 1.4b |
+| A/O | zabezpieczenie 3+2, kontrpressing 5 s, powrót do bloku | 2.1, 2.2, 2.4 |
+| Obrona | pressing wysoki · blok średni 4-4-2 · blok niski 4-5-1 · pole karne | 3.1 · 3.2a–c · 3.3 · 3.4 |
+| O/A | pierwsze podanie do przodu, 3 biegi w głąb; utrzymanie | 4.2a, 4.2b, 4.3 |
+| SFG | rożny i rzut wolny boczny w ataku i w obronie | 5.1a, 5.1b, 5.2a, 5.2b |
+| Plan B | blok 4-4-1-1 i kontra | 6 |
 
 ### 0.5 Zasada „+1” w pierwszej linii
 
@@ -76,7 +77,7 @@ Liczba naszych zawodników w pierwszej linii budowania zależy od liczby pressuj
 | 1 napastnikiem | 2 ŚO (2v1) | LO zostaje wyżej (struktura 2-3-5) |
 | 2 napastnikami | BR + 2 ŚO lub 3 z tyłu (3v2) | LO schodzi do trójki **albo** 6 schodzi między ŚO |
 | 3 napastnikami | BR + 3 (4v3) | LO do trójki i BR jako dodatkowy |
-| Kryje 1:1 całe boisko | — | gramy bezpośrednio (O2): długie podanie na 9, w środku 4v4 |
+| Kryje 1:1 całe boisko | — | gramy bezpośrednio (1.1d): długie podanie na 9, w środku 4v4 |
 
 ---
 
@@ -122,7 +123,7 @@ Liczba naszych zawodników w pierwszej linii budowania zależy od liczby pressuj
 - Rywal skacze do BR lub ŚO → gramy w kierunku presji, czyli tam, skąd przyszedł pressujący.
 - Rywal zostawia pivota wolnego → podanie do pivota na półobrót.
 - Rywal zamyka środek cieniami podań → gramy po obwodzie: boczny → skrzydłowy schodzi → 10.
-- Rywal kryje 1:1 wszystkich (zostaje 4v4 z tyłu) → **O2**: długie podanie BR lub ŚO na 9, zbiórka przez 10, 8 i skrzydłowych.
+- Rywal kryje 1:1 wszystkich (zostaje 4v4 z tyłu) → **1.1d**: długie podanie BR lub ŚO na 9, zbiórka przez 10, 8 i skrzydłowych.
 - 6+ zawodników rywala w pressingu → po wyjściu sprint do przodu („sztuczne przejście”).
 
 **Typowe błędy → korekta**
@@ -152,12 +153,12 @@ Liczba naszych zawodników w pierwszej linii budowania zależy od liczby pressuj
    - 11 i 2 rozciągają blok wszerz.
    - 9 przypina linię obrony.
 3. **Przynęta.** Podanie do tyłu (ŚO, BR) rozciąga blok w pionie, a w kieszeni powstaje miejsce.
-4. **Wejście z piłką ŚO.** Skrajny ŚO prowadzi w wolne i przyciąga skrzydłowego rywala. Wtedy podanie do kieszeni (B3).
+4. **Wejście z piłką ŚO.** Skrajny ŚO prowadzi w wolne i przyciąga skrzydłowego rywala. Wtedy podanie do kieszeni (1.2c).
 5. **„Góra–dół–przez”.**
    - GÓRA: podanie pionowe do 10 lub 9 (tyłem).
    - DÓŁ: zgranie do pivota przodem do gry.
-   - PRZEZ: podanie za linię lub do kieszeni (B2).
-6. **Zamknięty środek → zmiana strony.** Przeładowanie jednej strony i szybkie przeniesienie gry do wahadła po słabej stronie (B4). Krótki czas piłki w jednym sektorze (MP #15).
+   - PRZEZ: podanie za linię lub do kieszeni (1.2b).
+6. **Zamknięty środek → zmiana strony.** Przeładowanie jednej strony i szybkie przeniesienie gry do wahadła po słabej stronie (1.2d). Krótki czas piłki w jednym sektorze (MP #15).
 7. **Cierpliwość z celem.** Podania utrzymujące są dozwolone, ale co kilka podań szukamy podania zdobywającego.
 
 **Zachowania pozycji**
@@ -170,7 +171,7 @@ Liczba naszych zawodników w pierwszej linii budowania zależy od liczby pressuj
 | 2 (PO) | Wahadło: szeroko na wysokości linii obrony rywala. Przy zmianie strony przyjmuje w biegu, gra do 7 lub dośrodkowuje. |
 | 11 | Szeroko po lewej. Przyjęcie do nogi do 1v1 albo bieg za plecy bocznego obrońcy rywala, gdy ten wychodzi. |
 | 10, 7 | „Dwie dziesiątki” w kieszeniach: bokiem, między zawodnikami rywala (konflikt decyzyjny). Ruch „do i od piłki” (MP #18). Przyjęcie przodem do bramki (MP #20). |
-| 9 | Przypina ŚO rywala, schodzi do zgrania (ściana). Jako fałszywa 9 wyciąga ŚO i otwiera kanał dla 10 lub 7 (T1). |
+| 9 | Przypina ŚO rywala, schodzi do zgrania (ściana). Jako fałszywa 9 wyciąga ŚO i otwiera kanał dla 10 lub 7 (1.2f). |
 | 1 BR | Opcja do tyłu dla trójki, gotowy na przynętę. |
 
 **Sygnały do decyzji**
@@ -200,8 +201,8 @@ Liczba naszych zawodników w pierwszej linii budowania zależy od liczby pressuj
 
 **Warianty struktury**
 - **2-3-5:** rywal zostawia jednego napastnika, więc LO wchodzi do linii pomocy obok 6, a 8 idzie wyżej.
-- **2-3-2:** 10 i 7 schodzą z półprzestrzeni do szybkich kombinacji w środku (T3).
-- **3-1-6:** jeden pivot zostaje, 8 dołącza do przodu, sześciu tworzy dwa szerokie trójkąty (T3).
+- **2-3-2:** 10 i 7 schodzą z półprzestrzeni do szybkich kombinacji w środku (1.3a).
+- **3-1-6:** jeden pivot zostaje, 8 dołącza do przodu, sześciu tworzy dwa szerokie trójkąty (1.3a).
 
 **Zasady i podzasady**
 1. **Każdy kanał zajęty.** Rozciągamy blok wszerz i w głąb.
@@ -212,7 +213,7 @@ Liczba naszych zawodników w pierwszej linii budowania zależy od liczby pressuj
    - 5–6 zawodników po stronie piłki, dalsze wahadło szeroko na zmianę strony.
    - Ukośne łańcuchy („escadinhas”), nigdy w jednej linii poziomej.
 4. **Relacje w trójkątach.**
-   - Naddanie i podminięcie (T2).
+   - Naddanie i podminięcie (1.3f).
    - „Corta luz”: przepuszczenie piłki.
    - Ściana 1-2.
 5. **Izolacja 1v1 (M6).**
@@ -254,7 +255,7 @@ Liczba naszych zawodników w pierwszej linii budowania zależy od liczby pressuj
 
 **Cel:** strzał z pola karnego po 1–2 kontaktach. Według analizy MŚ 2022 (MP #21) 80% goli pada z pola karnego, a większość po 1–2 kontaktach.
 
-**Zajęcie pola karnego (schemat F1): 5 stref przy dośrodkowaniu lub wycofaniu**
+**Zajęcie pola karnego (schemat 1.4a): 5 stref przy dośrodkowaniu lub wycofaniu**
 
 | Strefa | Kto | Zachowanie |
 |---|---|---|
@@ -338,7 +339,7 @@ Liczba naszych zawodników w pierwszej linii budowania zależy od liczby pressuj
 
 **Wskaźniki (U14):** ≥ 4 odbiory w 5 s po stracie na połowę meczu; ≤ 2 strzały rywala po kontrze na mecz.
 
-**Schemat:** AO1. **MP:** #10 asekuracja w ataku, #13 obrona 1v1.
+**Schematy:** 2.1, 2.2, 2.4. **MP:** #10 asekuracja w ataku, #13 obrona 1v1.
 
 ---
 
@@ -384,7 +385,7 @@ Albo wysoko 1:1, albo zwarty blok. Nigdy pomiędzy.
 
 **Wskaźniki (U14):** ≥ 3 odbiory w strefie wysokiej na połowę meczu; ≥ 50% rozegrań od BR rywala kończy się wybiciem lub stratą.
 
-**Schemat:** OB2. **MP:** #13 obrona 1v1, #03 odbiór.
+**Schemat:** 3.1. **MP:** #13 obrona 1v1, #03 odbiór.
 
 ### 3.2 Subfaza: BLOK ŚREDNI 4-4-2 (podstawa bronienia)
 
@@ -436,7 +437,7 @@ Albo wysoko 1:1, albo zwarty blok. Nigdy pomiędzy.
 - ≤ 4 podania rywala do strefy 14 na połowę meczu,
 - ≥ 50% odbiorów w bocznych kanałach.
 
-**Schemat:** OB1. **MP:** #14 krycie strefowe, #13 obrona 1v1, #03 odbiór.
+**Schematy:** 3.2a (cień i kierowanie do boku), 3.2b (pułapka przy linii), 3.2c (obrona przed zmianą strony). **MP:** #14 krycie strefowe, #13 obrona 1v1, #03 odbiór.
 
 ### 3.3 Subfaza: BLOK NISKI 4-5-1
 
@@ -455,7 +456,7 @@ Albo wysoko 1:1, albo zwarty blok. Nigdy pomiędzy.
 | 2, 3 | Zamykają dośrodkowanie, w polu karnym kryją wbiegającego z drugiej strony. |
 | 9 | Zamyka podanie do pivota rywala, po odbiorze trzyma piłkę (ochrona piłki – MP #11). |
 
-**Schemat:** OB3.
+**Schemat:** 3.3. Obrona pola karnego: 3.4.
 
 ### 3.4 Subfaza: OBRONA POLA KARNEGO (dośrodkowanie, wycofanie)
 
@@ -507,7 +508,7 @@ Gdy rywal zdążył się ustawić: zabezpieczamy piłkę, gramy do tyłu do 6, �
 - ≥ 3 kontry zakończone strzałem w 10 s na mecz,
 - ≥ 70% odbiorów kończy się podaniem do partnera (bez straty).
 
-**Schemat:** OA1. **MP:** #11 ochrona piłki, #17 piłka otwarta, #19 szerokość albo wbiegnięcie.
+**Schematy:** 4.2a, 4.2b, 4.3. **MP:** #11 ochrona piłki, #17 piłka otwarta, #19 szerokość albo wbiegnięcie.
 
 ---
 
@@ -519,8 +520,8 @@ Gdy rywal zdążył się ustawić: zabezpieczamy piłkę, gramy do tyłu do 6, �
 
 | SFG | Organizacja | Zachowania |
 |---|---|---|
-| Rzut rożny (S1) | Wariant pokazywany kartką: A – bliższy słupek z przedłużeniem; B – 11. metr do wbiegającego z głębi; C – krótki 2v1 i wycofanie | „Pociąg” przy 11. metrze. Start w tempo ręki wykonawcy. Blok przy BR. 2 na zbiórce. Zabezpieczenie 3+2. |
-| Rzut wolny boczny | Dwa tempa wbiegnięcia (pierwsza fala ściąga, druga strzela), wariant po ziemi | Linia atakujących na wysokości obrońców (spalony!). Druga fala 1 s później. |
+| Rzut rożny (5.1a) | Wariant pokazywany kartką: A – bliższy słupek z przedłużeniem; B – 11. metr do wbiegającego z głębi; C – krótki 2v1 i wycofanie | „Pociąg” przy 11. metrze. Start w tempo ręki wykonawcy. Blok przy BR. 2 na zbiórce. Zabezpieczenie 3+2. |
+| Rzut wolny boczny (5.1b) | Dwa tempa wbiegnięcia (pierwsza fala ściąga, druga strzela), wariant po ziemi | Linia atakujących na wysokości obrońców (spalony!). Druga fala 1 s później. |
 | Rzut wolny bezpośredni | Mur z 1 naszym zawodnikiem (zasłona), dobitka | Dwóch na dobitkach przy słupkach. |
 | Aut w ataku | 3 opcje: ruch „do i od” za plecy, krótko do nogi i zwrot, do tyłu do wsparcia | Wrzucający po wrzucie wchodzi do gry. |
 
@@ -528,8 +529,8 @@ Gdy rywal zdążył się ustawić: zabezpieczamy piłkę, gramy do tyłu do 6, �
 
 | SFG | Organizacja | Zachowania |
 |---|---|---|
-| Rzut rożny (S2) | 4 w strefie (bliższy słupek, 5. metr środek, dalszy, 11. metr) + 3 kryjących + 1 na zbiórce + 2 do kontry | Strefowi atakują piłkę w swojej strefie. Kryjący: kontakt i pozycja „widzę piłkę i rywala”. Oś bramki decyduje o kierunku wybicia. Po wybiciu wyjście całą linią. |
-| Rzut wolny boczny | Linia 4–5 na 16. metrze, mur 1–2, lider linii | Na podniesienie ręki wykonawcy 2 kroki w tył, na podanie atak piłki do przodu. |
+| Rzut rożny (5.2a) | 4 w strefie (bliższy słupek, 5. metr środek, dalszy, 11. metr) + 3 kryjących + 1 na zbiórce + 2 do kontry | Strefowi atakują piłkę w swojej strefie. Kryjący: kontakt i pozycja „widzę piłkę i rywala”. Oś bramki decyduje o kierunku wybicia. Po wybiciu wyjście całą linią. |
+| Rzut wolny boczny (5.2b) | Linia 4–5 na 16. metrze, mur 1–2, lider linii | Na podniesienie ręki wykonawcy 2 kroki w tył, na podanie atak piłki do przodu. |
 | Aut w obronie | Krycie najbliższych opcji, zamknięcie podania wzdłuż linii | Najbliższy blokuje wrzucającego po wrzucie. |
 
 **Wskaźniki (U14):** ≥ 25% goli ze SFG w rundzie; ≤ 1 gol stracony po SFG na 4 mecze.
@@ -651,7 +652,7 @@ Każdy zawodnik w U14 poznaje min. 2 pozycje.
 | 4-4-2 (2 napastników) | BR + 3 (LO do trójki) → 3v2. Pivoci za napastnikami. | 6 lub 8 za linią napastników; kieszenie za dwoma środkowymi pomocnikami rywala | 4-4-2 lustrzane, każdy ma swojego |
 | 4-3-3 / 4-2-3-1 (1 napastnik) | 2 ŚO (2v1), LO do linii pomocy (2-3-5) | Skrajny ŚO z piłką (wejście w wolne); boczny | 9 i 10 na ŚO, 8 na 6 rywala; pomocnik najdalej od piłki w cieniu |
 | 3-5-2 / 5-3-2 | BR + 3 vs 2 napastników; skrzydłowi przypinają wahadła rywala | Półprzestrzenie obok trzech środkowych pomocników rywala; szerokość przy wahadłach | 9 + 10 + skrzydłowy na trzech ŚO rywala, boczny na wahadło |
-| Krycie 1:1 całe boisko | O2: długie podanie BR lub ŚO na 9 i zbiórka; 4v4 z przodu | Przestrzeń za linią obrony rywala | — |
+| Krycie 1:1 całe boisko | 1.1d: długie podanie BR lub ŚO na 9 i zbiórka; 4v4 z przodu | Przestrzeń za linią obrony rywala | — |
 | Niski blok 5-4-1 | 2-3-5 / 3-1-6, przechylenie, zmiana strony | Półprzestrzenie przy wahadłach rywala, 11. metr | Kontrpressing 5 s po stracie |
 
 ---
@@ -719,7 +720,7 @@ Model wprowadzamy fazami, zgodnie z [`PLAN_12.10-20.12.2026.md`](PLAN_12.10-20.1
 
 ## 12. Odnośniki
 
-- **Schematy w aplikacji (zakładka Taktyka):** O1–O3, B1–B4, T1–T3, F1, AO1, OB1–OB3, OA1, S1, S2 (pliki w `model-gry/import/`).
+- **Schematy w aplikacji (zakładka Taktyka):** plik `import/MODEL_GRY_TAKTYKA_U14.json` – 35 schematów (83 klatki), numerowanych jak subfazy w tym dokumencie (1.1a–6). Fazy i subfazy w aplikacji: Atak (Otwarcie, Budowanie, Tworzenie szans, Finalizacja), A/O (Zabezpieczenie, Kontrpressing, Powrót do bloku), Obrona (Pressing wysoki, Blok średni, Blok niski, Pole karne), O/A (Kontra, Utrzymanie), SFG (Atak, Obrona), Plan B.
 - **Modele źródłowe:** [`modele_1-4-2-3-1.md`](modele_1-4-2-3-1.md) – M1, M2 (baza), M3 (plan B), M4, M5, M6, M7.
 - **Książki:** K. Gerega, *Roberto De Zerbi – The Master of Timing*; *Xabi Alonso – Positionism and Relationism* (w repozytorium).
 - **Mikrotaktyczny Poniedziałek** #01–#21 (J. Wichłacz, Ł. Bagsik, Qualitas Coaching).

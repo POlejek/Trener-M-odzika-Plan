@@ -8,7 +8,7 @@ const common = {
 export function sfg(date) {
   const rożnyObrona = drill({
     ...common, date, id: 'sfg-rozny-obrona', name: 'SFG · Rzut rożny w obronie: 4 w strefie + 3 kryjących, oś boiska (MP #07)',
-    size: [40, 50], phases: ['SFG', 'Obrona'],
+    size: [40, 50], phases: ['SFG-Obrona', 'Obrona-Pole karne'],
     objective: 'Organizacja obrony rzutu rożnego (schemat S2): 4 zawodników w strefie (bliższy słupek, 5. metr środek, dalszy, 11. metr), 3 kryjących najgroźniejszych, 1 na zbiórce, 2 wyżej do kontry. Zasady z MP #01 i #07.',
     scoring: 'Broniący: wybicie poza pole karne = 1 pkt; zbiórka i podanie do kontrującego = 2 pkt; kontra zakończona strzałem w 8 s = 3 pkt. Atakujący: strzał celny = 1 pkt, gol = 3 pkt.',
     organization: 'Pół boiska, duża bramka z BR. Atakujący 8 + wykonawca, broniący 10 + BR. Rzuty na zmianę z lewej i prawej. 2 grupy zmieniają się rolami po 6 rzutach.',
@@ -37,7 +37,7 @@ export function sfg(date) {
 
   const rożnyAtak = drill({
     ...common, date, id: 'sfg-rozny-atak', name: 'SFG · Rzut rożny w ataku: atak przed strefę i 11. metr (schemat S1)',
-    size: [40, 50], phases: ['SFG', 'Atak-Finalizacja'],
+    size: [40, 50], phases: ['SFG-Atak', 'Atak-Finalizacja'],
     objective: 'Warianty rzutu rożnego w ataku (schemat S1): blok zasłaniający, wbiegnięcie przed pierwszego strefowego, zawodnik na 11. metrze i na zbiórce. Wnioski z analizy goli MŚ 2022 (MP #21): gole w polu karnym po 1–2 kontaktach.',
     scoring: 'Gol = 3 pkt, gol z 1. kontaktu = 4 pkt, strzał celny = 1 pkt. Broniący: wybicie poza pole karne = 1 pkt.',
     organization: 'Pół boiska, duża bramka z BR. Atakujący 9, broniący 9 + BR (ustawienie jak rywale – mieszane). 3 warianty: A – dośrodkowanie na bliższy słupek z przedłużeniem, B – na 11. metr do wbiegającego z głębi, C – krótki rożny 2v1 i wycofanie (cut-back).',
@@ -65,7 +65,7 @@ export function sfg(date) {
 
   const wolnyObrona = drill({
     ...common, date, id: 'sfg-wolny-boczny-obrona', name: 'SFG · Rzut wolny boczny w obronie: linia na 16. metrze i wyjście',
-    size: [40, 50], phases: ['SFG', 'Obrona'],
+    size: [40, 50], phases: ['SFG-Obrona', 'Obrona-Pole karne'],
     objective: 'Obrona rzutu wolnego z bocznego sektora: linia obrony 4–5 zawodników, mur 1–2, wyjście linią przed dośrodkowaniem (spalony) i atak piłki.',
     scoring: 'Broniący: rywal na spalonym = 1 pkt, wybicie = 1 pkt, kontra ze strzałem = 3 pkt. Atakujący: gol = 3 pkt.',
     organization: 'Pół boiska z BR. Rzuty z 3 pozycji (lewa, prawa, półprzestrzeń 25 m). Broniący 10 + BR, atakujący 9.',
@@ -91,7 +91,7 @@ export function sfg(date) {
 
   const wolnyAtak = drill({
     ...common, date, id: 'sfg-wolny-boczny-atak', name: 'SFG · Rzut wolny boczny w ataku: dwa tempa wbiegnięcia',
-    size: [40, 50], phases: ['SFG', 'Atak-Finalizacja'],
+    size: [40, 50], phases: ['SFG-Atak', 'Atak-Finalizacja'],
     objective: 'Rzut wolny boczny w ataku: pierwsze tempo (wbiegnięcie przed linię) i drugie tempo (wbiegnięcie z głębi na 11. metr), plus wariant zagrania po ziemi na skraj pola karnego.',
     scoring: 'Gol = 3 pkt, gol z drugiego tempa = 4 pkt. Broniący: wybicie = 1 pkt.',
     organization: 'Pół boiska z BR, rzuty z 25–30 m z boku. Atakujący 9, broniący 9 + BR.',
@@ -117,7 +117,7 @@ export function sfg(date) {
 
   const aut = drill({
     ...common, date, id: 'sfg-aut-atak', name: 'SFG · Wrzut z autu w ataku: 3 opcje i wyjście spod presji',
-    size: [30, 25], phases: ['SFG', 'Atak-Budowanie'],
+    size: [30, 25], phases: ['SFG-Atak'],
     objective: 'Utrzymanie piłki po wrzucie z autu w połowie rywala: trzy opcje (krótko do nogi, za plecy, do tyłu), ruch „do i od” (MP #18), przyjęcie zdobywające (MP #06).',
     scoring: 'Utrzymanie piłki i 3 podania = 1 pkt, wejście w strefę wykończenia = 2 pkt. Broniący: odbiór = 1 pkt.',
     organization: '2 stanowiska 30×25 m przy linii bocznej. Na stanowisku 4 atakujących + wrzucający vs 3 broniących (+ zmiennicy). Strefa wykończenia 8 m na końcu.',

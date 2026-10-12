@@ -156,12 +156,24 @@ export const tac = {
   press: (a, b) => ({ startX: a[0], startY: a[1], endX: b[0], endY: b[1], type: 'arrow-dashed', color: '#dc2626' }),
   rect: (x, y, w, h, color = '#facc15', opacity = 0.22) => ({ type: 'rectangle', x, y, width: w, height: h, color, opacity }),
   text: (text, x, y, color = '#111827') => ({ type: 'text', x, y, text, color, size: 22 }),
+  dribble: (a, b) => ({ startX: a[0], startY: a[1], endX: b[0], endY: b[1], type: 'arrow-wavy', color: '#111827' }),
+  line: (a, b, color = '#64748b') => ({ startX: a[0], startY: a[1], endX: b[0], endY: b[1], type: 'line-dashed', color }),
+  curve: (a, b, c, color = '#111827') => ({ startX: a[0], startY: a[1], endX: b[0], endY: b[1], controlX: c[0], controlY: c[1], type: 'curve-arrow-solid', color }),
+  poly: (pts, color = '#1d4ed8', opacity = 0.12) => ({ type: 'polygon', points: pts.map(([x, y]) => ({ x, y })), color, opacity }),
   html: (title, points, source) => `<b>${title}</b><ul>${points.map(p => `<li>${p}</li>`).join('')}</ul>${source ? `<p><i>Źródło: ${source}</i></p>` : ''}`,
   /** Pozycja wyjściowa: zmień wybrane pozycje. */
   with: (base, changes) => ({ ...base, ...changes }),
 };
 
-export const PHASES = { 'Atak': ['Otwarcie', 'Budowanie', 'Tworzenie szans', 'Finalizacja'], 'A/O': [], 'Obrona': [], 'O/A': [], 'SFG': [] };
+// Fazy i subfazy modelu gry klubu (MODEL_GRY_U14_1-4-2-3-1.md). Klucz schematu/ćwiczenia: 'Faza-Subfaza' albo 'Faza'.
+export const PHASES = {
+  'Atak': ['Otwarcie', 'Budowanie', 'Tworzenie szans', 'Finalizacja'],
+  'A/O': ['Zabezpieczenie', 'Kontrpressing', 'Powrót do bloku'],
+  'Obrona': ['Pressing wysoki', 'Blok średni', 'Blok niski', 'Pole karne'],
+  'O/A': ['Kontra', 'Utrzymanie'],
+  'SFG': ['Atak', 'Obrona'],
+  'Plan B': [],
+};
 
 export function backup(sections, exportedAt) {
   return { format: 'model-gry-backup', version: 1, exportedAt: exportedAt || new Date().toISOString(), sections };

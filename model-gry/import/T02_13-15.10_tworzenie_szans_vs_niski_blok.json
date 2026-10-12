@@ -1,848 +1,8 @@
 {
  "format": "model-gry-backup",
  "version": 1,
- "exportedAt": "2026-10-12T16:12:59.231Z",
+ "exportedAt": "2026-10-12T20:00:00.000Z",
  "sections": {
-  "tactics": {
-   "phases": {
-    "Atak": [
-     "Otwarcie",
-     "Budowanie",
-     "Tworzenie szans",
-     "Finalizacja"
-    ],
-    "A/O": [],
-    "Obrona": [],
-    "O/A": [],
-    "SFG": []
-   },
-   "schemes": {
-    "11v11": {
-     "Atak-Tworzenie szans": [
-      {
-       "id": 20261012001,
-       "name": "T3 · 2-3-5 → 2-3-2 i 3-1-6 przeciw niskiemu blokowi (De Zerbi)",
-       "comments": "<b>Struktura ataku na niski blok ↔ niski blok rywala</b><ul><li>2-3-5: dwóch ŚO zabezpiecza, trzech w linii pomocy kontroluje tempo, pięciu w linii ataku zajmuje każdy kanał (2 skrzydła, 2 półprzestrzenie, środek).</li><li>Najpierw środek: dwóch z półprzestrzeni schodzi i powstaje 2-3-2 – szybkie, krótkie kombinacje („góra–dół–przez”).</li><li>Gdy blok zamyka środek: 3-1-6 – boczny dołącza do ŚO (trójka), jeden pivot gra, sześciu z przodu tworzy dwa szerokie trójkąty.</li><li>Trójkąty na bokach: naddanie / podminięcie i wycofanie spod linii końcowej (42% asyst z półprzestrzeni, 34% z boku – MP #21).</li><li>LUSTRO (gdy to my bronimy nisko): 8–12 m między liniami, chroń środek, kieruj do boku, w polu karnym orientacja na wbiegającego.</li></ul><p><i>Źródło: K. Gerega, Roberto De Zerbi – The Master of Timing, s. 33–36; Mikrotaktyczny Poniedziałek #01, #20, #21</i></p>",
-       "frames": [
-        {
-         "team": [
-          {
-           "id": "gk",
-           "x": 350,
-           "y": 1000,
-           "number": "1",
-           "rotation": 0
-          },
-          {
-           "id": "lb",
-           "x": 210,
-           "y": 520,
-           "number": "3",
-           "rotation": 0
-          },
-          {
-           "id": "lcb",
-           "x": 280,
-           "y": 680,
-           "number": "4",
-           "rotation": 0
-          },
-          {
-           "id": "rcb",
-           "x": 420,
-           "y": 680,
-           "number": "5",
-           "rotation": 0
-          },
-          {
-           "id": "rb",
-           "x": 490,
-           "y": 520,
-           "number": "2",
-           "rotation": 0
-          },
-          {
-           "id": "ldm",
-           "x": 350,
-           "y": 540,
-           "number": "6",
-           "rotation": 0
-          },
-          {
-           "id": "rdm",
-           "x": 470,
-           "y": 290,
-           "number": "8",
-           "rotation": 0
-          },
-          {
-           "id": "lw",
-           "x": 70,
-           "y": 300,
-           "number": "11",
-           "rotation": 0
-          },
-          {
-           "id": "cam",
-           "x": 230,
-           "y": 290,
-           "number": "10",
-           "rotation": 0
-          },
-          {
-           "id": "rw",
-           "x": 630,
-           "y": 300,
-           "number": "7",
-           "rotation": 0
-          },
-          {
-           "id": "st",
-           "x": 350,
-           "y": 260,
-           "number": "9",
-           "rotation": 0
-          }
-         ],
-         "opponent": [
-          {
-           "id": "ogk",
-           "x": 350,
-           "y": 60,
-           "number": "1",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "olb",
-           "x": 170,
-           "y": 200,
-           "number": "3",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "olcb",
-           "x": 290,
-           "y": 210,
-           "number": "4",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "orcb",
-           "x": 410,
-           "y": 210,
-           "number": "5",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "orb",
-           "x": 530,
-           "y": 200,
-           "number": "2",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "oldm",
-           "x": 300,
-           "y": 340,
-           "number": "6",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "ordm",
-           "x": 400,
-           "y": 340,
-           "number": "8",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "olw",
-           "x": 170,
-           "y": 330,
-           "number": "11",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "ocam",
-           "x": 410,
-           "y": 470,
-           "number": "10",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "orw",
-           "x": 530,
-           "y": 330,
-           "number": "7",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "ost",
-           "x": 290,
-           "y": 470,
-           "number": "9",
-           "rotation": 3.141592653589793
-          }
-         ],
-         "ball": {
-          "x": 350,
-          "y": 540
-         },
-         "lines": [],
-         "zones": [
-          {
-           "type": "text",
-           "x": 600,
-           "y": 620,
-           "text": "2-3-5",
-           "color": "#1d4ed8",
-           "size": 22
-          }
-         ]
-        },
-        {
-         "team": [
-          {
-           "id": "gk",
-           "x": 350,
-           "y": 1000,
-           "number": "1",
-           "rotation": 0
-          },
-          {
-           "id": "lb",
-           "x": 210,
-           "y": 520,
-           "number": "3",
-           "rotation": 0
-          },
-          {
-           "id": "lcb",
-           "x": 280,
-           "y": 680,
-           "number": "4",
-           "rotation": 0
-          },
-          {
-           "id": "rcb",
-           "x": 420,
-           "y": 680,
-           "number": "5",
-           "rotation": 0
-          },
-          {
-           "id": "rb",
-           "x": 490,
-           "y": 520,
-           "number": "2",
-           "rotation": 0
-          },
-          {
-           "id": "ldm",
-           "x": 350,
-           "y": 540,
-           "number": "6",
-           "rotation": 0
-          },
-          {
-           "id": "rdm",
-           "x": 430,
-           "y": 400,
-           "number": "8",
-           "rotation": 0
-          },
-          {
-           "id": "lw",
-           "x": 70,
-           "y": 300,
-           "number": "11",
-           "rotation": 0
-          },
-          {
-           "id": "cam",
-           "x": 270,
-           "y": 400,
-           "number": "10",
-           "rotation": 0
-          },
-          {
-           "id": "rw",
-           "x": 630,
-           "y": 300,
-           "number": "7",
-           "rotation": 0
-          },
-          {
-           "id": "st",
-           "x": 350,
-           "y": 260,
-           "number": "9",
-           "rotation": 0
-          }
-         ],
-         "opponent": [
-          {
-           "id": "ogk",
-           "x": 350,
-           "y": 60,
-           "number": "1",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "olb",
-           "x": 170,
-           "y": 200,
-           "number": "3",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "olcb",
-           "x": 290,
-           "y": 210,
-           "number": "4",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "orcb",
-           "x": 410,
-           "y": 210,
-           "number": "5",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "orb",
-           "x": 530,
-           "y": 200,
-           "number": "2",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "oldm",
-           "x": 300,
-           "y": 340,
-           "number": "6",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "ordm",
-           "x": 400,
-           "y": 340,
-           "number": "8",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "olw",
-           "x": 170,
-           "y": 330,
-           "number": "11",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "ocam",
-           "x": 410,
-           "y": 470,
-           "number": "10",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "orw",
-           "x": 530,
-           "y": 330,
-           "number": "7",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "ost",
-           "x": 290,
-           "y": 470,
-           "number": "9",
-           "rotation": 3.141592653589793
-          }
-         ],
-         "ball": {
-          "x": 270,
-          "y": 400
-         },
-         "lines": [
-          {
-           "startX": 350,
-           "startY": 540,
-           "endX": 275,
-           "endY": 405,
-           "type": "arrow-solid",
-           "color": "#111827"
-          },
-          {
-           "startX": 230,
-           "startY": 290,
-           "endX": 270,
-           "endY": 400,
-           "type": "arrow-dashed",
-           "color": "#2563eb"
-          },
-          {
-           "startX": 470,
-           "startY": 290,
-           "endX": 430,
-           "endY": 400,
-           "type": "arrow-dashed",
-           "color": "#2563eb"
-          }
-         ],
-         "zones": [
-          {
-           "type": "text",
-           "x": 600,
-           "y": 620,
-           "text": "2-3-2",
-           "color": "#1d4ed8",
-           "size": 22
-          }
-         ]
-        },
-        {
-         "team": [
-          {
-           "id": "gk",
-           "x": 350,
-           "y": 1000,
-           "number": "1",
-           "rotation": 0
-          },
-          {
-           "id": "lb",
-           "x": 180,
-           "y": 640,
-           "number": "3",
-           "rotation": 0
-          },
-          {
-           "id": "lcb",
-           "x": 300,
-           "y": 680,
-           "number": "4",
-           "rotation": 0
-          },
-          {
-           "id": "rcb",
-           "x": 430,
-           "y": 680,
-           "number": "5",
-           "rotation": 0
-          },
-          {
-           "id": "rb",
-           "x": 600,
-           "y": 330,
-           "number": "2",
-           "rotation": 0
-          },
-          {
-           "id": "ldm",
-           "x": 350,
-           "y": 520,
-           "number": "6",
-           "rotation": 0
-          },
-          {
-           "id": "rdm",
-           "x": 470,
-           "y": 250,
-           "number": "8",
-           "rotation": 0
-          },
-          {
-           "id": "lw",
-           "x": 70,
-           "y": 280,
-           "number": "11",
-           "rotation": 0
-          },
-          {
-           "id": "cam",
-           "x": 200,
-           "y": 330,
-           "number": "10",
-           "rotation": 0
-          },
-          {
-           "id": "rw",
-           "x": 520,
-           "y": 330,
-           "number": "7",
-           "rotation": 0
-          },
-          {
-           "id": "st",
-           "x": 330,
-           "y": 230,
-           "number": "9",
-           "rotation": 0
-          }
-         ],
-         "opponent": [
-          {
-           "id": "ogk",
-           "x": 350,
-           "y": 60,
-           "number": "1",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "olb",
-           "x": 160,
-           "y": 200,
-           "number": "3",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "olcb",
-           "x": 290,
-           "y": 210,
-           "number": "4",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "orcb",
-           "x": 410,
-           "y": 210,
-           "number": "5",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "orb",
-           "x": 540,
-           "y": 210,
-           "number": "2",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "oldm",
-           "x": 300,
-           "y": 350,
-           "number": "6",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "ordm",
-           "x": 410,
-           "y": 350,
-           "number": "8",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "olw",
-           "x": 160,
-           "y": 340,
-           "number": "11",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "ocam",
-           "x": 410,
-           "y": 480,
-           "number": "10",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "orw",
-           "x": 560,
-           "y": 360,
-           "number": "7",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "ost",
-           "x": 290,
-           "y": 480,
-           "number": "9",
-           "rotation": 3.141592653589793
-          }
-         ],
-         "ball": {
-          "x": 600,
-          "y": 330
-         },
-         "lines": [
-          {
-           "startX": 350,
-           "startY": 520,
-           "endX": 595,
-           "endY": 335,
-           "type": "arrow-solid",
-           "color": "#dc2626"
-          }
-         ],
-         "zones": [
-          {
-           "type": "text",
-           "x": 600,
-           "y": 620,
-           "text": "3-1-6",
-           "color": "#1d4ed8",
-           "size": 22
-          },
-          {
-           "type": "polygon",
-           "points": [
-            {
-             "x": 600,
-             "y": 330
-            },
-            {
-             "x": 520,
-             "y": 330
-            },
-            {
-             "x": 470,
-             "y": 250
-            }
-           ],
-           "color": "#16a34a",
-           "opacity": 0.18
-          },
-          {
-           "type": "polygon",
-           "points": [
-            {
-             "x": 70,
-             "y": 280
-            },
-            {
-             "x": 200,
-             "y": 330
-            },
-            {
-             "x": 330,
-             "y": 230
-            }
-           ],
-           "color": "#16a34a",
-           "opacity": 0.18
-          }
-         ]
-        },
-        {
-         "team": [
-          {
-           "id": "gk",
-           "x": 350,
-           "y": 1000,
-           "number": "1",
-           "rotation": 0
-          },
-          {
-           "id": "lb",
-           "x": 180,
-           "y": 640,
-           "number": "3",
-           "rotation": 0
-          },
-          {
-           "id": "lcb",
-           "x": 300,
-           "y": 680,
-           "number": "4",
-           "rotation": 0
-          },
-          {
-           "id": "rcb",
-           "x": 430,
-           "y": 680,
-           "number": "5",
-           "rotation": 0
-          },
-          {
-           "id": "rb",
-           "x": 640,
-           "y": 130,
-           "number": "2",
-           "rotation": 0
-          },
-          {
-           "id": "ldm",
-           "x": 350,
-           "y": 520,
-           "number": "6",
-           "rotation": 0
-          },
-          {
-           "id": "rdm",
-           "x": 400,
-           "y": 230,
-           "number": "8",
-           "rotation": 0
-          },
-          {
-           "id": "lw",
-           "x": 70,
-           "y": 280,
-           "number": "11",
-           "rotation": 0
-          },
-          {
-           "id": "cam",
-           "x": 200,
-           "y": 330,
-           "number": "10",
-           "rotation": 0
-          },
-          {
-           "id": "rw",
-           "x": 520,
-           "y": 330,
-           "number": "7",
-           "rotation": 0
-          },
-          {
-           "id": "st",
-           "x": 330,
-           "y": 150,
-           "number": "9",
-           "rotation": 0
-          }
-         ],
-         "opponent": [
-          {
-           "id": "ogk",
-           "x": 350,
-           "y": 60,
-           "number": "1",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "olb",
-           "x": 160,
-           "y": 200,
-           "number": "3",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "olcb",
-           "x": 290,
-           "y": 170,
-           "number": "4",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "orcb",
-           "x": 410,
-           "y": 170,
-           "number": "5",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "orb",
-           "x": 570,
-           "y": 170,
-           "number": "2",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "oldm",
-           "x": 300,
-           "y": 350,
-           "number": "6",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "ordm",
-           "x": 430,
-           "y": 320,
-           "number": "8",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "olw",
-           "x": 160,
-           "y": 340,
-           "number": "11",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "ocam",
-           "x": 410,
-           "y": 480,
-           "number": "10",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "orw",
-           "x": 560,
-           "y": 360,
-           "number": "7",
-           "rotation": 3.141592653589793
-          },
-          {
-           "id": "ost",
-           "x": 290,
-           "y": 480,
-           "number": "9",
-           "rotation": 3.141592653589793
-          }
-         ],
-         "ball": {
-          "x": 640,
-          "y": 130
-         },
-         "lines": [
-          {
-           "startX": 600,
-           "startY": 330,
-           "endX": 520,
-           "endY": 330,
-           "type": "arrow-solid",
-           "color": "#111827"
-          },
-          {
-           "startX": 520,
-           "startY": 330,
-           "endX": 635,
-           "endY": 140,
-           "type": "arrow-solid",
-           "color": "#dc2626"
-          },
-          {
-           "startX": 600,
-           "startY": 330,
-           "endX": 640,
-           "endY": 130,
-           "type": "arrow-dashed",
-           "color": "#2563eb"
-          },
-          {
-           "startX": 640,
-           "startY": 130,
-           "endX": 400,
-           "endY": 235,
-           "type": "arrow-solid",
-           "color": "#dc2626"
-          },
-          {
-           "startX": 470,
-           "startY": 250,
-           "endX": 400,
-           "endY": 230,
-           "type": "arrow-dashed",
-           "color": "#2563eb"
-          }
-         ],
-         "zones": [
-          {
-           "type": "text",
-           "x": 520,
-           "y": 210,
-           "text": "wycofanie",
-           "color": "#dc2626",
-           "size": 22
-          }
-         ]
-        }
-       ]
-      }
-     ]
-    }
-   }
-  },
   "drills": [
    {
     "id": "bw1-wt",
@@ -2051,7 +1211,7 @@
      "coachingPoints": "🔵 NIEBIESCY – RZUT ROŻNY W ATAKU\n• Gubienie krycia ruchem „do i od” (MP #18).\n• Wbiegnięcie z głębi w drugie tempo (MP #21).\n• Strzał po 1–2 kontaktach – nie przyjmuj w polu karnym, jeśli możesz uderzyć.\n• Zabezpieczenie 3+2 zawsze na miejscu.\n🗣 Powiedz: Wbiegamy w tempo ręki wykonawcy. Każdy wie, gdzie biegnie. Pierwszy kontakt to strzał!\n\n🔴 CZERWONI – RZUT ROŻNY W OBRONIE\n• Orientacja na zawodnika wbiegającego, nie na pustą strefę (MP #01).\n• Pozycja ciała: widzę piłkę i swojego zawodnika jednocześnie.\n• Kontakt przed dośrodkowaniem – rywal nie uderza czysto.\n• Oś bramki: piłka za osią – wybijasz za siebie, przed osią – przed siebie (MP #07).\n🗣 Powiedz: Trzymaj swojego, atakuj piłkę, po wybiciu wszyscy wychodzimy!\n\nMIKROTAKTYKA: #18 Tworzenie wolnej przestrzeni, #21 Wnioski z goli MŚ 2022 ↔ #01 Krycie, #07 Obrona pola karnego.",
      "variations": "Gra głową: limit 6 główek na zawodnika. Wariant: rzut wolny boczny z tymi samymi strefami.",
      "phases": [
-      "SFG",
+      "SFG-Atak",
       "Atak-Finalizacja"
      ]
     },
@@ -2059,7 +1219,7 @@
     "teamBColor": "#dc2626"
    },
    {
-    "id": "t02-wt-rondo-transfer-gdp",
+    "id": "t02m-wt-rondo-transfer-gdp",
     "name": "T2 Wt · Rondo przeniesienia 4+1 v 2: „góra–dół–przez” (De Zerbi)",
     "createdAt": "2026-10-13T08:00:00.000Z",
     "updatedAt": "2026-10-13T08:00:00.000Z",
@@ -2333,14 +1493,15 @@
      "variations": "18: 3 pola 4+1v2 (6 os.) z jednym obrońcą wchodzącym. 22: 2 pola × 8 (5+1v2) + 1 pole × 6. Ułatwienie: bez limitu kontaktów. Utrudnienie: zgranie tylko na 1 kontakt.",
      "phases": [
       "Atak-Tworzenie szans",
-      "Obrona"
+      "Obrona-Blok niski",
+      "Obrona-Pole karne"
      ]
     },
     "teamAColor": "#1d4ed8",
     "teamBColor": "#dc2626"
    },
    {
-    "id": "t02-wt-4v4-2-strefy",
+    "id": "t02m-wt-4v4-2-strefy",
     "name": "T2 Wt · Gra 4v4+2: do strefy wykończenia tylko po „góra–dół–przez” (De Zerbi)",
     "createdAt": "2026-10-13T08:00:00.000Z",
     "updatedAt": "2026-10-13T08:00:00.000Z",
@@ -2659,14 +1820,15 @@
      "variations": "18: 2 pola 4v4+1. 22: 2 pola 4v4+3 (De Zerbi). Utrudnienie: strefa wykończenia 4 m. Ułatwienie: 3 neutralnych.",
      "phases": [
       "Atak-Tworzenie szans",
-      "Obrona"
+      "Obrona-Blok niski",
+      "Obrona-Pole karne"
      ]
     },
     "teamAColor": "#1d4ed8",
     "teamBColor": "#dc2626"
    },
    {
-    "id": "t02-wt-7v7-gdp",
+    "id": "t02m-wt-7v7-gdp",
     "name": "T2 Wt · Gra BR+7v7+BR: strefa wykończenia po „góra–dół–przez” (De Zerbi)",
     "createdAt": "2026-10-13T08:00:00.000Z",
     "updatedAt": "2026-10-13T08:00:00.000Z",
@@ -3058,18 +2220,19 @@
      "objective": "Umiejętność grupowa w grze z bramkarzami: progresja i wejście w pole karne kombinacją na trzeciego przeciw drużynie broniącej nisko. Broniący trenują krycie wbiegającego w polu karnym.",
      "organization": "PUNKTACJA: Gol po wejściu do strefy wykończenia kombinacją „góra–dół–przez” = 2 pkt; inny gol = 1 pkt. Broniący: odbiór i gol w 6 s = 1 pkt.\n\nBoisko 50×40 m, 2 duże bramki z BR. Strefy wykończenia 12 m przed bramkami (linia talerzyków). Drużyny BR + 7. Drużyna bez piłki broni nisko: tylko 2 zawodników może przekroczyć połowę boiska. W strefie wykończenia max 2 kontakty. Zmiennicy przy linii, zmiana co 2 min.",
      "description": "START: BR drużyny rozpoczynającej, potem gra ciągła.\n\nPRZEBIEG:\n1. Budowanie od BR, rywal broni w bloku na swojej połowie.\n2. Szukamy „ściany” (napastnik plecami, 10 w kieszeni) – zgranie do wbiegającego z głębi.\n3. Podanie „przez” do strefy wykończenia i strzał po 1–2 kontaktach.\n\nCIĄGŁOŚĆ (co dalej): Gra ciągła. Gol / aut bramkowy → BR wznawia od razu (rywal 3 s na powrót do bloku). Aut boczny → trener wrzuca nową piłkę drużynie, która nie wybiła.\n\nSERIE: 4 × 6 min, przerwa 1:30.\n\nROTACJA: Zmiennicy co 2 min; BR zamieniają się stronami po 2 seriach.",
-     "coachingPoints": "🔵 DRUŻYNA PRZY PIŁCE – TWORZENIE SZANS\n• Góra–dół–przez: podanie do „ściany” plecami, zgranie na 1 kontakt, trzeci wbiega za plecy.\n• Podanie zdobywające: w tempo biegu partnera, za linię obrońców – nie do nogi stojącego.\n• Wycofanie spod linii końcowej po ziemi na 11. metr – tam stoi wbiegający z głębi.\n• Strzał po 1–2 kontaktach w polu karnym (MP #21).\n🗣 Powiedz: Szukamy ściany i trzeciego. Podanie w bieg – i strzał z pierwszej!\n\n🔴 DRUŻYNA BEZ PIŁKI – NISKI BLOK\n• Blisko siebie: 8–12 m między liniami, chronimy środek, kierujemy grę do boku.\n• Krycie wbiegającego: orientacja na zawodnika, który wbiega w strefę – nie na pustą strefę.\n• Kontakt fizyczny w polu karnym – rywal nie może uderzyć czysto.\n• Nie śledź wzrokiem piłki zwrotnej („hipnoza”) – sprawdź, kto wbiega za twoje plecy.\n🗣 Powiedz: Wszyscy razem, blisko. W polu karnym każdy ma swojego wbiegającego!\n\nMIKROTAKTYKA: #04 Gra na trzeciego ↔ #01 Krycie.",
+     "coachingPoints": "🔵 DRUŻYNA PRZY PIŁCE – TWORZENIE SZANS\n• Góra–dół–przez: podanie do „ściany” plecami, zgranie na 1 kontakt, trzeci wbiega za plecy.\n• Podanie zdobywające: w tempo biegu partnera, za linię obrońców – nie do nogi stojącego.\n• Wycofanie spod linii końcowej po ziemi na 11. metr – tam stoi wbiegający z głębi.\n• Strzał po 1–2 kontaktach w polu karnym (MP #21).\n🗣 Powiedz: Szukamy ściany i trzeciego. Podanie w bieg – i strzał z pierwszej!\n\n🔴 DRUŻYNA BEZ PIŁKI – NISKI BLOK\n• Blok niski (model 3.3): blisko siebie, 8–12 m między liniami, 6 pilnuje strefy 14, kierujemy grę do boku.\n• Krycie wbiegającego: orientacja na zawodnika, który wbiega w strefę – nie na pustą strefę.\n• Kontakt fizyczny w polu karnym – rywal nie może uderzyć czysto.\n• Nie śledź wzrokiem piłki zwrotnej („hipnoza”) – sprawdź, kto wbiega za twoje plecy.\n🗣 Powiedz: Wszyscy razem, blisko. W polu karnym każdy ma swojego wbiegającego!\n\nMIKROTAKTYKA: #04 Gra na trzeciego ↔ #01 Krycie.",
      "variations": "18: 7v7 + 2 zmienników. 22: BR+8v8+BR na 55×42 + 2 zmienników. Utrudnienie: tylko 1 zawodnik broniących może przekroczyć połowę (głębszy blok).",
      "phases": [
       "Atak-Tworzenie szans",
-      "Obrona"
+      "Obrona-Blok niski",
+      "Obrona-Pole karne"
      ]
     },
     "teamAColor": "#1d4ed8",
     "teamBColor": "#dc2626"
    },
    {
-    "id": "t02-sr-podanie-zdobywajace-krycie",
+    "id": "t02m-sr-podanie-zdobywajace-krycie",
     "name": "T2 Śr · Podanie zdobywające kontra krycie wbiegającego: 3v2 + BR (2 stanowiska)",
     "createdAt": "2026-10-14T08:00:00.000Z",
     "updatedAt": "2026-10-14T08:00:00.000Z",
@@ -3367,14 +2530,14 @@
      "phases": [
       "Atak-Tworzenie szans",
       "Atak-Finalizacja",
-      "Obrona"
+      "Obrona-Pole karne"
      ]
     },
     "teamAColor": "#1d4ed8",
     "teamBColor": "#dc2626"
    },
    {
-    "id": "t02-sr-8v8-35-vs-44",
+    "id": "t02m-sr-8v8-35-vs-44",
     "name": "T2 Śr · Gra pozycyjna 8 v 8+BR: 3-5 przeciw niskiemu blokowi 4-4 (De Zerbi)",
     "createdAt": "2026-10-14T08:00:00.000Z",
     "updatedAt": "2026-10-14T08:00:00.000Z",
@@ -3765,18 +2928,19 @@
      "objective": "Umiejętność zespołowa w skróconej formie: pięciu atakujących zajmuje 5 kanałów (szerokość + półprzestrzenie + środek), trzech z tyłu kontroluje tempo i podaje zdobywająco. Broniący: kompaktowy blok 4-4, ochrona środka, krycie wbiegających.",
      "organization": "PUNKTACJA: Niebiescy: gol = 1 pkt; gol po podaniu zdobywającym w półprzestrzeń lub po wycofaniu = 2 pkt. Czerwoni: odbiór → 6 s na gol do jednej z 3 mini-bramek = 1 pkt (niebiescy kontrpressing).\n\nPole 40×50 m od linii końcowej. Duża bramka z BR czerwonych, na linii startowej 3 mini-bramki. Niebiescy 8 w ustawieniu 3-5, czerwoni 8 w bloku 4-4. Linia spalonego 16 m przed bramką (obowiązuje po jej przekroczeniu). Drugi BR: trening z trenerem BR, zmiana po 2 seriach. Zmiennicy wchodzą co serię.",
      "description": "START: Trener przy linii startowej podaje do środkowego z trójki niebieskich.\n\nPRZEBIEG:\n1. Trójka przesuwa piłkę, piątka z przodu stoi w pięciu kanałach na wysokości linii obrony.\n2. Podanie zdobywające do zawodnika schodzącego w półprzestrzeń / „góra–dół–przez”.\n3. Wejście za linię spalonego, prostopadłe lub wycofanie i strzał.\n\nCIĄGŁOŚĆ (co dalej): Każde zakończenie (gol, obrona BR, aut, upływ 6 s kontry) → trener natychmiast podaje nową piłkę do trójki niebieskich. Czerwoni wracają do bloku 4-4.\n\nSERIE: 4 × 5 min, przerwa 1:15; po 2 seriach zamiana ról.\n\nROTACJA: Po 2 seriach niebiescy ↔ czerwoni (każdy trenuje atak i blok). Zmiennicy co serię.",
-     "coachingPoints": "🔵 NIEBIESCY – TWORZENIE SZANS (3-5)\n• Pięć kanałów zajętych: skrzydła szeroko, półprzestrzenie między obrońcami, środek przypina ŚO.\n• Najpierw środek – podanie zdobywające między linie.\n• Góra–dół–przez: podanie do „ściany” plecami, zgranie na 1 kontakt, trzeci wbiega za plecy.\n• Gdy blok przesunie się do piłki – szybka zmiana strony.\n🗣 Powiedz: Każdy w swoim kanale. Rozciągamy ich – i podanie w lukę!\n\n🔴 CZERWONI – NISKI BLOK 4-4\n• Blisko siebie: 8–12 m między liniami, chronimy środek, kierujemy grę do boku.\n• Przesuwamy się razem w stronę piłki – dalsza strona zawęża.\n• Krycie wbiegającego: orientacja na zawodnika, który wbiega w strefę – nie na pustą strefę.\n• Komunikacja: przekazanie krycia, gdy rywal zmienia kanał.\n🗣 Powiedz: Środek zamknięty, niech grają do boku. Każdy wbiegający ma swojego!\n\nMIKROTAKTYKA: #04 Gra na trzeciego ↔ #14 Krycie strefowe (kompaktowość, przekazywanie krycia).",
+     "coachingPoints": "🔵 NIEBIESCY – TWORZENIE SZANS (3-5)\n• Pięć kanałów zajętych: skrzydła szeroko, półprzestrzenie między obrońcami, środek przypina ŚO.\n• Najpierw środek – podanie zdobywające między linie.\n• Góra–dół–przez: podanie do „ściany” plecami, zgranie na 1 kontakt, trzeci wbiega za plecy.\n• Gdy blok przesunie się do piłki – szybka zmiana strony.\n🗣 Powiedz: Każdy w swoim kanale. Rozciągamy ich – i podanie w lukę!\n\n🔴 CZERWONI – NISKI BLOK 4-4\n• Blok niski (model 3.3): blisko siebie, 8–12 m między liniami, 6 pilnuje strefy 14, kierujemy grę do boku.\n• Przesuwamy się razem w stronę piłki – dalsza strona zawęża.\n• Krycie wbiegającego: orientacja na zawodnika, który wbiega w strefę – nie na pustą strefę.\n• Komunikacja: przekazanie krycia, gdy rywal zmienia kanał.\n🗣 Powiedz: Środek zamknięty, niech grają do boku. Każdy wbiegający ma swojego!\n\nMIKROTAKTYKA: #04 Gra na trzeciego ↔ #14 Krycie strefowe (kompaktowość, przekazywanie krycia).",
      "variations": "18: 7 v 7+BR (3-4 vs 4-3). 22: 8 v 8+BR + 6 zmienników w 2 falach lub 9 v 9+BR na 45×55. Utrudnienie: czerwoni 9 (4-4-1).",
      "phases": [
       "Atak-Tworzenie szans",
-      "Obrona"
+      "Obrona-Blok niski",
+      "Obrona-Pole karne"
      ]
     },
     "teamAColor": "#1d4ed8",
     "teamBColor": "#dc2626"
    },
    {
-    "id": "t02-sr-faza-235-vs-441",
+    "id": "t02m-sr-faza-235-vs-441",
     "name": "T2 Śr · Faza gry 10 v 9+BR: 2-3-5 przeciw niskiemu blokowi 4-4-1 (De Zerbi)",
     "createdAt": "2026-10-14T08:00:00.000Z",
     "updatedAt": "2026-10-14T08:00:00.000Z",
@@ -4236,18 +3400,19 @@
      "objective": "Umiejętność zespołowa tygodnia w pełnej formie: 2-3-5 (pięciu w pięciu kanałach), przejście w 2-3-2 przy kombinacjach centralnych. Lustro: niski blok 4-4-1 – kompaktowość, ochrona środka, kierowanie do boku, krycie w polu karnym.",
      "organization": "PUNKTACJA: Niebiescy: gol = 1 pkt; gol po podaniu zdobywającym przez środek (półprzestrzeń / „góra–dół–przez”) = 2 pkt; gol po wycofaniu = 2 pkt. Czerwoni: odbiór → 8 s na gol do jednej z 3 mini-bramek na linii środkowej = 1 pkt; każde 3 kolejne akcje niebieskich bez strzału = 1 pkt.\n\nPołowa boiska + 5 m (55×68). Duża bramka z BR czerwonych, 3 mini-bramki na linii środkowej. Niebiescy 10 (2 ŚO, 3 pomocników, 5 w linii ataku). Czerwoni 9 + BR w bloku 4-4-1. Spalony od 16. metra. Drugi BR: zmiana co 2 serie. Trener z piłkami przy linii środkowej.",
      "description": "START: Trener podaje do ŚO niebieskich na linii środkowej – czerwoni w bloku.\n\nPRZEBIEG:\n1. Pięciu z przodu zajmuje 5 kanałów, 2+3 z tyłu.\n2. Najpierw środek: dwóch z półprzestrzeni schodzi (2-3-2) – podanie zdobywające / gra na trzeciego.\n3. Gdy środek zamknięty – bok i wycofanie spod linii końcowej.\n\nCIĄGŁOŚĆ (co dalej): Każde zakończenie (gol, obrona BR, aut, upływ 8 s kontry) → trener natychmiast podaje nową piłkę do ŚO niebieskich. Czerwoni wracają do bloku. Między akcjami max 5 s.\n\nSERIE: 4 × 6 min, przerwa 1:30; po 2 seriach zamiana ról. Ostatnie 3 min serii 4 – pełna intensywność (MP #21: najwięcej goli pod koniec połowy).\n\nROTACJA: Po 2 seriach niebiescy ↔ czerwoni. W drużynie skrzydłowi ↔ pomocnicy po 1. serii.",
-     "coachingPoints": "🔵 NIEBIESCY – TWORZENIE SZANS (2-3-5)\n• Każdy kanał zajęty – rozciągnij blok wszerz i w głąb.\n• Najpierw środek, potem bok.\n• Podanie zdobywające: w tempo biegu partnera, za linię obrońców – nie do nogi stojącego.\n• Wycofanie spod linii końcowej po ziemi na 11. metr – tam stoi wbiegający z głębi.\n• Zabezpieczenie 2+3 przy każdej akcji.\n🗣 Powiedz: Pięciu z przodu, każdy w swoim kanale. Podanie w lukę albo wycofanie!\n\n🔴 CZERWONI – NISKI BLOK 4-4-1\n• Blisko siebie: 8–12 m między liniami, chronimy środek, kierujemy grę do boku.\n• Linia obrony razem – nie wychodzi pojedynczo.\n• Krycie wbiegającego: orientacja na zawodnika, który wbiega w strefę – nie na pustą strefę.\n• Kontakt fizyczny w polu karnym – rywal nie może uderzyć czysto.\n• Po odbiorze: pierwsze podanie do przodu (kontra 8 s).\n🗣 Powiedz: Środek zamknięty, kierujemy do boku. W polu karnym – każdy ma swojego!\n\nMIKROTAKTYKA: #04 Gra na trzeciego, #21 wycofanie ↔ #01 Krycie, #14 Krycie strefowe.",
+     "coachingPoints": "🔵 NIEBIESCY – TWORZENIE SZANS (2-3-5)\n• Każdy kanał zajęty – rozciągnij blok wszerz i w głąb.\n• Najpierw środek, potem bok.\n• Podanie zdobywające: w tempo biegu partnera, za linię obrońców – nie do nogi stojącego.\n• Wycofanie spod linii końcowej po ziemi na 11. metr – tam stoi wbiegający z głębi.\n• Zabezpieczenie 2+3 przy każdej akcji.\n🗣 Powiedz: Pięciu z przodu, każdy w swoim kanale. Podanie w lukę albo wycofanie!\n\n🔴 CZERWONI – NISKI BLOK 4-4-1\n• Blok niski (model 3.3): blisko siebie, 8–12 m między liniami, 6 pilnuje strefy 14, kierujemy grę do boku.\n• Linia obrony razem – nie wychodzi pojedynczo.\n• Krycie wbiegającego: orientacja na zawodnika, który wbiega w strefę – nie na pustą strefę.\n• Kontakt fizyczny w polu karnym – rywal nie może uderzyć czysto.\n• Po odbiorze: pierwsze podanie do przodu (kontra 8 s).\n🗣 Powiedz: Środek zamknięty, kierujemy do boku. W polu karnym – każdy ma swojego!\n\nMIKROTAKTYKA: #04 Gra na trzeciego, #21 wycofanie ↔ #01 Krycie, #14 Krycie strefowe.",
      "variations": "18–19: 9 v 8+BR. 22: 11 v 10+BR (4-4-2). Utrudnienie: czerwoni 6 s na kontrę, ale 5 mini-bramek.",
      "phases": [
       "Atak-Tworzenie szans",
-      "Obrona"
+      "Obrona-Blok niski",
+      "Obrona-Pole karne"
      ]
     },
     "teamAColor": "#1d4ed8",
     "teamBColor": "#dc2626"
    },
    {
-    "id": "t02-czw-rondo-5v2-kontra",
+    "id": "t02m-czw-rondo-5v2-kontra",
     "name": "T2 Czw · Rondo 5v2: kontrpressing 4 s kontra wyjście na mini-bramkę",
     "createdAt": "2026-10-15T08:00:00.000Z",
     "updatedAt": "2026-10-15T08:00:00.000Z",
@@ -4484,15 +3649,15 @@
      "coachingPoints": "🔵 PIĄTKA – A/O: KONTRPRESSING\n• Mając piłkę – myśl o stracie: pierwsza i druga linia asekuracji pod piłką (MP #10).\n• Strata: najbliższy atakuje piłkę natychmiast, dwóch zamyka mini-bramki.\n• Nie faulujemy – zabieramy czas i miejsce.\n🗣 Powiedz: Stracisz – od razu odbierasz! Cztery sekundy!\n\n🔴 DWÓJKA – O/A: WYJŚCIE SPOD KONTRPRESSINGU\n• Po odbiorze pierwsze spojrzenie do przodu – mini-bramka.\n• Pierwszy kontakt poza strefę presji (od rywala).\n• Partner od razu daje linię podania.\n🗣 Powiedz: Odebrałeś – pierwszy kontakt od presji i na bramkę!\n\nMIKROTAKTYKA: #10 Faza przejściowa – asekuracja w ataku.",
      "variations": "18: 3 pola 4v2. 22: 2 pola 6v2 + 1 pole 5v2.",
      "phases": [
-      "A/O",
-      "O/A"
+      "A/O-Kontrpressing",
+      "O/A-Kontra"
      ]
     },
     "teamAColor": "#1d4ed8",
     "teamBColor": "#dc2626"
    },
    {
-    "id": "t02-czw-strata-pod-polem-karnym",
+    "id": "t02m-czw-strata-pod-polem-karnym",
     "name": "T2 Czw · Atak 6 v 4+BR → strata → kontrpressing 5 s kontra kontra 8 s",
     "createdAt": "2026-10-15T08:00:00.000Z",
     "updatedAt": "2026-10-15T08:00:00.000Z",
@@ -4809,16 +3974,16 @@
      "coachingPoints": "🔵 NIEBIESCY – ATAK I A/O (KONTRPRESSING)\n• Atakujemy blisko siebie – wtedy po stracie jesteśmy blisko piłki.\n• Pierwsze 5 s: najbliższy na piłkę, pozostali zamykają podania do przodu.\n• Jeden zawsze zabezpiecza długą piłkę.\n• Podanie zdobywające: w tempo biegu partnera, za linię obrońców – nie do nogi stojącego.\n🗣 Powiedz: Strata pod ich bramką to najlepszy moment na odbiór – pięć sekund!\n\n🔴 CZERWONI – NISKI BLOK I O/A (WYJŚCIE SPOD PRESJI)\n• Krycie wbiegającego: orientacja na zawodnika, który wbiega w strefę – nie na pustą strefę.\n• Po odbiorze: pierwsze podanie poza strefę presji (do boku / do tyłu i do przodu).\n• Ochrona piłki ramieniem i biodrem, gdy rywal atakuje z tyłu (MP #11).\n• Kontra: prowadź na obrońcę, oddaj w odpowiednim momencie.\n🗣 Powiedz: Odbierasz – nie kopiesz na oślep. Wyjdź spod presji i do przodu!\n\nMIKROTAKTYKA: #10 Asekuracja w ataku ↔ #11 Ochrona piłki.",
      "variations": "18: 5 v 4+BR. 22: 7 v 5+BR. Bez BR: 2 mini-bramki zamiast dużej.",
      "phases": [
-      "A/O",
-      "O/A",
-      "Atak-Tworzenie szans"
+      "A/O-Zabezpieczenie",
+      "A/O-Kontrpressing",
+      "O/A-Kontra"
      ]
     },
     "teamAColor": "#1d4ed8",
     "teamBColor": "#dc2626"
    },
    {
-    "id": "t02-czw-gra-8v8-wahadla",
+    "id": "t02m-czw-gra-8v8-wahadla",
     "name": "T2 Czw · Gra BR+8v8+BR z 2 neutralnymi na wahadłach: zawężaj i odbieraj (MP #10)",
     "createdAt": "2026-10-15T08:00:00.000Z",
     "updatedAt": "2026-10-15T08:00:00.000Z",
@@ -5209,8 +4374,8 @@
      "coachingPoints": "🔵 DRUŻYNA PRZY PIŁCE – A/O\n• Zawężaj i skracaj pole, mając piłkę.\n• Pierwsza i druga linia asekuracji pod piłką.\n• Strata: pressuj, gdy rywal ma złe przyjęcie; cofnij się, gdy ma czyste przyjęcie i przewagę.\n🗣 Powiedz: Mamy piłkę – blisko siebie. Stracimy – pięć sekund na odbiór!\n\n🔴 DRUŻYNA, KTÓRA ODBIERA – O/A\n• Pierwsze spojrzenie do przodu.\n• Pierwszy kontakt od presji, podanie poza strefę kontrpressingu (często do wahadła).\n• Biegi w głąb od razu po odbiorze.\n🗣 Powiedz: Odbiór – i natychmiast z dala od ich pressingu, do przodu!\n\nMIKROTAKTYKA: #10 Faza przejściowa – asekuracja w ataku (środek z odcinka).",
      "variations": "18: 7v7 + 2 neutralnych. 22: 9v9 + 2 neutralnych na 60×42.",
      "phases": [
-      "A/O",
-      "O/A"
+      "A/O-Kontrpressing",
+      "O/A-Kontra"
      ]
     },
     "teamAColor": "#1d4ed8",
@@ -5219,45 +4384,46 @@
   ],
   "sessions": [
    {
-    "id": "t02-wt",
-    "title": "T2 · Wt 13.10 (MD-5) · Gra na trzeciego ↔ kontrola wbiegającego – małe pola",
+    "id": "t02m-wt",
+    "title": "T2 · Wt 13.10 (MD-5) · 1.3 Gra na trzeciego ↔ 3.4 krycie wbiegającego – małe pola",
     "date": "2026-10-13",
     "group": "U14 (18–22 zawodników)",
     "goal": "Akcent: umiejętność GRUPOWA tygodnia – gra na trzeciego „góra–dół–przez” (lustro: nie daj się zahipnotyzować piłce zwrotnej, kontroluj wbiegającego). W tle umiejętności indywidualne: podanie zdobywające ↔ krycie wbiegającego. Małe pola, dużo starć. Akcent motoryczny: siła masą ciała + plyometria wolna.",
-    "notes": "KARTA TYGODNIA T2 (13–15.10, mecz nd 18.10)\nFaza: ATAK – TWORZENIE SZANS przeciw niskiemu blokowi ↔ lustro: OBRONA – NISKI BLOK. Czwartek: A/O kontrpressing ↔ O/A wyjście spod kontrpressingu.\nUmiejętności tygodnia (te same przez 3 dni, rośnie złożoność: Wt grupowa, Śr zespołowa, Czw przejście):\n• Indywidualna – atak: PODANIE ZDOBYWAJĄCE (prostopadłe za linię w tempo biegu / wycofanie spod linii końcowej).\n• Indywidualna – obrona: KRYCIE WBIEGAJĄCEGO (orientacja na zawodnika, nie na strefę; widzę piłkę i rywala; kontakt) – MP #01.\n• Grupowa: GRA NA TRZECIEGO „góra–dół–przez” (MP #04) ↔ obrona: nie daj się zahipnotyzować piłce zwrotnej – kontroluj wbiegającego za plecy.\n• Zespołowa: 2-3-5 PRZECIW NISKIEMU BLOKOWI ↔ obrona: NISKI BLOK 4-4-1 (8–12 m między liniami, chroń środek, kieruj do boku).\nZasada: każde ćwiczenie ma wskazówki przeciwstawne – 🔵 niebiescy trenują atak, 🔴 czerwoni trenują obronę. Drużyny zamieniają się rolami w połowie ćwiczenia, więc każdy trenuje obie strony.\n\nORGANIZACJA DNIA: 3 pola 20×10 (12 mini-bramek), 2 pola 30×16 ze strefami wykończenia (8 mini-bramek), boisko 50×40 z 2 bramkami. ~25 piłek, znaczniki 3 kolory.\nPytania do zawodników: Kto jest ścianą, a kto trzecim? (atak) · Kto biegnie za moje plecy? (obrona)\nSukces dnia: min. 2 gole w grze 7v7 po „góra–dół–przez” na drużynę; obrońcy – min. 3 przechwyty podania „przez” w grze 4v4+2.",
+    "notes": "KARTA TYGODNIA T2 (13–15.10, mecz nd 18.10) · model gry U14 1-4-2-3-1\nFaza: 1.3 TWORZENIE SZANS przeciw niskiemu blokowi ↔ lustro: 3.3 BLOK NISKI i 3.4 POLE KARNE. Czwartek: 2.1–2.2 zabezpieczenie i kontrpressing ↔ 4.1–4.2 wyjście spod presji i kontra.\nUmiejętności tygodnia (te same przez 3 dni, rośnie złożoność: Wt grupowa, Śr zespołowa, Czw przejście):\n• Indywidualna – atak: PODANIE ZDOBYWAJĄCE (prostopadłe za linię w tempo biegu / wycofanie spod linii końcowej).\n• Indywidualna – obrona: KRYCIE WBIEGAJĄCEGO (orientacja na zawodnika, nie na strefę; widzę piłkę i rywala; kontakt) – MP #01.\n• Grupowa: GRA NA TRZECIEGO „góra–dół–przez” (MP #04) ↔ obrona: nie daj się zahipnotyzować piłce zwrotnej – kontroluj wbiegającego za plecy.\n• Zespołowa: 3-2-5 / 2-3-5 PRZECIW NISKIEMU BLOKOWI (schemat 1.3a) ↔ obrona: BLOK NISKI 4-5-1 (schemat 3.3; w grach z 9 zawodnikami 4-4-1 bez „dziesiątki”).\nKomendy tygodnia: „Trzeci!” · „Kieszeń!” · „Czas!” · „Mam!” / „Twój!” · „5 sekund!” · „Blok!”.\nWskaźniki tygodnia (gry): wejścia w pole karne ≥ 6 na serię 6 min · ≥ 60% strzałów z pola karnego · odbiory w 5 s po stracie ≥ 3 na serię (czw).\nZasada: każde ćwiczenie ma wskazówki przeciwstawne – 🔵 niebiescy trenują atak, 🔴 czerwoni trenują obronę. Drużyny zamieniają się rolami w połowie ćwiczenia, więc każdy trenuje obie strony.\n\nORGANIZACJA DNIA: 3 pola 20×10 (12 mini-bramek), 2 pola 30×16 ze strefami wykończenia (8 mini-bramek), boisko 50×40 z 2 bramkami. ~25 piłek, znaczniki 3 kolory.\nPytania do zawodników: Kto jest ścianą, a kto trzecim? (atak) · Kto biegnie za moje plecy? (obrona)\nSukces dnia: min. 2 gole w grze 7v7 po „góra–dół–przez” na drużynę; obrońcy – min. 3 przechwyty podania „przez” w grze 4v4+2.",
     "phases": [
      "Atak-Tworzenie szans",
-     "Obrona"
+     "Obrona-Blok niski",
+     "Obrona-Pole karne"
     ],
     "blocks": [
      {
-      "id": "t02-wt-b0",
+      "id": "t02m-wt-b0",
       "drillId": null,
       "title": "Odprawa",
       "minutes": "2",
-      "note": "Karta tygodnia (4 umiejętności). Pokaz „góra–dół–przez” na tablicy. Hasło: „Ściana – i za plecy!”."
+      "note": "Karta tygodnia (4 umiejętności). Taktyka: schematy 1.3b („góra–dół–za linię”) i 1.2b (przynęta → „góra–dół–przez”). Hasło: „Ściana – i za plecy!”."
      },
      {
-      "id": "t02-wt-b1",
+      "id": "t02m-wt-b1",
       "drillId": "bw1-wt",
       "minutes": "18",
       "note": ""
      },
      {
-      "id": "t02-wt-b2",
-      "drillId": "t02-wt-rondo-transfer-gdp",
+      "id": "t02m-wt-b2",
+      "drillId": "t02m-wt-rondo-transfer-gdp",
       "minutes": "15",
       "note": ""
      },
      {
-      "id": "t02-wt-b3",
-      "drillId": "t02-wt-4v4-2-strefy",
+      "id": "t02m-wt-b3",
+      "drillId": "t02m-wt-4v4-2-strefy",
       "minutes": "25",
       "note": ""
      },
      {
-      "id": "t02-wt-b4",
-      "drillId": "t02-wt-7v7-gdp",
+      "id": "t02m-wt-b4",
+      "drillId": "t02m-wt-7v7-gdp",
       "minutes": "30",
       "note": ""
      }
@@ -5266,45 +4432,46 @@
     "updatedAt": "2026-10-13T12:00:00.000Z"
    },
    {
-    "id": "t02-sr",
-    "title": "T2 · Śr 14.10 (MD-4) · 2-3-5 ↔ niski blok 4-4-1 – duże pola",
+    "id": "t02m-sr",
+    "title": "T2 · Śr 14.10 (MD-4) · 1.3a 3-2-5 ↔ 3.3 blok niski 4-5-1 – duże pola",
     "date": "2026-10-14",
     "group": "U14 (18–22 zawodników)",
     "goal": "Akcent: umiejętność ZESPOŁOWA tygodnia – 2-3-5 przeciw niskiemu blokowi (lustro: niski blok 4-4-1, kompaktowy środek). Na początku umiejętności indywidualne w pojedynku: podanie zdobywające ↔ krycie wbiegającego. Akcent motoryczny: wytrzymałość (RSA) w grach.",
-    "notes": "KARTA TYGODNIA T2 (13–15.10, mecz nd 18.10)\nFaza: ATAK – TWORZENIE SZANS przeciw niskiemu blokowi ↔ lustro: OBRONA – NISKI BLOK. Czwartek: A/O kontrpressing ↔ O/A wyjście spod kontrpressingu.\nUmiejętności tygodnia (te same przez 3 dni, rośnie złożoność: Wt grupowa, Śr zespołowa, Czw przejście):\n• Indywidualna – atak: PODANIE ZDOBYWAJĄCE (prostopadłe za linię w tempo biegu / wycofanie spod linii końcowej).\n• Indywidualna – obrona: KRYCIE WBIEGAJĄCEGO (orientacja na zawodnika, nie na strefę; widzę piłkę i rywala; kontakt) – MP #01.\n• Grupowa: GRA NA TRZECIEGO „góra–dół–przez” (MP #04) ↔ obrona: nie daj się zahipnotyzować piłce zwrotnej – kontroluj wbiegającego za plecy.\n• Zespołowa: 2-3-5 PRZECIW NISKIEMU BLOKOWI ↔ obrona: NISKI BLOK 4-4-1 (8–12 m między liniami, chroń środek, kieruj do boku).\nZasada: każde ćwiczenie ma wskazówki przeciwstawne – 🔵 niebiescy trenują atak, 🔴 czerwoni trenują obronę. Drużyny zamieniają się rolami w połowie ćwiczenia, więc każdy trenuje obie strony.\n\nORGANIZACJA DNIA: 2 stanowiska z bramkami (obie połowy boiska), pole 40×50 z bramką i 3 mini-bramkami (linia spalonego 16 m), połowa boiska + 5 m z 3 mini-bramkami na linii środkowej. ~30 piłek.\nPytania do zawodników: Czy każdy kanał jest zajęty? Prostopadle czy wycofanie? (atak) · Czy jesteśmy blisko siebie? Kogo kryję w polu karnym? (obrona)\nSukces dnia: ≥ 50% akcji w fazie gry kończy się strzałem (niebiescy); ≥ 50% akcji bez strzału (czerwoni) – rywalizacja drużyn po zamianie ról.\nSchemat w Taktyce: T3 · 2-3-5 → 2-3-2 i 3-1-6.",
+    "notes": "KARTA TYGODNIA T2 (13–15.10, mecz nd 18.10) · model gry U14 1-4-2-3-1\nFaza: 1.3 TWORZENIE SZANS przeciw niskiemu blokowi ↔ lustro: 3.3 BLOK NISKI i 3.4 POLE KARNE. Czwartek: 2.1–2.2 zabezpieczenie i kontrpressing ↔ 4.1–4.2 wyjście spod presji i kontra.\nUmiejętności tygodnia (te same przez 3 dni, rośnie złożoność: Wt grupowa, Śr zespołowa, Czw przejście):\n• Indywidualna – atak: PODANIE ZDOBYWAJĄCE (prostopadłe za linię w tempo biegu / wycofanie spod linii końcowej).\n• Indywidualna – obrona: KRYCIE WBIEGAJĄCEGO (orientacja na zawodnika, nie na strefę; widzę piłkę i rywala; kontakt) – MP #01.\n• Grupowa: GRA NA TRZECIEGO „góra–dół–przez” (MP #04) ↔ obrona: nie daj się zahipnotyzować piłce zwrotnej – kontroluj wbiegającego za plecy.\n• Zespołowa: 3-2-5 / 2-3-5 PRZECIW NISKIEMU BLOKOWI (schemat 1.3a) ↔ obrona: BLOK NISKI 4-5-1 (schemat 3.3; w grach z 9 zawodnikami 4-4-1 bez „dziesiątki”).\nKomendy tygodnia: „Trzeci!” · „Kieszeń!” · „Czas!” · „Mam!” / „Twój!” · „5 sekund!” · „Blok!”.\nWskaźniki tygodnia (gry): wejścia w pole karne ≥ 6 na serię 6 min · ≥ 60% strzałów z pola karnego · odbiory w 5 s po stracie ≥ 3 na serię (czw).\nZasada: każde ćwiczenie ma wskazówki przeciwstawne – 🔵 niebiescy trenują atak, 🔴 czerwoni trenują obronę. Drużyny zamieniają się rolami w połowie ćwiczenia, więc każdy trenuje obie strony.\n\nORGANIZACJA DNIA: 2 stanowiska z bramkami (obie połowy boiska), pole 40×50 z bramką i 3 mini-bramkami (linia spalonego 16 m), połowa boiska + 5 m z 3 mini-bramkami na linii środkowej. ~30 piłek.\nPytania do zawodników: Czy każdy kanał jest zajęty? Prostopadle czy wycofanie? (atak) · Czy jesteśmy blisko siebie? Kogo kryję w polu karnym? (obrona)\nSukces dnia: ≥ 50% akcji w fazie gry kończy się strzałem (niebiescy); ≥ 50% akcji bez strzału (czerwoni) – rywalizacja drużyn po zamianie ról.",
     "phases": [
      "Atak-Tworzenie szans",
-     "Obrona"
+     "Obrona-Blok niski",
+     "Obrona-Pole karne"
     ],
     "blocks": [
      {
-      "id": "t02-sr-b0",
+      "id": "t02m-sr-b0",
       "drillId": null,
       "title": "Odprawa",
       "minutes": "2",
-      "note": "Schemat T3 (2-3-5) w zakładce Taktyka: 5 kanałów w ataku ↔ blok 4-4-1 w obronie."
+      "note": "Taktyka: 1.3a (3-2-5 → 3-1-6), 1.4a (5 stref w polu karnym) ↔ 3.3 (blok niski 4-5-1) i 3.4 (oś bramki)."
      },
      {
-      "id": "t02-sr-b1",
+      "id": "t02m-sr-b1",
       "drillId": "bw1-sr",
       "minutes": "18",
       "note": ""
      },
      {
-      "id": "t02-sr-b2",
-      "drillId": "t02-sr-podanie-zdobywajace-krycie",
+      "id": "t02m-sr-b2",
+      "drillId": "t02m-sr-podanie-zdobywajace-krycie",
       "minutes": "15",
       "note": ""
      },
      {
-      "id": "t02-sr-b3",
-      "drillId": "t02-sr-8v8-35-vs-44",
+      "id": "t02m-sr-b3",
+      "drillId": "t02m-sr-8v8-35-vs-44",
       "minutes": "25",
       "note": ""
      },
      {
-      "id": "t02-sr-b4",
-      "drillId": "t02-sr-faza-235-vs-441",
+      "id": "t02m-sr-b4",
+      "drillId": "t02m-sr-faza-235-vs-441",
       "minutes": "30",
       "note": ""
      }
@@ -5313,52 +4480,53 @@
     "updatedAt": "2026-10-14T12:00:00.000Z"
    },
    {
-    "id": "t02-czw",
-    "title": "T2 · Czw 15.10 (MD-3) · Przejście A/O: kontrpressing ↔ wyjście spod presji + SFG",
+    "id": "t02m-czw",
+    "title": "T2 · Czw 15.10 (MD-3) · 2.2 Kontrpressing ↔ 4.1 wyjście spod presji + SFG 5.1a",
     "date": "2026-10-15",
     "group": "U14 (18–22 zawodników)",
     "goal": "Faza przejściowa związana z tematem tygodnia: strata przy ataku na niski blok → kontrpressing 5 s (lustro: odbiór przy własnym polu karnym → wyjście spod presji i kontra). Rzut rożny w ataku ↔ w obronie. Mała złożoność, akcent szybkości, pełne przerwy. Ostatni trening przed meczem nd 18.10.",
-    "notes": "KARTA TYGODNIA T2 (13–15.10, mecz nd 18.10)\nFaza: ATAK – TWORZENIE SZANS przeciw niskiemu blokowi ↔ lustro: OBRONA – NISKI BLOK. Czwartek: A/O kontrpressing ↔ O/A wyjście spod kontrpressingu.\nUmiejętności tygodnia (te same przez 3 dni, rośnie złożoność: Wt grupowa, Śr zespołowa, Czw przejście):\n• Indywidualna – atak: PODANIE ZDOBYWAJĄCE (prostopadłe za linię w tempo biegu / wycofanie spod linii końcowej).\n• Indywidualna – obrona: KRYCIE WBIEGAJĄCEGO (orientacja na zawodnika, nie na strefę; widzę piłkę i rywala; kontakt) – MP #01.\n• Grupowa: GRA NA TRZECIEGO „góra–dół–przez” (MP #04) ↔ obrona: nie daj się zahipnotyzować piłce zwrotnej – kontroluj wbiegającego za plecy.\n• Zespołowa: 2-3-5 PRZECIW NISKIEMU BLOKOWI ↔ obrona: NISKI BLOK 4-4-1 (8–12 m między liniami, chroń środek, kieruj do boku).\nZasada: każde ćwiczenie ma wskazówki przeciwstawne – 🔵 niebiescy trenują atak, 🔴 czerwoni trenują obronę. Drużyny zamieniają się rolami w połowie ćwiczenia, więc każdy trenuje obie strony.\n\nORGANIZACJA DNIA: 3 pola 14×14 (6 mini-bramek), pole 40×40 z bramką i 2 mini-bramkami, pół boiska na SFG, boisko 55×40 z 2 bramkami. ~25 piłek.\nPytania do zawodników: Kto pierwszy atakuje piłkę po stracie? (A/O) · Gdzie zagrać pierwsze podanie po odbiorze? (O/A)\nSukces dnia: min. 3 odbiory w 5 s na serię w grze 8v8; w SFG min. 4 strzały celne na 12 rzutów.\nPo treningu: skład i zadania na mecz 18.10.",
+    "notes": "KARTA TYGODNIA T2 (13–15.10, mecz nd 18.10) · model gry U14 1-4-2-3-1\nFaza: 1.3 TWORZENIE SZANS przeciw niskiemu blokowi ↔ lustro: 3.3 BLOK NISKI i 3.4 POLE KARNE. Czwartek: 2.1–2.2 zabezpieczenie i kontrpressing ↔ 4.1–4.2 wyjście spod presji i kontra.\nUmiejętności tygodnia (te same przez 3 dni, rośnie złożoność: Wt grupowa, Śr zespołowa, Czw przejście):\n• Indywidualna – atak: PODANIE ZDOBYWAJĄCE (prostopadłe za linię w tempo biegu / wycofanie spod linii końcowej).\n• Indywidualna – obrona: KRYCIE WBIEGAJĄCEGO (orientacja na zawodnika, nie na strefę; widzę piłkę i rywala; kontakt) – MP #01.\n• Grupowa: GRA NA TRZECIEGO „góra–dół–przez” (MP #04) ↔ obrona: nie daj się zahipnotyzować piłce zwrotnej – kontroluj wbiegającego za plecy.\n• Zespołowa: 3-2-5 / 2-3-5 PRZECIW NISKIEMU BLOKOWI (schemat 1.3a) ↔ obrona: BLOK NISKI 4-5-1 (schemat 3.3; w grach z 9 zawodnikami 4-4-1 bez „dziesiątki”).\nKomendy tygodnia: „Trzeci!” · „Kieszeń!” · „Czas!” · „Mam!” / „Twój!” · „5 sekund!” · „Blok!”.\nWskaźniki tygodnia (gry): wejścia w pole karne ≥ 6 na serię 6 min · ≥ 60% strzałów z pola karnego · odbiory w 5 s po stracie ≥ 3 na serię (czw).\nZasada: każde ćwiczenie ma wskazówki przeciwstawne – 🔵 niebiescy trenują atak, 🔴 czerwoni trenują obronę. Drużyny zamieniają się rolami w połowie ćwiczenia, więc każdy trenuje obie strony.\n\nORGANIZACJA DNIA: 3 pola 14×14 (6 mini-bramek), pole 40×40 z bramką i 2 mini-bramkami, pół boiska na SFG, boisko 55×40 z 2 bramkami. ~25 piłek.\nPytania do zawodników: Kto pierwszy atakuje piłkę po stracie? (A/O) · Gdzie zagrać pierwsze podanie po odbiorze? (O/A)\nSukces dnia: min. 3 odbiory w 5 s na serię w grze 8v8; w SFG min. 4 strzały celne na 12 rzutów.\nPo treningu: skład i zadania na mecz 18.10.",
     "phases": [
-     "A/O",
-     "O/A",
-     "SFG"
+     "A/O-Kontrpressing",
+     "O/A-Kontra",
+     "SFG-Atak",
+     "SFG-Obrona"
     ],
     "blocks": [
      {
-      "id": "t02-czw-b0",
+      "id": "t02m-czw-b0",
       "drillId": null,
       "title": "Odprawa",
       "minutes": "2",
-      "note": "Plan na mecz 18.10 + schemat AO1 (kontrpressing 5 s i 3+2) i S1 (rożny w ataku)."
+      "note": "Plan na mecz 18.10. Taktyka: 2.1 (zabezpieczenie 3+2), 2.2 (kontrpressing 5 s), 2.4 (powrót do bloku), 4.2a (kontra) i 5.1a / 5.2a (rożne)."
      },
      {
-      "id": "t02-czw-b1",
+      "id": "t02m-czw-b1",
       "drillId": "bw1-czw",
       "minutes": "18",
       "note": ""
      },
      {
-      "id": "t02-czw-b2",
-      "drillId": "t02-czw-rondo-5v2-kontra",
+      "id": "t02m-czw-b2",
+      "drillId": "t02m-czw-rondo-5v2-kontra",
       "minutes": "15",
       "note": ""
      },
      {
-      "id": "t02-czw-b3",
-      "drillId": "t02-czw-strata-pod-polem-karnym",
+      "id": "t02m-czw-b3",
+      "drillId": "t02m-czw-strata-pod-polem-karnym",
       "minutes": "20",
       "note": ""
      },
      {
-      "id": "t02-czw-b4",
+      "id": "t02m-czw-b4",
       "drillId": "sfg-rozny-atak",
       "minutes": "15",
       "note": ""
      },
      {
-      "id": "t02-czw-b5",
-      "drillId": "t02-czw-gra-8v8-wahadla",
+      "id": "t02m-czw-b5",
+      "drillId": "t02m-czw-gra-8v8-wahadla",
       "minutes": "20",
       "note": ""
      }

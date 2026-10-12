@@ -5,19 +5,22 @@
 //   indywidualna – atak:   podanie zdobywające (prostopadłe za linię / wycofanie)
 //   indywidualna – obrona: krycie wbiegającego (orientacja na zawodnika, kontakt) – MP #01
 //   grupowa:               gra na trzeciego „góra–dół–przez” – MP #04 (lustro: kontrola wbiegającego za plecy)
-//   zespołowa:             2-3-5 przeciw niskiemu blokowi (lustro: niski blok 4-4-1, kompaktowy środek)
+//   zespołowa:             2-3-5 / 3-2-5 przeciw niskiemu blokowi (lustro: blok niski 4-5-1, kompaktowy środek)
+// Zgodne z MODEL_GRY_U14_1-4-2-3-1.md: subfazy 1.3, 1.4, 3.3, 3.4 (Wt–Śr), 2.1, 2.2, 4.1, 4.2 (Czw); schematy w pliku MODEL_GRY_TAKTYKA_U14.json.
 // Źródła: De Zerbi cz. II–III (s. 28–29, 33–37), Xabi cz. III–IV, Mikrotaktyczny Poniedziałek #01, #04, #10.
-import { drill, session, tac } from '../lib.mjs';
+import { drill, session } from '../lib.mjs';
 
 export const meta = { code: 'T02', range: '13-15.10', slug: 'tworzenie_szans_vs_niski_blok', title: 'Tworzenie szans vs niski blok' };
 
-const WEEK_CARD = `KARTA TYGODNIA T2 (13–15.10, mecz nd 18.10)
-Faza: ATAK – TWORZENIE SZANS przeciw niskiemu blokowi ↔ lustro: OBRONA – NISKI BLOK. Czwartek: A/O kontrpressing ↔ O/A wyjście spod kontrpressingu.
+const WEEK_CARD = `KARTA TYGODNIA T2 (13–15.10, mecz nd 18.10) · model gry U14 1-4-2-3-1
+Faza: 1.3 TWORZENIE SZANS przeciw niskiemu blokowi ↔ lustro: 3.3 BLOK NISKI i 3.4 POLE KARNE. Czwartek: 2.1–2.2 zabezpieczenie i kontrpressing ↔ 4.1–4.2 wyjście spod presji i kontra.
 Umiejętności tygodnia (te same przez 3 dni, rośnie złożoność: Wt grupowa, Śr zespołowa, Czw przejście):
 • Indywidualna – atak: PODANIE ZDOBYWAJĄCE (prostopadłe za linię w tempo biegu / wycofanie spod linii końcowej).
 • Indywidualna – obrona: KRYCIE WBIEGAJĄCEGO (orientacja na zawodnika, nie na strefę; widzę piłkę i rywala; kontakt) – MP #01.
 • Grupowa: GRA NA TRZECIEGO „góra–dół–przez” (MP #04) ↔ obrona: nie daj się zahipnotyzować piłce zwrotnej – kontroluj wbiegającego za plecy.
-• Zespołowa: 2-3-5 PRZECIW NISKIEMU BLOKOWI ↔ obrona: NISKI BLOK 4-4-1 (8–12 m między liniami, chroń środek, kieruj do boku).
+• Zespołowa: 3-2-5 / 2-3-5 PRZECIW NISKIEMU BLOKOWI (schemat 1.3a) ↔ obrona: BLOK NISKI 4-5-1 (schemat 3.3; w grach z 9 zawodnikami 4-4-1 bez „dziesiątki”).
+Komendy tygodnia: „Trzeci!” · „Kieszeń!” · „Czas!” · „Mam!” / „Twój!” · „5 sekund!” · „Blok!”.
+Wskaźniki tygodnia (gry): wejścia w pole karne ≥ 6 na serię 6 min · ≥ 60% strzałów z pola karnego · odbiory w 5 s po stracie ≥ 3 na serię (czw).
 Zasada: każde ćwiczenie ma wskazówki przeciwstawne – 🔵 niebiescy trenują atak, 🔴 czerwoni trenują obronę. Drużyny zamieniają się rolami w połowie ćwiczenia, więc każdy trenuje obie strony.`;
 
 const A_KEYS = {
@@ -31,15 +34,15 @@ const B_KEYS = {
   body: 'Ustawienie bokiem: widzę piłkę i swojego rywala jednocześnie.',
   contact: 'Kontakt fizyczny w polu karnym – rywal nie może uderzyć czysto.',
   hypno: 'Nie śledź wzrokiem piłki zwrotnej („hipnoza”) – sprawdź, kto wbiega za twoje plecy.',
-  compact: 'Blisko siebie: 8–12 m między liniami, chronimy środek, kierujemy grę do boku.',
+  compact: 'Blok niski (model 3.3): blisko siebie, 8–12 m między liniami, 6 pilnuje strefy 14, kierujemy grę do boku.',
 };
 
 export function build({ W, S }) {
-  const NB = ['Atak-Tworzenie szans', 'Obrona'];
+  const NB = ['Atak-Tworzenie szans', 'Obrona-Blok niski', 'Obrona-Pole karne'];
 
   // ── WT 13.10 (MD-5, siła, małe pola) – akcent: umiejętność GRUPOWA ─────────
   const wt2 = drill({
-    id: 't02-wt-rondo-transfer-gdp', date: '2026-10-13', name: 'T2 Wt · Rondo przeniesienia 4+1 v 2: „góra–dół–przez” (De Zerbi)',
+    id: 't02m-wt-rondo-transfer-gdp', date: '2026-10-13', name: 'T2 Wt · Rondo przeniesienia 4+1 v 2: „góra–dół–przez” (De Zerbi)',
     category: '2 · Techniczne, mała złożoność · rondo – trzeci zawodnik', duration: 15, players: '18–22 (3 pola × 7)', size: [20, 10], phases: NB,
     objective: 'Umiejętność grupowa tygodnia w najprostszej formie: piłka może przejść do drugiej połowy pola tylko kombinacją „góra–dół–przez”. Indywidualnie: podanie zdobywające (ostatnie podanie „przez”) i krycie wbiegającego (obrońcy).',
     scoring: 'Każde przeniesienie piłki do drugiej połowy kombinacją „góra–dół–przez” = 1 pkt (3 przeniesienia z rzędu = +1). Obrońcy: odbiór = gol do jednej z 4 mini-bramek (bez limitu kontaktów) = 1 pkt.',
@@ -65,7 +68,7 @@ export function build({ W, S }) {
   });
 
   const wt3 = drill({
-    id: 't02-wt-4v4-2-strefy', date: '2026-10-13', name: 'T2 Wt · Gra 4v4+2: do strefy wykończenia tylko po „góra–dół–przez” (De Zerbi)',
+    id: 't02m-wt-4v4-2-strefy', date: '2026-10-13', name: 'T2 Wt · Gra 4v4+2: do strefy wykończenia tylko po „góra–dół–przez” (De Zerbi)',
     category: '3 · Ćwiczenie główne · gra pozycyjna z kierunkiem, dużo starć', duration: 25, players: '20–22 (2 pola × 10–11)', size: [30, 16], phases: NB,
     objective: 'Gra na trzeciego pod presją przeciwnika, który broni nisko przed strefą wykończenia. Atakujący: podanie zdobywające do wbiegającego. Broniący: krycie wbiegającego – nie wpuść rywala za plecy.',
     scoring: 'Gol do mini-bramki ze strefy wykończenia = 1 pkt; wejście do strefy możliwe tylko po „góra–dół–przez” – inne wejście = piłka dla rywala. Gol na 1 kontakt = 2 pkt. Broniący: przechwyt podania „przez” = 1 pkt.',
@@ -92,7 +95,7 @@ export function build({ W, S }) {
   });
 
   const wt4 = drill({
-    id: 't02-wt-7v7-gdp', date: '2026-10-13', name: 'T2 Wt · Gra BR+7v7+BR: strefa wykończenia po „góra–dół–przez” (De Zerbi)',
+    id: 't02m-wt-7v7-gdp', date: '2026-10-13', name: 'T2 Wt · Gra BR+7v7+BR: strefa wykończenia po „góra–dół–przez” (De Zerbi)',
     category: '4 · Gra · małe boisko, wysoka intensywność', duration: 30, players: '16 + 2 BR (+ 2–6 zmienników)', size: [50, 40], phases: NB,
     objective: 'Umiejętność grupowa w grze z bramkarzami: progresja i wejście w pole karne kombinacją na trzeciego przeciw drużynie broniącej nisko. Broniący trenują krycie wbiegającego w polu karnym.',
     scoring: 'Gol po wejściu do strefy wykończenia kombinacją „góra–dół–przez” = 2 pkt; inny gol = 1 pkt. Broniący: odbiór i gol w 6 s = 1 pkt.',
@@ -120,8 +123,8 @@ export function build({ W, S }) {
 
   // ── ŚR 14.10 (MD-4, RSA, duże pola) – akcent: umiejętność ZESPOŁOWA ─────────
   const sr2 = drill({
-    id: 't02-sr-podanie-zdobywajace-krycie', date: '2026-10-14', name: 'T2 Śr · Podanie zdobywające kontra krycie wbiegającego: 3v2 + BR (2 stanowiska)',
-    category: '2 · Techniczne, mała złożoność · umiejętności indywidualne', duration: 15, players: '18–22 + 2 BR (2 stanowiska × 9–11)', size: [30, 30], phases: ['Atak-Tworzenie szans', 'Atak-Finalizacja', 'Obrona'],
+    id: 't02m-sr-podanie-zdobywajace-krycie', date: '2026-10-14', name: 'T2 Śr · Podanie zdobywające kontra krycie wbiegającego: 3v2 + BR (2 stanowiska)',
+    category: '2 · Techniczne, mała złożoność · umiejętności indywidualne', duration: 15, players: '18–22 + 2 BR (2 stanowiska × 9–11)', size: [30, 30], phases: ['Atak-Tworzenie szans', 'Atak-Finalizacja', 'Obrona-Pole karne'],
     objective: 'Dwie umiejętności indywidualne tygodnia w bezpośrednim pojedynku: skrzydłowy wybiera podanie zdobywające (prostopadłe do wbiegającego lub wycofanie spod linii końcowej), obrońcy kryją wbiegających (orientacja na zawodnika, kontakt).',
     scoring: 'Gol po prostopadłym lub wycofaniu = 2 pkt; gol na 1 kontakt = +1. Obrońcy: przechwyt / wybicie = 1 pkt, przechwyt i podanie do trenera = 2 pkt.',
     organization: '2 stanowiska (obie połowy boiska), na każdym duża bramka z BR. Atakujący: podający „6” (kolejka z piłkami), skrzydłowy w bocznym sektorze, 2 wbiegających (9 i 10). Obrońcy: 2 (kryją wbiegających). Kolejki: atakujący i obrońcy; akcja na zmianę z lewej i prawej strony.',
@@ -147,7 +150,7 @@ export function build({ W, S }) {
   });
 
   const sr3 = drill({
-    id: 't02-sr-8v8-35-vs-44', date: '2026-10-14', name: 'T2 Śr · Gra pozycyjna 8 v 8+BR: 3-5 przeciw niskiemu blokowi 4-4 (De Zerbi)',
+    id: 't02m-sr-8v8-35-vs-44', date: '2026-10-14', name: 'T2 Śr · Gra pozycyjna 8 v 8+BR: 3-5 przeciw niskiemu blokowi 4-4 (De Zerbi)',
     category: '3 · Ćwiczenie główne · gra pozycyjna z bramką', duration: 25, players: '16 + 1 BR (+ 2–6 zmienników)', size: [40, 50], phases: NB,
     objective: 'Umiejętność zespołowa w skróconej formie: pięciu atakujących zajmuje 5 kanałów (szerokość + półprzestrzenie + środek), trzech z tyłu kontroluje tempo i podaje zdobywająco. Broniący: kompaktowy blok 4-4, ochrona środka, krycie wbiegających.',
     scoring: 'Niebiescy: gol = 1 pkt; gol po podaniu zdobywającym w półprzestrzeń lub po wycofaniu = 2 pkt. Czerwoni: odbiór → 6 s na gol do jednej z 3 mini-bramek = 1 pkt (niebiescy kontrpressing).',
@@ -175,7 +178,7 @@ export function build({ W, S }) {
   });
 
   const sr4 = drill({
-    id: 't02-sr-faza-235-vs-441', date: '2026-10-14', name: 'T2 Śr · Faza gry 10 v 9+BR: 2-3-5 przeciw niskiemu blokowi 4-4-1 (De Zerbi)',
+    id: 't02m-sr-faza-235-vs-441', date: '2026-10-14', name: 'T2 Śr · Faza gry 10 v 9+BR: 2-3-5 przeciw niskiemu blokowi 4-4-1 (De Zerbi)',
     category: '4 · Gra · faza gry, cała struktura', duration: 30, players: '19–21 + 2 BR', size: [55, 68], phases: NB,
     objective: 'Umiejętność zespołowa tygodnia w pełnej formie: 2-3-5 (pięciu w pięciu kanałach), przejście w 2-3-2 przy kombinacjach centralnych. Lustro: niski blok 4-4-1 – kompaktowość, ochrona środka, kierowanie do boku, krycie w polu karnym.',
     scoring: 'Niebiescy: gol = 1 pkt; gol po podaniu zdobywającym przez środek (półprzestrzeń / „góra–dół–przez”) = 2 pkt; gol po wycofaniu = 2 pkt. Czerwoni: odbiór → 8 s na gol do jednej z 3 mini-bramek na linii środkowej = 1 pkt; każde 3 kolejne akcje niebieskich bez strzału = 1 pkt.',
@@ -204,8 +207,8 @@ export function build({ W, S }) {
 
   // ── CZW 15.10 (MD-3, szybkość, mała złożoność) – PRZEJŚCIE A/O ↔ O/A + SFG ─────────
   const czw2 = drill({
-    id: 't02-czw-rondo-5v2-kontra', date: '2026-10-15', name: 'T2 Czw · Rondo 5v2: kontrpressing 4 s kontra wyjście na mini-bramkę',
-    category: '2 · Techniczne, mała złożoność · rondo z przejściem', duration: 15, players: '18–22 (3 pola × 6–8)', size: [14, 14], phases: ['A/O', 'O/A'],
+    id: 't02m-czw-rondo-5v2-kontra', date: '2026-10-15', name: 'T2 Czw · Rondo 5v2: kontrpressing 4 s kontra wyjście na mini-bramkę',
+    category: '2 · Techniczne, mała złożoność · rondo z przejściem', duration: 15, players: '18–22 (3 pola × 6–8)', size: [14, 14], phases: ['A/O-Kontrpressing', 'O/A-Kontra'],
     objective: 'Przejście w najprostszej formie. Piątka po stracie od razu atakuje piłkę (A/O – kontrpressing), dwójka po odbiorze ma 4 s na wyjście spod presji i gol do mini-bramki (O/A).',
     scoring: '10 podań piątki = 1 pkt. Dwójka: odbiór i gol w 4 s = 2 pkt. Piątka: odbiór z powrotem w 4 s = 1 pkt.',
     organization: '3 pola 14×14 m, na dwóch przeciwległych bokach po 1 mini-bramce. 5 na obwodzie, 2 w środku. Max 2 kontakty dla piątki.',
@@ -230,8 +233,8 @@ export function build({ W, S }) {
   });
 
   const czw3 = drill({
-    id: 't02-czw-strata-pod-polem-karnym', date: '2026-10-15', name: 'T2 Czw · Atak 6 v 4+BR → strata → kontrpressing 5 s kontra kontra 8 s',
-    category: '3 · Ćwiczenie główne · przejście A/O (mała złożoność, szybkość)', duration: 20, players: '18–22 + 1–2 BR (fale)', size: [40, 40], phases: ['A/O', 'O/A', 'Atak-Tworzenie szans'],
+    id: 't02m-czw-strata-pod-polem-karnym', date: '2026-10-15', name: 'T2 Czw · Atak 6 v 4+BR → strata → kontrpressing 5 s kontra kontra 8 s',
+    category: '3 · Ćwiczenie główne · przejście A/O (mała złożoność, szybkość)', duration: 20, players: '18–22 + 1–2 BR (fale)', size: [40, 40], phases: ['A/O-Zabezpieczenie', 'A/O-Kontrpressing', 'O/A-Kontra'],
     objective: 'Przejście po stracie w ataku na niski blok: zawodnicy blisko piłki odbierają ją w 5 s, zanim rywal wyjdzie z kontrą. Lustro: drużyna, która odebrała piłkę przy własnym polu karnym, wychodzi spod presji i kontratakuje (O/A).',
     scoring: 'Niebiescy: gol = 1 pkt; odbiór w 5 s po stracie = 2 pkt; gol w 6 s po takim odbiorze = 3 pkt. Czerwoni: wyjście spod kontrpressingu i gol do jednej z 2 mini-bramek w 8 s = 2 pkt.',
     organization: 'Pole 40×40 m od linii końcowej. Duża bramka z BR (czerwoni), na linii startowej 2 mini-bramki dla kontry czerwonych. Niebiescy 6 vs czerwoni 4 + BR. Pozostali w falach przy linii startowej (zmiana co 2 akcje). Krótkie akcje, pełne przerwy – akcent szybkości.',
@@ -257,8 +260,8 @@ export function build({ W, S }) {
   });
 
   const czw5 = drill({
-    id: 't02-czw-gra-8v8-wahadla', date: '2026-10-15', name: 'T2 Czw · Gra BR+8v8+BR z 2 neutralnymi na wahadłach: zawężaj i odbieraj (MP #10)',
-    category: '4 · Gra · przejścia, krótkie serie', duration: 20, players: '18–20 + 2 BR (8v8 + 2 neutralnych)', size: [55, 40], phases: ['A/O', 'O/A'],
+    id: 't02m-czw-gra-8v8-wahadla', date: '2026-10-15', name: 'T2 Czw · Gra BR+8v8+BR z 2 neutralnymi na wahadłach: zawężaj i odbieraj (MP #10)',
+    category: '4 · Gra · przejścia, krótkie serie', duration: 20, players: '18–20 + 2 BR (8v8 + 2 neutralnych)', size: [55, 40], phases: ['A/O-Kontrpressing', 'O/A-Kontra'],
     objective: 'Przejścia w grze: drużyna z piłką zawęża pole i ma dwie linie asekuracji pod piłką, po stracie natychmiast odbiera (A/O). Drużyna, która odbierze, wychodzi spod kontrpressingu i atakuje szybko (O/A).',
     scoring: 'Gol = 1 pkt; odbiór w 5 s po stracie = 1 pkt; gol w 8 s po takim odbiorze = 3 pkt; gol w 8 s po wyjściu spod kontrpressingu = 2 pkt.',
     organization: 'Boisko 55×40 m, 2 duże bramki z BR. 8v8 + 2 neutralnych na liniach bocznych (wahadła – grają z drużyną przy piłce, max 2 kontakty, nie strzelają). 21–22 zawodników: zmiennicy co 2 min.',
@@ -285,67 +288,36 @@ export function build({ W, S }) {
 
   const sessions = [
     session({
-      id: 't02-wt', date: '2026-10-13', title: 'T2 · Wt 13.10 (MD-5) · Gra na trzeciego ↔ kontrola wbiegającego – małe pola',
+      id: 't02m-wt', date: '2026-10-13', title: 'T2 · Wt 13.10 (MD-5) · 1.3 Gra na trzeciego ↔ 3.4 krycie wbiegającego – małe pola',
       goal: 'Akcent: umiejętność GRUPOWA tygodnia – gra na trzeciego „góra–dół–przez” (lustro: nie daj się zahipnotyzować piłce zwrotnej, kontroluj wbiegającego). W tle umiejętności indywidualne: podanie zdobywające ↔ krycie wbiegającego. Małe pola, dużo starć. Akcent motoryczny: siła masą ciała + plyometria wolna.',
       phases: NB,
       notes: `${WEEK_CARD}\n\nORGANIZACJA DNIA: 3 pola 20×10 (12 mini-bramek), 2 pola 30×16 ze strefami wykończenia (8 mini-bramek), boisko 50×40 z 2 bramkami. ~25 piłek, znaczniki 3 kolory.\nPytania do zawodników: Kto jest ścianą, a kto trzecim? (atak) · Kto biegnie za moje plecy? (obrona)\nSukces dnia: min. 2 gole w grze 7v7 po „góra–dół–przez” na drużynę; obrońcy – min. 3 przechwyty podania „przez” w grze 4v4+2.`,
       blocks: [
-        { title: 'Odprawa', minutes: 2, note: 'Karta tygodnia (4 umiejętności). Pokaz „góra–dół–przez” na tablicy. Hasło: „Ściana – i za plecy!”.' },
+        { title: 'Odprawa', minutes: 2, note: 'Karta tygodnia (4 umiejętności). Taktyka: schematy 1.3b („góra–dół–za linię”) i 1.2b (przynęta → „góra–dół–przez”). Hasło: „Ściana – i za plecy!”.' },
         { drill: W.wt, minutes: 18 }, { drill: wt2 }, { drill: wt3 }, { drill: wt4 },
       ],
     }),
     session({
-      id: 't02-sr', date: '2026-10-14', title: 'T2 · Śr 14.10 (MD-4) · 2-3-5 ↔ niski blok 4-4-1 – duże pola',
+      id: 't02m-sr', date: '2026-10-14', title: 'T2 · Śr 14.10 (MD-4) · 1.3a 3-2-5 ↔ 3.3 blok niski 4-5-1 – duże pola',
       goal: 'Akcent: umiejętność ZESPOŁOWA tygodnia – 2-3-5 przeciw niskiemu blokowi (lustro: niski blok 4-4-1, kompaktowy środek). Na początku umiejętności indywidualne w pojedynku: podanie zdobywające ↔ krycie wbiegającego. Akcent motoryczny: wytrzymałość (RSA) w grach.',
       phases: NB,
-      notes: `${WEEK_CARD}\n\nORGANIZACJA DNIA: 2 stanowiska z bramkami (obie połowy boiska), pole 40×50 z bramką i 3 mini-bramkami (linia spalonego 16 m), połowa boiska + 5 m z 3 mini-bramkami na linii środkowej. ~30 piłek.\nPytania do zawodników: Czy każdy kanał jest zajęty? Prostopadle czy wycofanie? (atak) · Czy jesteśmy blisko siebie? Kogo kryję w polu karnym? (obrona)\nSukces dnia: ≥ 50% akcji w fazie gry kończy się strzałem (niebiescy); ≥ 50% akcji bez strzału (czerwoni) – rywalizacja drużyn po zamianie ról.\nSchemat w Taktyce: T3 · 2-3-5 → 2-3-2 i 3-1-6.`,
+      notes: `${WEEK_CARD}\n\nORGANIZACJA DNIA: 2 stanowiska z bramkami (obie połowy boiska), pole 40×50 z bramką i 3 mini-bramkami (linia spalonego 16 m), połowa boiska + 5 m z 3 mini-bramkami na linii środkowej. ~30 piłek.\nPytania do zawodników: Czy każdy kanał jest zajęty? Prostopadle czy wycofanie? (atak) · Czy jesteśmy blisko siebie? Kogo kryję w polu karnym? (obrona)\nSukces dnia: ≥ 50% akcji w fazie gry kończy się strzałem (niebiescy); ≥ 50% akcji bez strzału (czerwoni) – rywalizacja drużyn po zamianie ról.`,
       blocks: [
-        { title: 'Odprawa', minutes: 2, note: 'Schemat T3 (2-3-5) w zakładce Taktyka: 5 kanałów w ataku ↔ blok 4-4-1 w obronie.' },
+        { title: 'Odprawa', minutes: 2, note: 'Taktyka: 1.3a (3-2-5 → 3-1-6), 1.4a (5 stref w polu karnym) ↔ 3.3 (blok niski 4-5-1) i 3.4 (oś bramki).' },
         { drill: W.sr, minutes: 18 }, { drill: sr2 }, { drill: sr3 }, { drill: sr4 },
       ],
     }),
     session({
-      id: 't02-czw', date: '2026-10-15', title: 'T2 · Czw 15.10 (MD-3) · Przejście A/O: kontrpressing ↔ wyjście spod presji + SFG',
+      id: 't02m-czw', date: '2026-10-15', title: 'T2 · Czw 15.10 (MD-3) · 2.2 Kontrpressing ↔ 4.1 wyjście spod presji + SFG 5.1a',
       goal: 'Faza przejściowa związana z tematem tygodnia: strata przy ataku na niski blok → kontrpressing 5 s (lustro: odbiór przy własnym polu karnym → wyjście spod presji i kontra). Rzut rożny w ataku ↔ w obronie. Mała złożoność, akcent szybkości, pełne przerwy. Ostatni trening przed meczem nd 18.10.',
-      phases: ['A/O', 'O/A', 'SFG'],
+      phases: ['A/O-Kontrpressing', 'O/A-Kontra', 'SFG-Atak', 'SFG-Obrona'],
       notes: `${WEEK_CARD}\n\nORGANIZACJA DNIA: 3 pola 14×14 (6 mini-bramek), pole 40×40 z bramką i 2 mini-bramkami, pół boiska na SFG, boisko 55×40 z 2 bramkami. ~25 piłek.\nPytania do zawodników: Kto pierwszy atakuje piłkę po stracie? (A/O) · Gdzie zagrać pierwsze podanie po odbiorze? (O/A)\nSukces dnia: min. 3 odbiory w 5 s na serię w grze 8v8; w SFG min. 4 strzały celne na 12 rzutów.\nPo treningu: skład i zadania na mecz 18.10.`,
       blocks: [
-        { title: 'Odprawa', minutes: 2, note: 'Plan na mecz 18.10 + schemat AO1 (kontrpressing 5 s i 3+2) i S1 (rożny w ataku).' },
+        { title: 'Odprawa', minutes: 2, note: 'Plan na mecz 18.10. Taktyka: 2.1 (zabezpieczenie 3+2), 2.2 (kontrpressing 5 s), 2.4 (powrót do bloku), 4.2a (kontra) i 5.1a / 5.2a (rożne).' },
         { drill: W.czw, minutes: 18 }, { drill: czw2 }, { drill: czw3 }, { drill: S.rożnyAtak, minutes: 15 }, { drill: czw5 },
       ],
     }),
   ];
 
-  const schemes = {
-    'Atak-Tworzenie szans': [{
-      id: 20261012001, name: 'T3 · 2-3-5 → 2-3-2 i 3-1-6 przeciw niskiemu blokowi (De Zerbi)',
-      comments: tac.html('Struktura ataku na niski blok ↔ niski blok rywala', [
-        '2-3-5: dwóch ŚO zabezpiecza, trzech w linii pomocy kontroluje tempo, pięciu w linii ataku zajmuje każdy kanał (2 skrzydła, 2 półprzestrzenie, środek).',
-        'Najpierw środek: dwóch z półprzestrzeni schodzi i powstaje 2-3-2 – szybkie, krótkie kombinacje („góra–dół–przez”).',
-        'Gdy blok zamyka środek: 3-1-6 – boczny dołącza do ŚO (trójka), jeden pivot gra, sześciu z przodu tworzy dwa szerokie trójkąty.',
-        'Trójkąty na bokach: naddanie / podminięcie i wycofanie spod linii końcowej (42% asyst z półprzestrzeni, 34% z boku – MP #21).',
-        'LUSTRO (gdy to my bronimy nisko): 8–12 m między liniami, chroń środek, kieruj do boku, w polu karnym orientacja na wbiegającego.',
-      ], 'K. Gerega, Roberto De Zerbi – The Master of Timing, s. 33–36; Mikrotaktyczny Poniedziałek #01, #20, #21'),
-      frames: [
-        tac.frame(
-          { gk: [350, 1000], lcb: [280, 680], rcb: [420, 680], lb: [210, 520], ldm: [350, 540], rb: [490, 520], lw: [70, 300], cam: [230, 290], st: [350, 260], rdm: [470, 290], rw: [630, 300] },
-          { ogk: [350, 60], olb: [170, 200], olcb: [290, 210], orcb: [410, 210], orb: [530, 200], olw: [170, 330], oldm: [300, 340], ordm: [400, 340], orw: [530, 330], ocam: [410, 470], ost: [290, 470] },
-          [350, 540], [], [tac.text('2-3-5', 600, 620, '#1d4ed8')]),
-        tac.frame(
-          { gk: [350, 1000], lcb: [280, 680], rcb: [420, 680], lb: [210, 520], ldm: [350, 540], rb: [490, 520], lw: [70, 300], cam: [270, 400], st: [350, 260], rdm: [430, 400], rw: [630, 300] },
-          { ogk: [350, 60], olb: [170, 200], olcb: [290, 210], orcb: [410, 210], orb: [530, 200], olw: [170, 330], oldm: [300, 340], ordm: [400, 340], orw: [530, 330], ocam: [410, 470], ost: [290, 470] },
-          [270, 400], [tac.pass([350, 540], [275, 405]), tac.run([230, 290], [270, 400]), tac.run([470, 290], [430, 400])], [tac.text('2-3-2', 600, 620, '#1d4ed8')]),
-        tac.frame(
-          { gk: [350, 1000], lcb: [300, 680], rcb: [430, 680], lb: [180, 640], ldm: [350, 520], rb: [600, 330], lw: [70, 280], cam: [200, 330], st: [330, 230], rdm: [470, 250], rw: [520, 330] },
-          { ogk: [350, 60], olb: [160, 200], olcb: [290, 210], orcb: [410, 210], orb: [540, 210], olw: [160, 340], oldm: [300, 350], ordm: [410, 350], orw: [560, 360], ocam: [410, 480], ost: [290, 480] },
-          [600, 330], [tac.key([350, 520], [595, 335])], [tac.text('3-1-6', 600, 620, '#1d4ed8'), { type: 'polygon', points: [{ x: 600, y: 330 }, { x: 520, y: 330 }, { x: 470, y: 250 }], color: '#16a34a', opacity: 0.18 }, { type: 'polygon', points: [{ x: 70, y: 280 }, { x: 200, y: 330 }, { x: 330, y: 230 }], color: '#16a34a', opacity: 0.18 }]),
-        tac.frame(
-          { gk: [350, 1000], lcb: [300, 680], rcb: [430, 680], lb: [180, 640], ldm: [350, 520], rb: [640, 130], lw: [70, 280], cam: [200, 330], st: [330, 150], rdm: [400, 230], rw: [520, 330] },
-          { ogk: [350, 60], olb: [160, 200], olcb: [290, 170], orcb: [410, 170], orb: [570, 170], olw: [160, 340], oldm: [300, 350], ordm: [430, 320], orw: [560, 360], ocam: [410, 480], ost: [290, 480] },
-          [640, 130], [tac.pass([600, 330], [520, 330]), tac.key([520, 330], [635, 140]), tac.run([600, 330], [640, 130]), tac.key([640, 130], [400, 235]), tac.run([470, 250], [400, 230])], [tac.text('wycofanie', 520, 210, '#dc2626')]),
-      ],
-    }],
-  };
-
-  return { drills: [W.wt, W.sr, W.czw, S.rożnyAtak, wt2, wt3, wt4, sr2, sr3, sr4, czw2, czw3, czw5], sessions, schemes };
+  return { drills: [W.wt, W.sr, W.czw, S.rożnyAtak, wt2, wt3, wt4, sr2, sr3, sr4, czw2, czw3, czw5], sessions };
 }
