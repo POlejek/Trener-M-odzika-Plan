@@ -1,6 +1,6 @@
 # Plan pracy U14 · 12.10–20.12.2026
 
-To plan rundy jesiennej. Konspekty (pliki do aplikacji) przygotowujemy **tydzień po tygodniu**. Gotowy jest tydzień **T2 (12–15.10)**: `import/T02_12-15.10_niski_blok_wykonczenie_przejscia.json`. Kolejne tygodnie poniżej to tylko plan.
+To plan rundy jesiennej. Konspekty (pliki do aplikacji) przygotowujemy **tydzień po tygodniu**. Gotowy jest tydzień **T2 (Wt–Czw 13–15.10)**: `import/T02_13-15.10_tworzenie_szans_vs_niski_blok.json`. Kolejne tygodnie poniżej to tylko plan.
 
 ## Założenia
 
@@ -41,20 +41,37 @@ To plan rundy jesiennej. Konspekty (pliki do aplikacji) przygotowujemy **tydzie�
 - limit główek przy SFG (6 na zawodnika na trening),
 - zawodnicy w okresie szybkiego wzrostu: mniej skoków i hamowań.
 
+## Rama tygodnia: jedna faza, cztery umiejętności
+
+- **Pon–Śr: jedna faza gry.** Przez trzy dni te same umiejętności, rośnie tylko złożoność:
+  - Pon (średnie pole) – akcent na umiejętności indywidualne,
+  - Wt (małe pola, dużo starć) – akcent na umiejętność grupową,
+  - Śr (duże pole) – akcent na umiejętność zespołową w grze fazowej.
+- **Czw: faza przejściowa** związana z fazą tygodnia + SFG 15′.
+- **Cztery umiejętności tygodnia:**
+  - 1 indywidualna w ataku,
+  - 1 indywidualna w obronie,
+  - 1 grupowa,
+  - 1 zespołowa.
+- **Wskazówki przeciwstawne.** W każdym ćwiczeniu 🔵 niebiescy trenują fazę tygodnia, a 🔴 czerwoni jej lustro (np. tworzenie szans ↔ niski blok). W połowie ćwiczenia drużyny zamieniają się rolami.
+- **Mikrotaktyka:** najwyżej 1–2 koncepty z „Mikrotaktycznego Poniedziałku” na tydzień.
+
 ## Tygodnie
 
-| Tydz. | Treningi · mecz | Typ | Temat zespołowy | Mikrotaktyka (MP, odcinek) | Źródła |
-|---|---|---|---|---|---|
-| **T2** ✅ | 12–15.10 · nd 18.10 | Standardowy (czw = MD-3) | Atak na niski blok: 2-3-5 → 2-3-2 / 3-1-6, przechylenie, drabinki, corta luz; wykończenie; przejścia | #16 Pinokio pass, #18 gubienie krycia, #20 półprzestrzenie, #09 ruch tworzący przestrzeń, #19 szerokość albo wbiegnięcie, #21 gole MŚ 2022, #10 asekuracja w ataku, #17 piłka otwarta | DZ cz. III, Xabi cz. III |
-| T3 | 19–22.10 · sob 24.10 | Pon dzień po meczu | Otwarcie vs wysoki pressing: pudełko 2-4-2-2, klepsydra, pauza, gra w kierunku presji, S-kombinacja, „sztuczne przejście” 4v4 | #06 przyjęcie, #02 wsparcie utrzymujące, #05 podanie wsteczne | DZ cz. I |
-| T4 | 26–29.10 · brak meczu | **Rozwojowy** (mocne Wt + Śr) | Budowanie vs blok średni: 3-2-4-1 / 2-4-4 (podwójne pudełko), przynęta, kieszenie, szerokie romby | #04 gra na trzeciego, #15 podanie zdobywające, #20 półprzestrzenie, #08 włoska sztuczka | DZ cz. II, Xabi cz. II |
-| T5 | 2–5.11 · sob 7.11 | Standardowy | Bronienie: blok średni 4-4-2 + pressing wysoki 1:1, sygnały do pressingu, kierowanie do boku | #13 obrona 1v1, #14 krycie strefowe, #03 odbiór i blokowanie | Xabi cz. IV, model (OB1, OB2) |
-| T6 | 9, 10, 12.11 · nd 15.11 | **3 treningi** (11.11 wolne) | Przejścia: kontrpressing 5 s, zabezpieczenie 3+2, kontra po wysokim odbiorze | #10 asekuracja w ataku, #11 ochrona piłki (ramię i biodro) | DZ s. 37, Xabi s. 36–40 |
-| T7 | 16–19.11 · brak meczu | **Rozwojowy** (pon po meczu) | Atak na niski blok – poziom 2: 3-1-6, szerokie trójkąty, naddanie / podminięcie, wycofanie | #18 gubienie krycia, #19 szerokość albo wbiegnięcie, #09 ruch tworzący przestrzeń, #16 Pinokio pass | DZ cz. III, Xabi cz. III |
-| T8 | 23–26.11 · sob 28.11 | Standardowy | Finalizacja („góra–dół–nad”, wykończenie w polu karnym) + SFG w ataku i obronie | #21 gole MŚ 2022, #17 piłka otwarta, #01 krycie, #07 obrona pola karnego (oś boiska) | DZ s. 38–39, model (F1, S1, S2) |
-| T9 | 30.11–3.12 · brak meczu | **Rozwojowy** | Integracja: gra fazowa 10v10 / 11v11 przeciw różnym systemom rywala (4-4-2 / 4-3-3 / 3-5-2), sprawdzian modelu | powtórka #04, #15, #17, #10 | Wszystkie |
-| T10 | 7–10.12 · sob 12.12 | Standardowy, ostatni mecz | Priorytety z obserwacji meczów + SFG | wg potrzeb | — |
-| T11 | 14–17.12 · — | Zamknięcie rundy | Testy motoryczne BetterWay, gry z modyfikacjami (Renosik), ocena indywidualna, wnioski na styczeń | #12 tworzenie przestrzeni indywidualnie, #11 ochrona piłki | Renosik |
+| Tydz. | Faza (Pon–Śr) ↔ lustro | Czw: przejście | Indywidualna – atak | Indywidualna – obrona | Grupowa | Zespołowa |
+|---|---|---|---|---|---|---|
+| **T2** 13–15.10 ✅ · mecz nd 18.10 | Atak – tworzenie szans ↔ obrona – niski blok | A/O kontrpressing ↔ O/A wyjście spod presji | Podanie zdobywające (prostopadłe / wycofanie) | Krycie wbiegającego (#01) | Gra na trzeciego „góra–dół–przez” (#04) | 2-3-5 ↔ niski blok 4-4-1 |
+| T3 19–22.10 · mecz sob 24.10 | Atak – otwarcie ↔ obrona – pressing wysoki | A/O: strata w budowaniu, 3+2 | Przyjęcie kierunkowe, otwarta sylwetka (#06) | Doskok z odcięciem linii podania | Wsparcie utrzymujące + podanie wsteczne (#02, #05) | Pudełko 2-4-2-2 ↔ pressing 4-4-2 |
+| T4 26–29.10 · bez meczu | Atak – budowanie ↔ obrona – blok średni | O/A: szybki atak po przechwycie | Przyjęcie na półobrocie między liniami | Przechwyt: czytanie linii podania | Rotacje w pionie, ruch tworzący przestrzeń (#09) | 3-2-4-1 ↔ blok średni 4-4-2 |
+| T5 2–5.11 · mecz sob 7.11 | Obrona – blok średni + pressing 1:1 ↔ atak – budowanie | O/A: pierwsze podanie do przodu | Ochrona piłki ramieniem i biodrem (#11) | 1v1: boczne ustawienie, kierowanie (#13) | Doskok + asekuracja | Blok średni 4-4-2, sygnały pressingu |
+| T6 9, 10, 12.11 · mecz nd 15.11 | **Przejścia** cały tydzień (3 treningi) | — | Pierwszy kontakt do przodu, prowadzenie w tempie | Atak na piłkę w kontrpressingu | Kontrpressing grupowy ≤ 5 s | Kontrpressing + 3+2 ↔ kontra |
+| T7 16–19.11 · bez meczu | Atak – tworzenie szans przez boki ↔ obrona – niski blok | A/O | Dośrodkowanie po ziemi / wycofanie | Obrona przed dośrodkowaniem, oś boiska (#07) | Naddanie / podminięcie | 3-1-6, szerokie trójkąty |
+| T8 23–26.11 · mecz sob 28.11 | Atak – finalizacja ↔ obrona pola karnego | O/A | Strzał z 1. kontaktu | Blokowanie strzału (#03) | Zajęcie pola karnego, gubienie krycia (#18) | Wbiegnięcia: bliższy, dalszy słupek, 11. metr + SFG |
+| T9 30.11–3.12 · bez meczu | Obrona – blok niski 4-5-1 ↔ atak na niski blok | O/A: kontra 15 s | Podanie długie / przerzut | Wybicie (limit główek) | Krycie i przekazywanie (#14) | Blok niski, obrona pola karnego |
+| T10 7–10.12 · mecz sob 12.12 | Faza wybrana po obserwacji meczów | wg fazy | do ustalenia | do ustalenia | do ustalenia | do ustalenia |
+| T11 14–17.12 | Zamknięcie: testy BetterWay, gry z modyfikacjami (Renosik), ocena indywidualna | — | — | — | — | — |
+
+Każda faza wraca w cyklu w trudniejszej wersji. Umiejętności indywidualne nie powtarzają się w T2–T9.
 
 **Cele mentalne:** komunikacja (T2–T5), koncentracja i reset po błędzie (T6–T8), samodzielność i liderstwo (T9–T11).
 

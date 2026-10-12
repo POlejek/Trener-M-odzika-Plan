@@ -89,7 +89,11 @@ export function drill(spec) {
     spec.rotation && `ROTACJA: ${spec.rotation}`,
     spec.description,
   ].filter(Boolean).join('\n\n');
+  const side = (icon, sd) => sd && [`${icon} ${sd.label.toUpperCase()}`, ...sd.keys.map(k => `• ${k}`), sd.say && `🗣 Powiedz: ${sd.say}`].filter(Boolean).join('\n');
   const coachingPoints = [
+    // wskazówki przeciwstawne: drużyna trenująca fazę tygodnia vs drużyna trenująca fazę lustrzaną
+    spec.sides && side('🔵', spec.sides.a),
+    spec.sides && side('🔴', spec.sides.b),
     spec.keys && spec.keys.map(k => `• ${k}`).join('\n'),
     spec.concept && `MIKROTAKTYKA: ${spec.concept}`,
     spec.say && `🗣 POWIEDZ ZAWODNIKOM: ${spec.say}`,

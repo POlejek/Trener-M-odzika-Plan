@@ -46,9 +46,11 @@ export function sfg(date) {
     continuity: 'Rzut co 30 s, na zmianę z lewej i prawej. Po odbiorze broniących – 8 s kontry na mini-bramkę na połowie (zabezpieczenie musi zareagować).',
     series: '12 rzutów (4 × wariant A/B/C), zmiana ról po 6.',
     rotation: 'Wykonawcy: 2 zawodników z najlepszym dośrodkowaniem, zmiana co 3 rzuty.',
-    keys: ['Gubienie krycia ruchem „do i od” (MP #18).', 'Wbiegnięcie z głębi w drugie tempo (MP #21).', 'Strzał po 1–2 kontaktach – nie przyjmuj w polu karnym, jeśli możesz uderzyć.', 'Zabezpieczenie 3+2 zawsze na miejscu.'],
-    concept: '#18 Tworzenie wolnej przestrzeni, #21 Wnioski z goli MŚ 2022.',
-    say: 'Wbiegamy w tempo ręki wykonawcy. Każdy wie, gdzie biegnie. Pierwszy kontakt to strzał!',
+    sides: {
+      a: { label: 'Niebiescy – rzut rożny w ataku', keys: ['Gubienie krycia ruchem „do i od” (MP #18).', 'Wbiegnięcie z głębi w drugie tempo (MP #21).', 'Strzał po 1–2 kontaktach – nie przyjmuj w polu karnym, jeśli możesz uderzyć.', 'Zabezpieczenie 3+2 zawsze na miejscu.'], say: 'Wbiegamy w tempo ręki wykonawcy. Każdy wie, gdzie biegnie. Pierwszy kontakt to strzał!' },
+      b: { label: 'Czerwoni – rzut rożny w obronie', keys: ['Orientacja na zawodnika wbiegającego, nie na pustą strefę (MP #01).', 'Pozycja ciała: widzę piłkę i swojego zawodnika jednocześnie.', 'Kontakt przed dośrodkowaniem – rywal nie uderza czysto.', 'Oś bramki: piłka za osią – wybijasz za siebie, przed osią – przed siebie (MP #07).'], say: 'Trzymaj swojego, atakuj piłkę, po wybiciu wszyscy wychodzimy!' },
+    },
+    concept: '#18 Tworzenie wolnej przestrzeni, #21 Wnioski z goli MŚ 2022 ↔ #01 Krycie, #07 Obrona pola karnego.',
     variations: 'Gra głową: limit 6 główek na zawodnika. Wariant: rzut wolny boczny z tymi samymi strefami.',
     draw: (a) => {
       a.goal('R', 25); a.gkB(38.5, 25);

@@ -104,14 +104,15 @@ Pliki osobno: `2_…` zawiera tylko model gry (Taktyka), `3_…` tylko konspekty
 
 Plan rundy jest w pliku [`PLAN_12.10-20.12.2026.md`](PLAN_12.10-20.12.2026.md): kalendarz meczów, mikrocykl, tematy tygodni i koncepty z „Mikrotaktycznego Poniedziałku”. Konspekty przygotowujemy tydzień po tygodniu.
 
-**Tydzień T2 (12–15.10, mecz nd 18.10): atak na niski blok, wykończenie, przejścia.** Plik: `import/T02_12-15.10_niski_blok_wykonczenie_przejscia.json` (**Dane → Import → Dodaj**). Zawiera 4 konspekty z przedrostkiem „T2”, 17 ćwiczeń i schemat T3 „2-3-5 → 2-3-2 i 3-1-6” w Taktyce (Atak – Tworzenie szans).
+**Tydzień T2 (Wt–Czw 13–15.10, mecz nd 18.10): tworzenie szans ↔ niski blok.** Plik: `import/T02_13-15.10_tworzenie_szans_vs_niski_blok.json` (**Dane → Import → Dodaj**). Zawiera 3 konspekty z przedrostkiem „T2”, 13 ćwiczeń i schemat T3 „2-3-5 → 2-3-2 i 3-1-6” w Taktyce.
+
+Umiejętności tygodnia: podanie zdobywające (atak) · krycie wbiegającego (obrona) · gra na trzeciego (grupowa) · 2-3-5 ↔ niski blok 4-4-1 (zespołowa). Każde ćwiczenie ma wskazówki przeciwstawne: 🔵 atak, 🔴 obrona.
 
 | Dzień | 1. BetterWay | 2. Techniczne | 3. Ćwiczenie główne | 4. Gra |
 |---|---|---|---|---|
-| Pon 12.10 (MD-6), bez BR | koordynacja | fale 3v2 → 2v1: Pinokio pass, podaj i biegnij (MP #16) | 6v5 z półprzestrzeniami: gubienie krycia (MP #18, #20) | 9v9+2 na 3 mini-bramki: ruch tworzący przestrzeń (MP #09) |
-| Wt 13.10 (MD-5) | siła + plyometria wolna | wzorce A/B: drabinka + tabele / corta luz (Xabi) | 3v2 w strefie buforowej: szerokość albo wbiegnięcie (MP #19) | BR+7v7+BR: przechylenie, gol z półprzestrzeni ×2 |
-| Śr 14.10 (MD-4) | mechanika biegu + RSA | dośrodkowanie po ziemi w korytarz niepewności (MP #21) | wzorce centralne i boczne 6v3 + BR (De Zerbi) | faza gry 10 v 9+BR: 2-3-5 vs niski blok 4-4-1 |
-| Czw 15.10 (MD-3) | szybkość + plyometria szybka | rondo 5v2 z kontrą (MP #10) | kontra po wysokim odbiorze 5v5 + BR (De Zerbi) | SFG: rożny w ataku + gra BR+8v8+BR z wahadłami (MP #10) |
+| Wt 13.10 (MD-5) – grupowa | siła + plyometria wolna | rondo przeniesienia 4+1v2 „góra–dół–przez” | 4v4+2: do strefy wykończenia tylko po „góra–dół–przez” | BR+7v7+BR: strefa wykończenia po „góra–dół–przez” |
+| Śr 14.10 (MD-4) – zespołowa | mechanika biegu + RSA | podanie zdobywające ↔ krycie wbiegającego 3v2 + BR | 8 v 8+BR: 3-5 ↔ blok 4-4 | faza gry 10 v 9+BR: 2-3-5 ↔ niski blok 4-4-1 |
+| Czw 15.10 (MD-3) – przejście | szybkość + plyometria szybka | rondo 5v2: kontrpressing ↔ wyjście na mini-bramkę | atak 6v4+BR → strata → kontrpressing ↔ kontra | rożny w ataku ↔ w obronie + BR+8v8+BR z wahadłami |
 
 ### Generator
 
