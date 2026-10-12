@@ -99,3 +99,20 @@ Każda rozgrzewka ma 4 bloki. Każde ćwiczenie jest opisane w konspekcie tak sa
 3. W **Taktyce** schematy są w fazach Atak (Otwarcie, Budowanie, Tworzenie szans, Finalizacja), A/O, Obrona, O/A i SFG. W **Konspekcie** konspekty mają przedrostek „BW”.
 
 Pliki osobno: `2_…` zawiera tylko model gry (Taktyka), `3_…` tylko konspekty z ćwiczeniami.
+
+## Plan 12.10–20.12.2026 i tydzień 12–15.10
+
+Plan rundy jest w pliku [`PLAN_12.10-20.12.2026.md`](PLAN_12.10-20.12.2026.md): kalendarz meczów, mikrocykl, tematy tygodni i koncepty z „Mikrotaktycznego Poniedziałku”. Konspekty przygotowujemy tydzień po tygodniu.
+
+**Tydzień T2 (12–15.10, mecz nd 18.10): atak na niski blok, wykończenie, przejścia.** Plik: `import/T02_12-15.10_niski_blok_wykonczenie_przejscia.json` (**Dane → Import → Dodaj**). Zawiera 4 konspekty z przedrostkiem „T2”, 17 ćwiczeń i schemat T3 „2-3-5 → 2-3-2 i 3-1-6” w Taktyce (Atak – Tworzenie szans).
+
+| Dzień | 1. BetterWay | 2. Techniczne | 3. Ćwiczenie główne | 4. Gra |
+|---|---|---|---|---|
+| Pon 12.10 (MD-6), bez BR | koordynacja | fale 3v2 → 2v1: Pinokio pass, podaj i biegnij (MP #16) | 6v5 z półprzestrzeniami: gubienie krycia (MP #18, #20) | 9v9+2 na 3 mini-bramki: ruch tworzący przestrzeń (MP #09) |
+| Wt 13.10 (MD-5) | siła + plyometria wolna | wzorce A/B: drabinka + tabele / corta luz (Xabi) | 3v2 w strefie buforowej: szerokość albo wbiegnięcie (MP #19) | BR+7v7+BR: przechylenie, gol z półprzestrzeni ×2 |
+| Śr 14.10 (MD-4) | mechanika biegu + RSA | dośrodkowanie po ziemi w korytarz niepewności (MP #21) | wzorce centralne i boczne 6v3 + BR (De Zerbi) | faza gry 10 v 9+BR: 2-3-5 vs niski blok 4-4-1 |
+| Czw 15.10 (MD-3) | szybkość + plyometria szybka | rondo 5v2 z kontrą (MP #10) | kontra po wysokim odbiorze 5v5 + BR (De Zerbi) | SFG: rożny w ataku + gra BR+8v8+BR z wahadłami (MP #10) |
+
+### Generator
+
+Pliki importu tworzy skrypt `generator/build.mjs` (Node 18+): `node model-gry/generator/build.mjs`. Tydzień opisuje plik `generator/weeks/tNN.mjs`, a wspólne części są w `lib.mjs` (rysunki ćwiczeń, konspekty, schematy), `warmups.mjs` (rozgrzewki BetterWay) i `sfg.mjs` (stałe fragmenty). Szkic tygodnia T3 leży w `generator/szkice/`.
