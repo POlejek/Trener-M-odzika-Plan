@@ -19,7 +19,8 @@ To plan rundy jesiennej. Konspekty (pliki do aplikacji) przygotowujemy **tydzie�
   Czwartek: ćwiczenie techniczne 15′ + główne 20′ + SFG 15′ + gra 20′.
 - **Każde ćwiczenie ma:**
   - PUNKTACJĘ jako pierwszy akapit pola „Organizacja”,
-  - w opisie: START, PRZEBIEG, CIĄGŁOŚĆ (co po golu, stracie i aucie), SERIE, ROTACJĘ,
+  - w opisie: START, PRZEBIEG, CIĄGŁOŚĆ (co po golu, stracie i aucie), ROTACJĘ,
+  - SERIE i czas trwania
   - koncept z „Mikrotaktycznego Poniedziałku”,
   - zdanie „Powiedz zawodnikom”,
   - warianty dla 18 i 22 zawodników.
