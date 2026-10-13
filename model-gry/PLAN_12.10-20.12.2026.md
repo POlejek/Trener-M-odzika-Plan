@@ -10,11 +10,11 @@ To plan rundy jesiennej. Konspekty (pliki do aplikacji) przygotowujemy **tydzie�
 - **Poniedziałek po meczu w niedzielę:** trening dla wszystkich, bez osobnej regeneracji i bez treningów indywidualnych.
 - **Mecze:** nd 18.10 · sob 24.10 · sob 07.11 · nd 15.11 · sob 28.11 · sob 12.12.
 - **Struktura treningu** (jak w tygodniu 7–9.10):
-  1. odprawa 2′,
-  2. rozgrzewka BetterWay 18′ (mobilizacja → aktywacja → wzorce ruchu i mechanika → potencjacja),
-  3. ćwiczenie techniczne o małej złożoności, na 2–3 polach jednocześnie (15′),
-  4. ćwiczenie główne (25′),
-  5. gra (30′).
+  
+  1. rozgrzewka BetterWay 18′ (mobilizacja → aktywacja → wzorce ruchu i mechanika → potencjacja),
+  2. ćwiczenie techniczne o małej złożoności, na 2–3 polach jednocześnie (17′),
+  3. ćwiczenie główne (25′),
+  4. gra (30′).
 
   Czwartek: ćwiczenie techniczne 15′ + główne 20′ + SFG 15′ + gra 20′.
 - **Każde ćwiczenie ma:**
