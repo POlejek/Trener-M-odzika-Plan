@@ -10,6 +10,7 @@ Model gry klubu dla zespołu U14. Bazą są modele De Zerbiego (prowokowanie pre
 
 | Plik | Co zawiera |
 |---|---|
+| [`MODEL_GRY_2013_schematy.md`](MODEL_GRY_2013_schematy.md) | **Czysty model gry na jednej stronie:** jak gramy w czterech zdaniach, tabela „co kiedy robimy” (sytuacja → sygnał → co robimy → numer schematu) i opis wszystkich 53 schematów |
 | [`Rocznik 2013 – model gry i program szkolenia U14–U15.md`](Rocznik%202013%20%E2%80%93%20model%20gry%20i%20program%20szkolenia%20U14%E2%80%93U15.md) | **Program na dwa sezony (2026/27–2027/28):** model 1-4-2-3-1, zadania na pozycjach, cykl 4-tygodniowy, tydzień T1–T4, przykładowe ćwiczenia, progresja, motoryka (BetterWay), rozwój indywidualny |
 | [`MODEL_GRY_U14_1-4-2-3-1.md`](MODEL_GRY_U14_1-4-2-3-1.md) | **Pełny model gry:** fazy, subfazy, zasady, zachowania pozycji, sygnały, błędy, wskaźniki, karty pozycji, komendy, „wojna systemów” |
 | [`modele_1-4-2-3-1.md`](modele_1-4-2-3-1.md) | Siedem modeli źródłowych (M1–M7) i rekomendacja |
@@ -19,6 +20,7 @@ Model gry klubu dla zespołu U14. Bazą są modele De Zerbiego (prowokowanie pre
 
 | Plik | Zawartość | Jak wgrać (Dane → Import) |
 |---|---|---|
+| `MODEL_GRY_2013_czysty.json` | Zakładka **Taktyka** – czysty model gry: 53 schematy meczowe (126 klatek) bez schematów treningowych, numerowane Faza → Subfaza → numer (np. „Atak 1.2”), z bazami I–III, wariantami przeciw 1-4-3-3 / 1-4-4-2 / 1-3-5-2 i fazą „Rywale”. Opis: `MODEL_GRY_2013_schematy.md` | Taktyka: **Zastąp** |
 | `MODEL_GRY_2013_ROK_fazy_subfazy_subsubfazy.json` | Zakładka **Taktyka** – model z programu „Rocznik 2013” na cały rok: 76 schematów (151 klatek), z bazami I–III (Atak 1.0b). SubSubfaza = numer w nazwie (np. „Atak 1.2”); przy SubSubfazach schematy pośrednie do treningu E1 (wstawka techniczna), E2 (wstawka mniej złożona), E3 (gra modelowa) z tygodniem cyklu; warianty przeciw 1-4-3-3, 1-4-4-2, 1-3-5-2; faza „Rywale” | Taktyka: **Zastąp** (tylko ten model) albo **Dodaj** |
 | `TYDZ2_26-29.10_v4_jeden_trening_na_dzien.json` | Tydzień 2 cyklu (26–29.10): Pon (dla asystenta), Wt, Śr, Czw – jeden konspekt na dzień. Wstawka motoryczna tylko w rozgrzewce BetterWay, trening kończy się dłuższą grą | Konspekt → Importuj |
 | `TYDZ2_26-29.10_v4_WARIANT_vs_4-3-3_Wt-Czw.json` | Opcjonalnie: Wt–Czw w wariancie pod rywala grającego 1-4-3-3 (zamiast konspektów z pliku powyżej, nie razem z nimi) | Konspekt → Importuj |
