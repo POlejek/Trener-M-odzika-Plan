@@ -388,7 +388,7 @@ Do końca rundy jesiennej robimy pilotaż jednego cyklu, a pełne wdrożenie sta
 **Kroki**
 
 - [ ] Do 23 października 2026: przeczytaj model, popraw go z asystentem i podejmij decyzje z rozdziału 12.
-- [ ] Od 26 października 2026 do końca rundy: pilotaż cyklu w wersji lekkiej. Temat tygodnia od poniedziałku do środy, czwartek bez zmian (przygotowanie do meczu), mierniki z rozdziału 5 zbierane od pierwszego meczu.
+- [ ] Od 26 października 2026 do końca rundy: pilotaż cyklu w wersji lekkiej. *(Aktualizacja 19.10: pilotaż ruszył tydzień wcześniej – 19–22.10 prowadzimy tydzień 2 cyklu, 26–29.10 tydzień 1; szczegóły w PLAN_12.10-20.12.2026.md.)* Temat tygodnia od poniedziałku do środy, czwartek bez zmian (przygotowanie do meczu), mierniki z rozdziału 5 zbierane od pierwszego meczu.
 - [ ] Prześlij mi listę zawodników (numery zamiast nazwisk, data urodzenia, pozycja, wzrost, wzrost na siedząco, masa), materiały BetterWay i terminarz.
 - [ ] Po ostatnim meczu rundy: testy i pomiary.
 - [ ] Grudzień: rozmowy IPR (ok. 10 minut na zawodnika) i spotkanie z rodzicami o modelu, celach i zasadzie minut.
