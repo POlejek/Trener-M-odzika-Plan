@@ -10,6 +10,7 @@ Model gry klubu dla zespołu U14. Bazą są modele De Zerbiego (prowokowanie pre
 
 | Plik | Co zawiera |
 |---|---|
+| [`Rocznik 2013 – model gry i program szkolenia U14–U15.md`](Rocznik%202013%20%E2%80%93%20model%20gry%20i%20program%20szkolenia%20U14%E2%80%93U15.md) | **Program na dwa sezony (2026/27–2027/28):** model 1-4-2-3-1, zadania na pozycjach, cykl 4-tygodniowy, tydzień T1–T4, przykładowe ćwiczenia, progresja, motoryka (BetterWay), rozwój indywidualny |
 | [`MODEL_GRY_U14_1-4-2-3-1.md`](MODEL_GRY_U14_1-4-2-3-1.md) | **Pełny model gry:** fazy, subfazy, zasady, zachowania pozycji, sygnały, błędy, wskaźniki, karty pozycji, komendy, „wojna systemów” |
 | [`modele_1-4-2-3-1.md`](modele_1-4-2-3-1.md) | Siedem modeli źródłowych (M1–M7) i rekomendacja |
 | [`PLAN_12.10-20.12.2026.md`](PLAN_12.10-20.12.2026.md) | Plan rundy: kalendarz meczów, mikrocykl, faza i 4 umiejętności każdego tygodnia |
@@ -18,6 +19,8 @@ Model gry klubu dla zespołu U14. Bazą są modele De Zerbiego (prowokowanie pre
 
 | Plik | Zawartość | Jak wgrać (Dane → Import) |
 |---|---|---|
+| `MODEL_GRY_2013_ROK_fazy_subfazy_subsubfazy.json` | Zakładka **Taktyka** – model z programu „Rocznik 2013” na cały rok: 75 schematów (149 klatek). SubSubfaza = numer w nazwie (np. „Atak 1.2”); przy SubSubfazach schematy pośrednie do treningu E1 (wstawka techniczna), E2 (wstawka mniej złożona), E3 (gra modelowa) z tygodniem cyklu; warianty przeciw 1-4-3-3, 1-4-4-2, 1-3-5-2; faza „Rywale” | Taktyka: **Zastąp** (tylko ten model) albo **Dodaj** |
+| `TYDZ2_26-29.10_v3_motoryka_na_poczatku.json` | Tydzień 2 cyklu (26–29.10): Pon dla asystenta, Wt i Śr (+ wariant vs 4-3-3) z zasadą: wstawka motoryczna tylko na początku, trening kończy się dłuższą grą | Konspekt → Importuj |
 | `MODEL_GRY_TAKTYKA_U14.json` | Zakładka **Taktyka**: 35 schematów (83 klatki) numerowanych jak subfazy w modelu (1.1a–6), z opisem w „Komentarzach” | Taktyka: **Zastąp** (usuwa stare schematy i stary układ faz) |
 | `T02_13-15.10_tworzenie_szans_vs_niski_blok.json` | Tydzień T2 (Wt–Czw 13–15.10): 3 konspekty i 13 ćwiczeń | Ćwiczenia i Konspekty: **Dodaj** |
 | `3_konspekty_tydzien_7-9.10.json` | Archiwum: tydzień 7–9.10 (konspekty „BW”) | opcjonalnie, Dodaj |
