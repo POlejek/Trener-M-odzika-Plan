@@ -19,7 +19,7 @@ Model gry klubu dla zespołu U14. Bazą są modele De Zerbiego (prowokowanie pre
 
 | Plik | Zawartość | Jak wgrać (Dane → Import) |
 |---|---|---|
-| `MODEL_GRY_2013_ROK_fazy_subfazy_subsubfazy.json` | Zakładka **Taktyka** – model z programu „Rocznik 2013” na cały rok: 75 schematów (149 klatek). SubSubfaza = numer w nazwie (np. „Atak 1.2”); przy SubSubfazach schematy pośrednie do treningu E1 (wstawka techniczna), E2 (wstawka mniej złożona), E3 (gra modelowa) z tygodniem cyklu; warianty przeciw 1-4-3-3, 1-4-4-2, 1-3-5-2; faza „Rywale” | Taktyka: **Zastąp** (tylko ten model) albo **Dodaj** |
+| `MODEL_GRY_2013_ROK_fazy_subfazy_subsubfazy.json` | Zakładka **Taktyka** – model z programu „Rocznik 2013” na cały rok: 76 schematów (151 klatek), z bazami I–III (Atak 1.0b). SubSubfaza = numer w nazwie (np. „Atak 1.2”); przy SubSubfazach schematy pośrednie do treningu E1 (wstawka techniczna), E2 (wstawka mniej złożona), E3 (gra modelowa) z tygodniem cyklu; warianty przeciw 1-4-3-3, 1-4-4-2, 1-3-5-2; faza „Rywale” | Taktyka: **Zastąp** (tylko ten model) albo **Dodaj** |
 | `TYDZ2_26-29.10_v4_jeden_trening_na_dzien.json` | Tydzień 2 cyklu (26–29.10): Pon (dla asystenta), Wt, Śr, Czw – jeden konspekt na dzień. Wstawka motoryczna tylko w rozgrzewce BetterWay, trening kończy się dłuższą grą | Konspekt → Importuj |
 | `TYDZ2_26-29.10_v4_WARIANT_vs_4-3-3_Wt-Czw.json` | Opcjonalnie: Wt–Czw w wariancie pod rywala grającego 1-4-3-3 (zamiast konspektów z pliku powyżej, nie razem z nimi) | Konspekt → Importuj |
 | `MODEL_GRY_TAKTYKA_U14.json` | Zakładka **Taktyka**: 35 schematów (83 klatki) numerowanych jak subfazy w modelu (1.1a–6), z opisem w „Komentarzach” | Taktyka: **Zastąp** (usuwa stare schematy i stary układ faz) |

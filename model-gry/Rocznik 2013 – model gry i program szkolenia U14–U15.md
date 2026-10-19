@@ -26,7 +26,7 @@ Model w jednym zdaniu: chcemy mieć piłkę i odbierać ją jak najbliżej bramk
 
 ### Tożsamość: cztery zdania na cztery fazy
 
-- **Z piłką:** budujemy od bramkarza odważnie, ale z planem B. Atakujemy szeroko i w głąb, szukając wolnego zawodnika między liniami.
+- **Z piłką:** budujemy od bramkarza odważnie, ale z planem B. Atakujemy szeroko i w głąb, szukając wolnego zawodnika w bazie II (między liniami).
 - **Po stracie:** kontrpressing przez 5 sekund. Gdy się nie uda, sprint za linię piłki.
 - **Bez piłki:** pressing wysoki jako pierwszy wybór, zwarty blok średni jako drugi, niski blok, gdy bronimy pola karnego.
 - **Po odbiorze:** najpierw do przodu. Gdy nie ma kontry, zabezpieczamy piłkę i przechodzimy do ataku pozycyjnego.
@@ -34,6 +34,12 @@ Model w jednym zdaniu: chcemy mieć piłkę i odbierać ją jak najbliżej bramk
 ### Struktura
 
 Boisko dzielimy wzdłuż na trzy strefy (I – nasza tercja, II – środkowa, III – tercja rywala) i wszerz na pięć korytarzy (dwa boczne, dwie półprzestrzenie, środek).
+
+Oprócz stref używamy baz – przestrzeni między liniami rywala. Strefy są stałe (część boiska), bazy przesuwają się razem z ustawieniem rywala:
+
+- **Baza I** – między napastnikami a pomocnikami rywala (np. 6 wolny za ich pierwszą linią).
+- **Baza II** – między pomocnikami a obrońcami rywala, czyli „między liniami” (10, 8, skrzydłowy schodzący do środka).
+- **Baza III** – między obrońcami a bramką rywala, czyli przestrzeń za linią obrony (wbiegnięcia 9, skrzydłowych, 8).
 
 | Moment | Kształt | Kluczowe ustawienie |
 | --- | --- | --- |
@@ -55,12 +61,12 @@ Numery: 1 bramkarz, 2 i 3 boczni obrońcy, 4 i 5 środkowi obrońcy, 6 i 8 środ
 1. Bramkarz jest jedenastym zawodnikiem w rozegraniu i zawsze daje podanie obu ŚO.
 2. Szerokość i głębokość od pierwszego podania: ŚO na wysokości narożników pola karnego, boczni szeroko, 9 wiąże obrońców.
 3. Przyjęcie otwartym ustawieniem ciała. Gdy rywal zamyka podanie bezpośrednie, gramy przez trzeciego zawodnika.
-4. Plan B: gdy rywal kryje każdego, długie podanie do 9 lub za linię obrony i walka o drugą piłkę (10, 8 i dalszy skrzydłowy).
+4. Plan B: gdy rywal kryje każdego, długie podanie do 9 lub za linię obrony (baza III) i walka o drugą piłkę (10, 8 i dalszy skrzydłowy).
 
 **Progresja (strefa II)**
 
 1. Pięć korytarzy zajętych, najwyżej dwóch zawodników w jednym korytarzu.
-2. Szukamy wolnego zawodnika między liniami (10, 8, skrzydłowy schodzący do środka), który przyjmuje półobrotem, przodem do bramki.
+2. Szukamy wolnego zawodnika w bazie II – między liniami (10, 8, skrzydłowy schodzący do środka), który przyjmuje półobrotem, przodem do bramki.
 3. Linię rywala łamiemy podaniem albo prowadzeniem piłki. ŚO i 6 wchodzą z piłką, gdy mają miejsce.
 4. Przeciążamy jedną stronę i zmieniamy kierunek ataku, gdy rywal przesunie blok.
 5. Rotacje na skrzydle: jeden szeroko, jeden w półprzestrzeni, jeden głęboko (skrzydłowy, boczny obrońca, 8).
@@ -111,7 +117,7 @@ Numery: 1 bramkarz, 2 i 3 boczni obrońcy, 4 i 5 środkowi obrońcy, 6 i 8 środ
 
 ### Przejście do ataku (po odbiorze)
 
-1. Pierwsze spojrzenie do przodu: wolna przestrzeń za linią obrony oznacza podanie lub prowadzenie w głąb.
+1. Pierwsze spojrzenie do przodu: wolna przestrzeń za linią obrony (baza III) oznacza podanie lub prowadzenie w głąb.
 2. Kontra: 3–4 zawodników atakuje w tempie, reszta dochodzi, wykończenie w ok. 10 sekund.
 3. Gdy nie ma kontry: pierwsze podanie bezpieczne, poza strefą nacisku, potem atak pozycyjny.
 
@@ -128,7 +134,9 @@ Numery: 1 bramkarz, 2 i 3 boczni obrońcy, 4 i 5 środkowi obrońcy, 6 i 8 środ
 | --- | --- |
 | Strefa I / II / III | Nasza tercja / środkowa / tercja rywala |
 | Pięć korytarzy | Dwa boczne, dwie półprzestrzenie, środek |
-| Między liniami | Przestrzeń między pomocą a obroną rywala |
+| Baza I | Przestrzeń między napastnikami a pomocnikami rywala |
+| Baza II (między liniami) | Przestrzeń między pomocą a obroną rywala |
+| Baza III | Przestrzeń między linią obrony a bramką rywala (za linią obrony) |
 | Trzeci zawodnik | Podanie do partnera, który od razu zagrywa do wolnego trzeciego |
 | Asekuracja 2+1 | Dwóch ŚO i 6 za piłką, gdy atakujemy |
 | 5 sekund | Czas kontrpressingu po stracie |
