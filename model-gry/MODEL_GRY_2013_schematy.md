@@ -7,6 +7,7 @@ Czysty model gry: jakie mamy schematy, jak atakujemy, jak bronimy i co kiedy rob
 **Wspólny język:**
 - Strefy (stałe): I – nasza tercja, II – środkowa, III – tercja rywala. Korytarze: dwa boczne, dwie półprzestrzenie, środek.
 - Bazy (przesuwają się z rywalem): I – między napastnikami a pomocnikami rywala, II – między pomocnikami a obrońcami („między liniami”), III – między obrońcami a bramką rywala.
+- **Kolory baz na schematach:** baza I – niebieska, baza II – żółta, baza III – zielona. Zawsze między liniami drużyny broniącej: gdy atakujemy – między liniami rywala, gdy bronimy – nasze bazy, które zamykamy.
 - Numery: 1 BR, 2 i 3 boczni obrońcy, 4 i 5 ŚO, 6 i 8 środkowi pomocnicy, 7 i 11 skrzydłowi, 10 ofensywny pomocnik, 9 napastnik.
 
 ## Jak gramy – w czterech zdaniach
@@ -21,7 +22,8 @@ Czysty model gry: jakie mamy schematy, jak atakujemy, jak bronimy i co kiedy rob
 | Sytuacja | Po czym poznajemy | Co robimy | Schemat |
 |---|---|---|---|
 | **OTWARCIE** |  |  |  |
-| Rywal naciska jednym napastnikiem | Nasi 2 ŚO + BR mają przewagę | 1+2+2: BR jako jedenasty, gra przez trzeciego (ŚO – 8 – 6 – BO) | Atak 1.1 |
+| Wznowienie od bramki (zawsze) | Piłka u nas w polu karnym | ŚO podaje do BR – BR jedenasty, przewaga w pierwszej linii | Atak 1.1 |
+| Rywal naciska jednym napastnikiem | BR + 2 ŚO = 3 na 1 | 1+2+2: do wolnego ŚO, gra przez trzeciego (ŚO – 8 – 6 – BO) | Atak 1.1 |
 | Rywal naciska dwoma (9 i 10 na ŚO), skrzydłowi przy naszych BO | 2 na 2 przy ŚO, krótko do BO zamknięte | 3+1: 6 schodzi między ŚO, wolny ŚO wchodzi z piłką; wyszedł ich 8 → do 10; albo przekątna do 7 (1 na 1) | Atak 1.2, Atak 1.3 |
 | Rywal naciska trójką (1-4-3-3) | 3 na 3 przy ŚO i 6 | 3+1 albo podanie do wolnego bocznego obrońcy | Atak 1.4 |
 | Rywal 1-3-5-2: wahadłowi wyskakują na naszych BO | Za wahadłowym wolne | 3+1, potem piłka za plecy wahadłowego do skrzydłowego | Atak 1.5 |
@@ -70,12 +72,13 @@ Czysty model gry: jakie mamy schematy, jak atakujemy, jak bronimy i co kiedy rob
 - Klatka 2 (rywal 1-4-3-3): ich 6 stoi w bazie II – wolne są kieszenie obok niego; baza I jest płytka (trójka z przodu blisko ich 8).
 - Pytanie do zawodników: „W której bazie byłeś wolny?”
 
-**Atak 1.1 · 1+2+2 od bramkarza i gra przez trzeciego** (3 klatki) – Budowanie (strefa I)
+**Atak 1.1 · Wznowienie ŚO → BR i 1+2+2: gra przez trzeciego** (3 klatki) – Budowanie od bramkarza – 1+2+2
 
-- Kształt 1+2+2: BR, dwóch ŚO na wysokości narożników pola karnego, 6 i 8 w kwadracie. Boczni szeroko, skrzydłowi wysoko i szeroko, 10 w bazie II (między liniami), 9 wiąże stoperów.
-- Klatka 1: BR jest jedenastym zawodnikiem – zawsze daje podanie obu ŚO. ŚO przyjmuje otwartym ustawieniem ciała.
-- Klatka 2: podanie bezpośrednie do 6 zamknięte → przez trzeciego: 4 → 8 → 6 (jednym kontaktem).
-- Klatka 3: 6 przodem do gry – do bocznego obrońcy albo między linie.
+- Wznowienie zawsze tak samo: ŚO (4) podaje do BR w polu karnym – BR staje się jedenastym zawodnikiem i mamy przewagę w pierwszej linii.
+- Klatka 1: rywal (1-4-2-3-1) czeka za polem karnym: 9 na naszych ŚO, 10 przy naszym 6, skrzydłowi przy bocznych, ich 6 i 8 przy naszych 10 i 8.
+- Klatka 2: BR + 2 ŚO przeciw ich 9 = 3 na 1. 9 doskakuje do 4 – BR gra do wolnego 5. ŚO na wysokości narożników pola karnego, 6 i 8 w kwadracie (1+2+2), boczni szeroko, skrzydłowi wysoko, 10 w bazie II, 9 wiąże stoperów.
+- Klatka 3: ich 10 zamyka podanie do 6 → przez trzeciego: 5 → 8 → 6 (jednym kontaktem), 6 przodem do gry → 3. ŚO przyjmuje otwartym ustawieniem ciała.
+- Gdy rywal naciska dwoma (9 i 10 na ŚO) → Atak 1.2 (3+1). Gdy kryje każdego → Plan B 1.
 
 **Atak 1.2 · 3+1 przeciw 9 i 10 na ŚO, skrzydłowi rywala przy naszych bocznych** (3 klatki) – Rywal z ostatniego meczu: 9 + 10 na naszych ŚO, skrzydłowi opadają do bocznych
 
